@@ -22,7 +22,7 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 # Site Author
 author:
   name: "Arnault Caillet"
-  avatar: "images/profile.jpeg"
+  avatar: "images/profil.jpg"
   bio: "Chief Scientific Officer — Yneuro. EEG & AI for neuro-biometric authentication (Neuro ID®)."
   location: "Paris, France"
   employer: "Yneuro"
