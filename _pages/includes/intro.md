@@ -32,7 +32,7 @@ I am the **lead contributor** of the **Neuro ID®’s public demos**, that were 
 - 👉 [VivaTech 2024](https://www.linkedin.com/posts/tdsemah_neuro-id-french-ingenuity-global-reach-activity-7206185636322521088-VAYb?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)
 - 👉 [VivaTech 2025](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw).
 
-I’m also an **active contributor** to our development, especially on the AI and benchmarking pipelines:  
+I’m also an **active contributor** to our development, especially on the AI and benchmarking pipelines (commits, issues, PRs, code reviews):  
 [![GitHub contributions](https://ghchart.rshah.org/CailletArnault)](https://github.com/CailletArnault)
 
 ## 🏅 Our public achievements at Yneuro
