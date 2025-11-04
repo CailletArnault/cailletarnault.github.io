@@ -7,7 +7,7 @@
 
 # Site Settings
 title: "Arnault Caillet"
-description: "CSO @ Yneuro — EEG-based neuro-biometric authentication (Neuro ID®)"
+description: "PhD in Computational Neuroscience and Biomechanics <br>Visiting Researcher at Imperial College London"
 repository: "CailletArnault/arnaultcaillet.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -23,8 +23,8 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Arnault Caillet"
   avatar: "images/profil.jpg"
-  bio: "Chief Scientific Officer — Yneuro. EEG & AI for neuro-biometric authentication (Neuro ID®)."
-  location: "Paris, France"
+  bio: "Chief Scientific Officer @ Yneuro <br>EEG & AI for neuro-biometric authentication (Neuro ID®)"
+  location: "Station F, Paris, France"
   employer: "Yneuro"
   pubmed:
   googlescholar: "https://scholar.google.fr/citations?user=Z72zPxwAAAAJ&hl=fr&oi=ao"
