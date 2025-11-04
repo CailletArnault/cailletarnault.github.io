@@ -116,7 +116,9 @@ h1:before, .anchor:before {
 }
 
 /* Center only name + bio */
-.sidebar .author__content {
+.sidebar .author__content,
+.sidebar .author__avatar,
+.sidebar .author__bio {
   text-align: center;
   margin: 0 auto;
 }
