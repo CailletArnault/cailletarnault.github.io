@@ -114,21 +114,3 @@ h1:before, .anchor:before {
 .sidebar {
   width: 260px;
 }
-
-/* Center only name + bio */
-.sidebar .author__content,
-.sidebar .author__avatar,
-.sidebar .author__bio {
-  text-align: center;
-  margin: 0 auto;
-}
-
-/* Restore space between name and bio */
-.sidebar .author__bio {
-  margin-top: 0.6em; /* adds a visual gap */
-}
-
-/* Keep the rest (contact links) left-aligned */
-.sidebar .author__urls-wrapper {
-  text-align: left;
-}
