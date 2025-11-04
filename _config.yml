@@ -23,9 +23,9 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Arnault Caillet"
   avatar: "images/profil.jpg"
-  bio: "Chief Scientific Officer @ Yneuro <br>EEG & AI for neuro-biometric authentication <br>Neuro ID®"
-  location: "Station F, Paris, France"
-  employer: "Yneuro"
+  bio: "Chief Scientific Officer @ Yneuro <br>EEG & AI for neuro-biometric authentication (Neuro ID®)"
+  location: "Yneuro, Station F, Paris, France"
+  employer:
   pubmed:
   googlescholar: "https://scholar.google.fr/citations?user=Z72zPxwAAAAJ&hl=fr&oi=ao"
   email: "arnault@yneuro.com"
@@ -57,6 +57,7 @@ author:
   xing:
   youtube:
   wikipedia:
+  imperial: "https://profiles.imperial.ac.uk/arnault.caillet17"
 
 # Reading Files
 include:
