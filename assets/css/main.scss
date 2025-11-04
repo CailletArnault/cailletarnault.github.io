@@ -10,6 +10,8 @@
  *
 */
 
+/* ---- your overrides must come before imports ---- */
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -110,7 +112,31 @@ h1:before, .anchor:before {
 
 /* --- Custom layout tweaks --- */
 
-/* Wider sidebar */
-.sidebar {
-  width: 260px;
+/* --- Custom layout fixes --- */
+
+
+
+h1 {
+  color: #2b4a6f;
+}
+h1 {
+  color: #607b99;
+}
+
+/* --- Center only name, photo, and bio in sidebar --- */
+.profile_box {
+  text-align: center;
+}
+
+.profile_box .author__avatar,
+.profile_box .author__name,
+.profile_box .author__bio {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.profile_box .author__urls-wrapper {
+  text-align: left; /* Keep icons and links left-aligned */
+  margin-top: 1em;
 }
