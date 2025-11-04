@@ -1,22 +1,33 @@
-# main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "About me"
+    url: "/#who-is-arnault"
 
-  - title: "News"
-    url: "/#-news"
+  - title: "About Yneuro"
+    url: "/#about-yneuro"
+
+  - title: "My other activities"
+    url: "/#my-other-current-activities"
+
+  - title: "My philosophy"
+    url: "/#my-philosophy"
+
+  - title: "Awards - Yneuro"
+    url: "/#-awards--recognition--yneuro"
+
+  - title: "Personal Awards"
+    url: "/#-personal-awards"
+
+  - title: "Supervision & Teaching"
+    url: "/#-academic-supervision--teaching"
+
+  - title: "Patents"
+    url: "/#-patents-public"
 
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Open Source"
+    url: "/#-open-source-contributions"
 
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Talks & Abstracts"
+    url: "/#conference-abstracts--invited-talks"
