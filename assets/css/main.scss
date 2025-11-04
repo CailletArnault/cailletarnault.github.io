@@ -112,7 +112,7 @@ h1:before, .anchor:before {
 
 /* Wider sidebar */
 .sidebar {
-  width: 320px;
+  width: 260px;
 }
 
 /* Center only name + bio */
@@ -123,7 +123,7 @@ h1:before, .anchor:before {
 
 /* Restore space between name and bio */
 .sidebar .author__bio {
-  margin-top: 0.8em; /* adds a visual gap */
+  margin-top: 0.6em; /* adds a visual gap */
 }
 
 /* Keep the rest (contact links) left-aligned */
