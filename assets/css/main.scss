@@ -108,3 +108,18 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+/* --- Custom layout tweaks --- */
+
+/* Wider sidebar */
+.sidebar {
+  width: 260px;
+}
+
+/* Center content in the sidebar */
+.sidebar .author__content,
+.sidebar .author__bio,
+.sidebar .author__avatar,
+.sidebar .author__urls-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
