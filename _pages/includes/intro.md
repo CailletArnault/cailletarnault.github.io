@@ -1,6 +1,6 @@
 # Who is Arnault?
 
-I am the **Chief Scientific Officer and Founding Scientist** of **<img src="images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://yneuro.com)**, where I lead and actively contribute (with my _amazing_ team) to scientific R&D, driving our proprietary and patented **neuro-biometric authentication** technology, **Neuro ID®**.
+I am the **Chief Scientific Officer and Founding Scientist** of **<img src="images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**, where I lead and actively contribute (with my _amazing_ team) to scientific R&D, driving our proprietary and patented **neuro-biometric authentication** technology, **Neuro ID®**.
 <br><br>
 I’m also a **Visiting Researcher** at <img src="images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)** and <img src="images/nantes_logo.png" alt="Université de Nantes" style="height:19px; vertical-align:middle; margin-left:-1px; margin-right:3px">**Université de Nantes**, where I co-supervise PhD students and collaborate on projects in **motor control** and **muscle adaptation**.
 <br><br>
