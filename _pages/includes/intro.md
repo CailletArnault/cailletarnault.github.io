@@ -24,7 +24,8 @@ If you’re an **AI scientist**, **neuroscientist**, **software engineer**, **da
 As **CSO**, I bridge scientific research and real-world applications. I ensure product quality and validation, interface with clients and respond to their specs, drive IP strategy and patent filings, build partnerships with research institutions and industry, and act as the scientific spokesperson in direct interface with investors and stakeholders.
 
 As **EEG team lead**, I work at the intersection of neuroscience and AI to redefine secure and personalized identity solutions.  
-I manage an amazing and constantly growing R&D **team** of PhD-level AI research scientists, ML Engineers, Data Engineers, Data scientists, EEG experts, domain adaptation experts, and data owners.
+I manage an amazing and constantly growing **R&D team** of PhD-level AI research scientists, ML Engineers, Data Engineers, Data scientists, EEG experts, domain adaptation experts, and data owners.
+I work hard to create the best possible conditions for my team to express their incredible talent and thrive together as a united group.
 <br>My **technical scope** includes machine learning infrastructure, large-scale and diverse EEG datasets, semi-automatic EEG data curation and preprocessing, domain adaptation, deep learning for EEG decoding, foundation models, and authentication benchmarks.
 
 I am the **lead contributor** of the **Neuro ID®’s public demos**, unveilded at
