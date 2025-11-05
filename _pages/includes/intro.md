@@ -1,3 +1,7 @@
+<p style="text-align:center; font-size:0.9em; color:gray;">
+  <em>Last updated on {{ site.time | date: "%B %d, %Y" }}</em>
+</p>
+
 # Who is Arnault?
 
 I am the **Chief Scientific Officer and Founding Scientist** of **<img src="images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**, where I lead and actively contribute (with my _amazing_ team) to scientific R&D, driving our proprietary and patented **neuro-biometric authentication** technology, **Neuro ID®**.
