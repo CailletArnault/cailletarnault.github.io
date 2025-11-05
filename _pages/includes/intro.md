@@ -47,7 +47,7 @@ Neuro ID® has also been featured in **major media outlets** including:
 - 🎥 _Interviews & tech coverage_ on [Tev’s YouTube Channel](https://youtu.be/HgAbcdUQJI0?si=N79-ejbBovvHZAFG).
 - 🗞️ _Articles & features_ in [Forbes](https://www.forbes.fr/brandvoice/yneuro-signature-neuronale-securite-repensee/), [FrenchWeb](https://www.frenchweb.fr/comment-yneuro-redefinit-les-standards-de-la-securite-numerique-grace-a-la-signature-neuronale/454339), [Paperjam](https://paperjam.lu/article/yneuro-startup-de-lannee-a-nexus), and [Informations Entreprise](https://www.linkedin.com/posts/tdsemah_thrilled-to-be-featured-in-informations-entreprise-activity-7247137472692809728-Cj-A?utm_source=share&utm_medium=member_desktop).
 
-You can **follow** our latest updates on the [Yneuro LinkedIn page](https://www.linkedin.com/company/yneuro/posts/?feedView=all).
+You can **follow** our latest updates on the [Yneuro LinkedIn page](https://fr.linkedin.com/company/yneuro).
 <br><br>
 
 # My other current activities
