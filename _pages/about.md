@@ -23,19 +23,19 @@ redirect_from:
 
 Recent awards:
 
-- 🇫🇷 **VivaTech 2024** – _Best Innovation Award_
-- 🇯🇵 **CEATEC 2024** – _Global Category Award_
-- 🇫🇷 **AI Action Summit 2025** – _Laureate “AI for Efficiency”_
-- 🇱🇺 **NEXUS 2025** – _Startup of the Year – Grand Winner_
-- 🇵🇹 **Unicorn Summit 2025** – _Next Unicorn Award_
+- 🇫🇷 [**VivaTech 2024**](https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Best Innovation Award_
+- 🇯🇵 [**CEATEC 2024**](https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Global Category Award_
+- 🇫🇷 [**AI Action Summit 2025**](https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Laureate “AI for Efficiency”_
+- 🇱🇺 [**NEXUS 2025**](https://www.linkedin.com/posts/tdsemah_yneuro-named-startup-of-the-year-at-nexus-activity-7343529353827262464-EVjI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Startup of the Year – Grand Winner_
+- 🇵🇹 [**Unicorn Summit 2025**](https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Next Unicorn Award_
 
 Also recognized as:
 
-- Station F’s **Future 40**
-- Featured in **FORBES 1000**
+- Station F’s **[Future 40](https://stationf.co/news/station-f-unveils-future-40-2021)**
+- Featured in **[FORBES 1000](https://www.forbes.fr/brandvoice/yneuro-signature-neuronale-securite-repensee/)**
 - “**Deep Tech Pioneer**” by _Hello Tomorrow_
 
-Next stops: invitations at NeurIPS 2025 and CES 2026 !
+Next stops: invitations at [NeurIPS 2025](https://brainbodyfm-workshop.github.io/call-for-demos) and CES 2026 !
 <br><br>
 
 # 🎖 Personal Awards
@@ -55,7 +55,7 @@ Next stops: invitations at NeurIPS 2025 and CES 2026 !
 ## Teaching, Mentoring & Workshops
 
 - **2025** - _Workshop_, "Neuro ID® : Real-Time EEG-Based Continuous Authentication", **NeurIPS** 🇺🇸
-- **2023–2024** — _University Coach_, University of Wisconsin–Madison 🇺🇸 (BSc Computer Science)
+- **2023–2024** — _University Coach_, **University of Wisconsin–Madison** 🇺🇸 (BSc Computer Science)
 - **2023-2024** — _Workshops & Webinars_ on EMG-driven neuromusculoskeletal modelling, musculoskeletal simulations, and OpenSim methods at **[ERC HybridNeuro](https://www.youtube.com/watch?v=KRYMWASZhL4)**, **ERC Natural BionicS**, and the **Summer School on Neurorehabilitation** 🇪🇺
 - **2020–2022** — _Graduate Teaching Assistant_, Imperial College London 🇬🇧
   - Courses: _Structural Mechanics 2 (BSc)_, _Structural Analysis (MSc)_
