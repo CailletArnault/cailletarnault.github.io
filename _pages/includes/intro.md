@@ -1,27 +1,50 @@
-<p style="text-align:center; font-size:0.9em; color:gray;">
+<p style="text-align:center; font-size:0.8em; color:gray;">
   <em>Last updated on {{ site.time | date: "%B %d, %Y" }}</em>
 </p>
 
 # Who is Arnault?
 
-I am the **Chief Scientific Officer and Founding Scientist** of **<img src="images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**, where I lead and actively contribute (with my _amazing_ team) to scientific R&D, driving our proprietary and patented **neuro-biometric authentication** technology, **Neuro ID®**.
-<br><br>
+## My Current Activities
+
+I am the **Chief Scientific Officer** and **Founding Scientist** of **<img src="images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**. There, I lead and actively contribute (with my _amazing_ team) to scientific R&D, driving our proprietary and patented **neuro-biometric authentication** technology, **[Neuro ID®](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**.
+
 I’m also a **Visiting Researcher** at <img src="images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)** and <img src="images/nantes_logo.png" alt="Université de Nantes" style="height:19px; vertical-align:middle; margin-left:-1px; margin-right:3px">**Université de Nantes**, where I co-supervise PhD students and collaborate on projects in **motor control** and **muscle adaptation**.
-<br><br>
+
+## My Background
+
 I'm a **scientific researcher** with six years of academic research experience in London 🇬🇧, specializing in the **decoding of neurophysiological signals** and the application of **machine learning** and **deep learning** to brain and muscle activity analysis.
 
 During my **[PhD](https://spiral.imperial.ac.uk/entities/publication/297847f5-ad14-4461-bacd-91172f0d55f0)** in **computational neuroscience** and **biomechanical engineering** at Imperial College London, and later as a **Research Associate** in Prof. Farina’s [Neuromechanics and Rehabilitation Technology](https://www.imperial.ac.uk/neuromechanics-rehabilitation-technology/) research group, I contributed to **three ERC projects** 🇪🇺 (**[Natural BionicS](https://cordis.europa.eu/project/id/810346)**, **[NISNEM](https://gtr.ukri.org/projects?ref=EP%2FT020970%2F1)**, **[HybridNeuro](https://www.hybridneuro.feri.um.si/)**) focused on the computational integration of bionic limbs through spinal interfacing.  
-My [academic work](https://scholar.google.fr/citations?user=Z72zPxwAAAAJ&hl=fr&oi=ao) has resulted in **twelve opens-source publications** (six as first author) in top journals (e.g., _IEEE RBME_, _eLife x2_) and ML conferences (e.g., _NeurIPS x2_), covering topics such as EEG-EMG coherence, high-density EMG capture and analysis, EMG decoding, motor control, motor unit physiology, and computational neuro-musculoskeletal modeling.
-<br><br>
-I hold dual MSc degrees - **General Engineering** (<img src="images/centrale_lyon_logo.png" alt="École Centrale de Lyon" style="height:25px; vertical-align:middle; margin-left:-1px; margin-right:2px;">_École Centrale de Lyon_) and **Structural Engineering** (<img src="images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">_Imperial College London_).
+My **[academic work](https://scholar.google.fr/citations?user=Z72zPxwAAAAJ&hl=fr&oi=ao)** has resulted in **twelve open-source publications** (six as first author) in top journals (e.g., _IEEE RBME_, _eLife x2_) and ML conferences (e.g., _NeurIPS x2_), covering topics such as EEG-EMG coherence, high-density EMG capture and analysis, EMG decoding, motor control, motor unit physiology, and computational neuro-musculoskeletal modeling.
+
+I hold dual Master's (MSc) degrees - **General Engineering** (<img src="images/centrale_lyon_logo.png" alt="École Centrale de Lyon" style="height:25px; vertical-align:middle; margin-left:-1px; margin-right:2px;">_École Centrale de Lyon_) and **Structural Engineering** (<img src="images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">_Imperial College London_).
+
+## Let's Collaborate!
+
+Let's connect and **build together**! I'm a strong advocate for collaboration and open discussion. Whether for academic projects, industrial partnerships, media coverage, or simply to talk science, feel free to reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136).
+For in-person chats (or spontaneous teas ☕), I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) (Paris). Next planned international stops: NeurIPS 2025 (San Diego) and CES 2026 (Las Vegas).
 <br><br>
 
 # About Yneuro
 
 ## 🚀 We're hiring!
 
-At **Yneuro**, our growing scientific team brings together experts across neuroscience and AI.  
-If you’re an **AI scientist**, **neuroscientist**, **software engineer**, **data or biomedical engineer** (with or without EEG experience), feel free to reach out via [**email**](mailto:arnault@yneuro.com) or [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136) and join us on this exciting journey.
+At the intersection of **neurotech** and **AI**, **Yneuro** builds secure, privacy-preserving **neuro-biometric authentication systems**, redefining how we connect identity and cognition in the digital age of head-wearables.
+
+My **scientific R&D team** unites experts across neuroscience and AI, and we're scaling!  
+If you’re an **AI scientist**, **neuroscientist**, **software engineer**, **data or biomedical engineer** (with or without EEG experience), feel free to reach out via [**email**](mailto:arnault@yneuro.com) or [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136) and join us! Let's build!
+
+## 🏅 Our public achievements at Yneuro
+
+Developed from scratch with my associate **[Thomas Semah](https://www.linkedin.com/in/tdsemah/)**, our flagship product **Neuro ID®** has won **multiple prestigious awards** at major international tech venues, including **🇫🇷 [VivaTech 2024](https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, **🇯🇵 [CEATEC 2024](https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, **🇫🇷 [French AI Summit 2025](https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, **🇱🇺 [NEXUS 2025](https://www.linkedin.com/posts/tdsemah_yneuro-named-startup-of-the-year-at-nexus-activity-7343529353827262464-EVjI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, and **🇵🇹 [Unicorn Summit 2025](https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**.
+
+**Neuro ID®** has also been featured in **major media outlets** including:
+
+- 📺 _Primetime features_ on [TF1](https://www.linkedin.com/posts/tdsemah_at-yneuro-our-dedicated-team-of-engineers-activity-7202200665694044160-jBkl?utm_source=share&utm_medium=member_desktop), [France 2](https://www.linkedin.com/posts/tdsemah_neuro-id-goodbye-passwords-hello-freedom-activity-7267437767209496577-AXiV?utm_source=share&utm_medium=member_desktop), [M6](https://www.linkedin.com/posts/tdsemah_neurotechnologies-ai-innovation-activity-7199296085423517696-6luF?utm_source=share&utm_medium=member_desktop), and [BFM Business](https://www.bfmtv.com/economie/replay-emissions/de-quoi-jme-mail/de-quoi-j-me-mail-neuro-id-le-cerveau-pour-s-authentifier-2-2-03-11_VN-202411030078.html).
+- 🎥 _Interviews & tech coverage_ on [Tev’s YouTube Channel](https://youtu.be/HgAbcdUQJI0?si=N79-ejbBovvHZAFG).
+- 🗞️ _Articles & features_ in [Forbes](https://www.forbes.fr/brandvoice/yneuro-signature-neuronale-securite-repensee/), [FrenchWeb](https://www.frenchweb.fr/comment-yneuro-redefinit-les-standards-de-la-securite-numerique-grace-a-la-signature-neuronale/454339), [Paperjam](https://paperjam.lu/article/yneuro-startup-de-lannee-a-nexus), and [Informations Entreprise](https://www.linkedin.com/posts/tdsemah_thrilled-to-be-featured-in-informations-entreprise-activity-7247137472692809728-Cj-A?utm_source=share&utm_medium=member_desktop).
+
+You can **follow** our latest updates on the **[Yneuro LinkedIn page](https://fr.linkedin.com/company/yneuro)**.
 
 ## My role at Yneuro
 
@@ -30,28 +53,16 @@ As **CSO**, I bridge scientific research and real-world applications. I ensure p
 As **EEG team lead**, I work at the intersection of neuroscience and AI to redefine secure and personalized identity solutions.  
 I manage an amazing and constantly growing **R&D team** of PhD-level AI research scientists, ML Engineers, Data Engineers, Data scientists, EEG experts, domain adaptation experts, and data owners.
 I work hard to create the best possible conditions for my team to express their incredible talent and thrive together as a united group.
-<br>My **technical scope** includes machine learning infrastructure, large-scale and diverse EEG datasets, semi-automatic EEG data curation and preprocessing, domain adaptation, deep learning for EEG decoding, foundation models, and authentication benchmarks.
+
+My **technical scope** includes machine learning infrastructure, large-scale and diverse EEG datasets, semi-automatic EEG data curation and preprocessing, domain adaptation, deep learning for EEG decoding, foundation models, and authentication benchmarks.
 
 I am the **lead contributor** of the **Neuro ID®’s public demos**, unveilded at
 
 - 👉 [VivaTech 2024](https://www.linkedin.com/posts/tdsemah_neuro-id-french-ingenuity-global-reach-activity-7206185636322521088-VAYb?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)
 - 👉 [VivaTech 2025](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw).
 
-I am also an **active contributor** to our development, especially on the topics of AI and benchmarking. Below is a snapshot of my private GitHub activity, reflecting commits, code reviews, issues, and PRs:
+I am also an **active contributor** to our development, particularly on AI and benchmarking topics. Below is a snapshot of my private GitHub activity (reflecting commits, code reviews, issues, and PRs):
 [![GitHub contributions](https://ghchart.rshah.org/CailletArnault)](https://github.com/CailletArnault)
-<br><br>
-
-## 🏅 Our public achievements at Yneuro
-
-Developed from scratch with my associate [Thomas Semah](https://www.linkedin.com/in/tdsemah/), our flagship product Neuro ID® has won **multiple prestigious awards** at major international tech venues, including 🇫🇷 [VivaTech 2024](https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw), 🇯🇵 [CEATEC 2024](https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw), 🇫🇷 [French AI Summit 2025](https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw), 🇱🇺 [NEXUS 2025](https://www.linkedin.com/posts/tdsemah_yneuro-named-startup-of-the-year-at-nexus-activity-7343529353827262464-EVjI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw), and 🇵🇹 [Unicorn Summit 2025](https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw).
-
-Neuro ID® has also been featured in **major media outlets** including:
-
-- 📺 _Primetime features_ on [TF1](https://www.linkedin.com/posts/tdsemah_at-yneuro-our-dedicated-team-of-engineers-activity-7202200665694044160-jBkl?utm_source=share&utm_medium=member_desktop), [France 2](https://www.linkedin.com/posts/tdsemah_neuro-id-goodbye-passwords-hello-freedom-activity-7267437767209496577-AXiV?utm_source=share&utm_medium=member_desktop), [M6](https://www.linkedin.com/posts/tdsemah_neurotechnologies-ai-innovation-activity-7199296085423517696-6luF?utm_source=share&utm_medium=member_desktop), and [BFM Business](https://www.bfmtv.com/economie/replay-emissions/de-quoi-jme-mail/de-quoi-j-me-mail-neuro-id-le-cerveau-pour-s-authentifier-2-2-03-11_VN-202411030078.html).
-- 🎥 _Interviews & tech coverage_ on [Tev’s YouTube Channel](https://youtu.be/HgAbcdUQJI0?si=N79-ejbBovvHZAFG).
-- 🗞️ _Articles & features_ in [Forbes](https://www.forbes.fr/brandvoice/yneuro-signature-neuronale-securite-repensee/), [FrenchWeb](https://www.frenchweb.fr/comment-yneuro-redefinit-les-standards-de-la-securite-numerique-grace-a-la-signature-neuronale/454339), [Paperjam](https://paperjam.lu/article/yneuro-startup-de-lannee-a-nexus), and [Informations Entreprise](https://www.linkedin.com/posts/tdsemah_thrilled-to-be-featured-in-informations-entreprise-activity-7247137472692809728-Cj-A?utm_source=share&utm_medium=member_desktop).
-
-You can **follow** our latest updates on the [Yneuro LinkedIn page](https://fr.linkedin.com/company/yneuro).
 <br><br>
 
 # My other current activities
