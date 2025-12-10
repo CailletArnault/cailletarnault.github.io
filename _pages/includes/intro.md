@@ -22,7 +22,7 @@ I hold dual Master's (MSc) degrees - **General Engineering** (<img src="images/c
 ## Let's Collaborate!
 
 Let's connect and **build together**! I'm a strong advocate for collaboration and open discussion. Whether for academic projects, industrial partnerships, media coverage, or simply to talk science, feel free to reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136).
-For in-person chats (or spontaneous teas ☕), I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) (Paris). Next planned international stops: NeurIPS 2025 (San Diego) and CES 2026 (Las Vegas).
+For in-person chats (or spontaneous teas ☕), I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) (Paris). Next stop: CES 2026 (Las Vegas)!
 <br><br>
 
 # About Yneuro
