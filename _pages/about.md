@@ -54,6 +54,7 @@ Also recognized as:
 ## Teaching, Mentoring & Workshops
 
 - **2025** - _Workshop_, "Neuro ID® : Real-Time EEG-Based Continuous Authentication", **NeurIPS** 🇺🇸
+- **2023-2025** - _PhD Supervisor_, Dr. Titouan Morin, "Quantification of internal muscular training load: toward prediction and optimization of muscular adaptations", <img src="images/nantes_logo.png" alt="Université de Nantes" style="height:19px; vertical-align:middle; margin-left:-1px; margin-right:3px">**Université de Nantes**
 - **2023–2024** — _University Coach_, **University of Wisconsin–Madison** 🇺🇸 (BSc Computer Science)
 - **2023-2024** — _Workshops & Webinars_ on EMG-driven neuromusculoskeletal modelling, musculoskeletal simulations, and OpenSim methods at **[ERC HybridNeuro](https://www.youtube.com/watch?v=KRYMWASZhL4)**, **ERC Natural BionicS**, and the **Summer School on Neurorehabilitation** 🇪🇺
 - **2020–2022** — _Graduate Teaching Assistant_, Imperial College London 🇬🇧
