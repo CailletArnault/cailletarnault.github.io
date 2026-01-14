@@ -28,15 +28,14 @@ Recent awards:
 - 🇫🇷 [**AI Action Summit 2025**](https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Laureate “AI for Efficiency”_
 - 🇱🇺 [**NEXUS 2025**](https://www.linkedin.com/posts/tdsemah_yneuro-named-startup-of-the-year-at-nexus-activity-7343529353827262464-EVjI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Startup of the Year – Grand Winner_
 - 🇵🇹 [**Unicorn Summit 2025**](https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _Next Unicorn Award_
+- 🇺🇸 [**CES 2026**](https://www.linkedin.com/posts/tdsemah_ces-2026-starts-now-yneuro-shows-what-activity-7414217108445917184-MOYr?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) – _French Pavilion Walk of Fame_
 
 Also recognized as:
 
 - Station F’s **[Future 40](https://stationf.co/news/station-f-unveils-future-40-2021)**
 - Featured in **[FORBES 1000](https://www.forbes.fr/brandvoice/yneuro-signature-neuronale-securite-repensee/)**
 - “**Deep Tech Pioneer**” by _Hello Tomorrow_
-
-Next stops: invitations at [NeurIPS 2025](https://brainbodyfm-workshop.github.io/call-for-demos) and CES 2026 !
-<br><br>
+  <br><br>
 
 # 🎖 Personal Awards
 
