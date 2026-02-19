@@ -22,7 +22,7 @@ I hold dual Master's (MSc) degrees - **General Engineering** (<img src="images/c
 ## Let's Collaborate!
 
 Let's connect and **build together**! I'm a strong advocate for collaboration and open discussion. Whether for academic projects, industrial partnerships, media coverage, or simply to talk science, feel free to reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136).
-For in-person chats (or spontaneous teas ☕), I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) (Paris). I was recently at NeurIPS 2025 and CES 2026. Next confirmed stops: Nexus 2026 (Luxembourg) and VivaTech 2026 (Paris) !
+For in-person chats (or spontaneous teas ☕), I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) (Paris). I was recently at NeurIPS 2025 and CES 2026. Next stops: ICASSP 2026 (Spain), Nexus 2026 (Luxembourg) and VivaTech 2026 (Paris) !
 <br><br>
 
 # About Yneuro
@@ -33,6 +33,8 @@ At the intersection of **neurotech** and **AI**, **Yneuro** builds secure, priva
 
 My **scientific R&D team** unites experts across neuroscience and AI, and we're scaling!  
 If you’re an **AI scientist**, **neuroscientist**, **software engineer**, **data or biomedical engineer** (with or without EEG experience), feel free to reach out via [**email**](mailto:arnault@yneuro.com) or [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136) and join us! Let's build!
+
+We have an open-source internship position open to help maintain & grow Braindecode. More details [**here**](https://www.linkedin.com/posts/activity-7427027539849678848-M2NM?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)!
 
 ## 🏅 Our public achievements at Yneuro
 

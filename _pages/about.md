@@ -63,8 +63,8 @@ Also recognized as:
 
 ## Teaching, Mentoring & Workshops
 
+- **2026** - _Show & Tell Demos_, "Real-Time Continuous EEG Authentication: Streaming Neural Biometrics", **ICASSP** 🇪🇸
 - **2025** - _Workshop_, "Neuro ID® : Real-Time EEG-Based Continuous Authentication", **NeurIPS** 🇺🇸
-
 - **2023–2024** — _University Coach_, **University of Wisconsin–Madison** 🇺🇸 (BSc Computer Science)
 - **2023-2024** — _Workshops & Webinars_ on EMG-driven neuromusculoskeletal modelling, musculoskeletal simulations, and OpenSim methods at **[ERC HybridNeuro](https://www.youtube.com/watch?v=KRYMWASZhL4)**, **ERC Natural BionicS**, and the **Summer School on Neurorehabilitation** 🇪🇺
 - **2020–2022** — _Graduate Teaching Assistant_, Imperial College London 🇬🇧
@@ -161,6 +161,7 @@ Also recognized as:
 
 # Conference Abstracts & Invited Talks
 
+- **Caillet**, Mellot, Aristimunha, Delorme, Semah — _Real-Time Continuous EEG Authentication: Streaming Neural Biometrics_, **ICASSP 2026**, Barcelona 🇪🇸
 - **Caillet**, Mariani, Ploux, Mellot, Semah — _Neuro ID®: Real-Time EEG-Based Continuous Authentication with Zero Interaction_, **NeurIPS 2025**, San Diego 🇺🇸
 - Mamidanna, Klotz, Chalatsis, Grison, Mendez Guerra, Ma, **Caillet**, Avrillon, Rohlén, Farina — _MUniverse: A Simulation and Benchmarking Suite for Motor Unit Decomposition_, **NeurIPS 2025**, San Diego 🇺🇸
 - Morin, Doguet, Nordez, **Caillet**, Lacourpaille — _Estimation of hamstring muscle forces during resistance training: Insight into structural muscle alterations and adaptations_, **ISB 2025**, Stockholm 🇸🇪
