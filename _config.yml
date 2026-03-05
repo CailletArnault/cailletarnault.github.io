@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title: "Arnault Caillet - Official Website"
+title: "Arnault Caillet - Personal Website"
 description: ""
 repository: "CailletArnault/arnaultcaillet.github.io"
 google_scholar_stats_use_cdn: true
@@ -23,7 +23,7 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Arnault Caillet"
   avatar: "images/profil.jpg"
-  bio: "CSO @ Yneuro <br>Neuro-biometric authentication (Neuro ID®)<br><br>Visiting Researcher @ Imperial College London<br>PhD in Computational Neuroscience"
+  bio: "CSO @ Yneuro <br>Neuro-biometric authentication (Neuro ID®)<br><br>Honorary Research Officer @ Imperial College London<br>PhD in Computational Neuroscience"
   location: "Yneuro, Station F, Paris"
   employer:
   pubmed:
