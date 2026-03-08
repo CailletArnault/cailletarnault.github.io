@@ -8,7 +8,7 @@
 
 I am the **Chief Scientific Officer** and **Founding Scientist** of **<img src="images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**. There, I lead and actively contribute (with my _amazing_ team) to scientific R&D, driving our proprietary and patented **neuro-biometric authentication** technology, **[Neuro ID®](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**.
 
-I’m also an **Honorary Research Officer** at <img src="images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)** and <img src="images/nantes_logo.png" alt="Université de Nantes" style="height:19px; vertical-align:middle; margin-left:-1px; margin-right:3px">**Université de Nantes**, where I co-supervise PhD students and collaborate on projects in **motor control** and **muscle adaptation**.
+I’m also an **Honorary Research Officer** at <img src="images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)** and a **Visiting Researcher** at <img src="images/nantes_logo.png" alt="Université de Nantes" style="height:19px; vertical-align:middle; margin-left:-1px; margin-right:3px">**Université de Nantes**, where I co-supervise PhD students and collaborate on projects in **motor control** and **muscle adaptation**.
 
 ## My Background
 
