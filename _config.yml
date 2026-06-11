@@ -9,7 +9,6 @@
 title: "Arnault Caillet - Personal Website"
 description: ""
 repository: "CailletArnault/arnaultcaillet.github.io"
-google_scholar_stats_use_cdn: true
 
 # google analytics
 google_analytics_id: # get google_analytics_id from https://analytics.google.com/analytics/
@@ -65,8 +64,6 @@ include:
   - _pages
   - files
 exclude:
-  - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -81,9 +78,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log

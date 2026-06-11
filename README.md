@@ -1,72 +1,47 @@
+# Arnault Caillet - Personal Website
 
-<h1 align="center">
-AcadHomepage
-</h1>
-
-<div align="center">
-
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
-
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
-
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
-
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
-
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
-
-## Quick Start
-
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+This repository contains the source for `arnaultcaillet.github.io`, a Jekyll-powered personal website published through GitHub Pages.
 
 ## Debug Locally
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+1. Install the Jekyll build environment: Ruby, RubyGems, GCC, and Make. See the official Jekyll installation guide: <https://jekyllrb.com/docs/installation/#requirements>.
+2. From the repository root, run:
 
-# Acknowledges
+   ```bash
+   bash run_server.sh
+   ```
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+3. Open <http://127.0.0.1:4000> in your browser.
+4. While the server is running, Jekyll rebuilds the site when source files change. Refresh the browser if needed.
+5. When changes are ready for production, commit them and push to GitHub.
+
+## Repository Architecture
+
+This is a static Jekyll site. The source files are converted into HTML/CSS/JS under `_site/`, which is generated output and is not committed.
+
+- `_config.yml` defines site-wide settings: title, repository, author metadata, included/excluded paths, Markdown behavior, Sass settings, and plugins.
+- `_pages/about.md` is the homepage content. Its front matter sets `permalink: /`, so this Markdown file renders as the root page.
+- `_pages/includes/intro.md` contains the first large homepage section and is included by `_pages/about.md` with `{% include_relative %}`.
+- `_layouts/default.html` is the main HTML shell. It assembles the head, masthead, sidebar, page content, and scripts.
+- `_includes/` contains reusable Liquid snippets:
+  - `head.html`, `head/custom.html`, and `seo.html` build metadata, stylesheets, icons, and SEO tags.
+  - `masthead.html`, `sidebar.html`, and `author-profile.html` build the visible navigation and author profile.
+  - `scripts.html` and `analytics.html` load JavaScript and optional analytics behavior.
+- `_data/navigation.yml` defines the top navigation anchors shown in the masthead.
+- `assets/css/main.scss` imports the Sass partials from `_sass/` and contains the current custom styling overrides.
+- `assets/js/main.min.js` is the JavaScript file loaded by the site.
+- `assets/css/academicons.css` and `assets/fonts/` support academic/social icons used in the author profile.
+- `images/` contains the profile photo and inline logos used by the homepage content.
+
+## Content Flow
+
+On build, Jekyll reads `_config.yml`, finds `_pages/about.md`, wraps it in `_layouts/default.html`, expands Liquid includes, compiles `assets/css/main.scss` into `assets/css/main.css`, and writes the rendered site to `_site/`.
+
+The main page content is mostly Markdown/HTML in `_pages/about.md` and `_pages/includes/intro.md`. The persistent left profile is driven by the `author` block in `_config.yml` and rendered by `_includes/author-profile.html`.
+
+## Acknowledgements
+
+- This site builds on AcadHomepage.
+- AcadHomepage incorporates Font Awesome, distributed under the SIL OFL 1.1 and MIT License.
+- AcadHomepage is influenced by `mmistakes/minimal-mistakes`, distributed under the MIT License.
+- AcadHomepage is influenced by `academicpages/academicpages.github.io`, distributed under the MIT License.
