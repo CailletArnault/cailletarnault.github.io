@@ -248,6 +248,14 @@ h1 {
   margin-left: 0.18rem;
 }
 
+.award-card__trophy {
+  display: inline-block;
+  font-size: 0.66rem;
+  line-height: 1;
+  margin-left: 0.08rem;
+  transform: translateY(-0.01rem);
+}
+
 .award-card__logo {
   align-items: center;
   display: flex;
@@ -309,8 +317,8 @@ h1 {
 
 .award-card__body em {
   color: #424a54;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.84rem;
+  font-weight: 500;
   line-height: 1.3;
   margin-top: 0.18rem;
   text-decoration: none;
@@ -418,6 +426,400 @@ h1 {
   font-size: 0.84rem;
   line-height: 1.35;
   margin-top: 0.12rem;
+}
+
+/* --- Open source page --- */
+.opensource {
+  margin: 1.35rem 0 2.8rem;
+}
+
+.page__content .opensource__intro {
+  color: #4b5159;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0.85rem 0 0;
+}
+
+.page__content .opensource__intro + .opensource__intro {
+  margin-top: 0.55rem;
+}
+
+.opensource__verticals {
+  border-bottom: 1px solid #e8eaee;
+  border-top: 1px solid #e8eaee;
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 1.35rem 0 2.2rem;
+}
+
+.opensource__verticals a {
+  align-items: center;
+  color: #3f4955;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 5rem;
+  padding: 0.9rem 0.95rem 0.86rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.opensource__verticals a + a {
+  border-left: 1px solid #eef0f3;
+}
+
+.opensource__verticals strong {
+  color: #263342;
+  display: block;
+  font-size: 1.24rem;
+  line-height: 1.1;
+}
+
+.opensource__verticals span {
+  color: #626a73;
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 0.24rem;
+  text-transform: uppercase;
+}
+
+.opensource__verticals a:hover,
+.opensource__verticals a:focus {
+  color: #254f7c;
+  text-decoration: none;
+}
+
+.opensource__verticals a:hover strong,
+.opensource__verticals a:focus strong {
+  color: #254f7c;
+}
+
+.opensource__section {
+  --opensource-section-indent: 3rem;
+  border-top: 1px solid #e8eaee;
+  margin: 2.65rem 0 0;
+  padding-top: 1.25rem;
+}
+
+.opensource__verticals + .opensource__section {
+  margin-top: 0.3rem;
+}
+
+.opensource__section-head {
+  align-items: start;
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: 2.15rem minmax(0, 1fr);
+  margin-bottom: 1rem;
+}
+
+.opensource__section-index {
+  color: #9aa3ad;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1;
+  padding-top: 0.05rem;
+}
+
+.page__content .opensource__section-head h2 {
+  color: #333b45;
+  font-size: 1.24rem;
+  margin: 0 0 0.38rem;
+}
+
+.page__content .opensource__section-head p,
+.page__content .opensource__challenge p {
+  color: #525963;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 58rem;
+}
+
+.opensource__section > .opensource__challenge,
+.opensource__section > .opensource__items {
+  margin-left: var(--opensource-section-indent);
+}
+
+.opensource__challenge {
+  display: grid;
+  gap: 0;
+}
+
+.opensource__challenge-main {
+  align-items: stretch;
+  display: grid;
+  gap: clamp(1.1rem, 2.6vw, 2rem);
+  grid-template-columns: minmax(0, 1fr) minmax(17rem, 0.74fr);
+}
+
+.opensource__challenge-left {
+  align-content: center;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.opensource__visual {
+  background: #fff;
+  border: 1px solid #e5e8ed;
+  border-radius: 8px;
+  display: block;
+  justify-self: end;
+  max-width: 470px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.opensource__visual:hover,
+.opensource__visual:focus {
+  border-color: rgba(43, 74, 111, 0.24);
+  box-shadow: 0 12px 28px rgba(32, 43, 57, 0.09);
+  transform: translateY(-1px);
+}
+
+.opensource__visual img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.opensource__tracks {
+  display: grid;
+  gap: 0.42rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.opensource__tracks a {
+  background: #f8fafc;
+  border: 1px solid #e7eaee;
+  border-radius: 8px;
+  display: block;
+  padding: 0.56rem 0.66rem;
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.opensource__tracks a:hover,
+.opensource__tracks a:focus {
+  border-color: rgba(43, 74, 111, 0.22);
+  box-shadow: 0 8px 18px rgba(32, 43, 57, 0.07);
+  transform: translateY(-1px);
+}
+
+.opensource__tracks strong {
+  color: #263342;
+  display: block;
+  font-size: 0.83rem;
+  line-height: 1.2;
+}
+
+.opensource__tracks small {
+  color: #626a73;
+  display: block;
+  font-size: 0.7rem;
+  line-height: 1.25;
+  margin-top: 0.18rem;
+}
+
+.opensource__stakeholders {
+  border-top: 1px solid #edf0f3;
+  display: grid;
+  gap: 0.34rem 0.74rem;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin-top: 0.02rem;
+  padding-top: 0.54rem;
+}
+
+.opensource__logo {
+  align-self: center;
+  display: block;
+  justify-self: center;
+  max-height: 1.12rem;
+  max-width: 5.5rem;
+  object-fit: contain;
+  opacity: 0.86;
+  transform: scale(var(--opensource-logo-scale, 1));
+  width: auto;
+}
+
+.opensource__logo--yneuro { --opensource-logo-scale: 1.7; max-height: 1.24rem; max-width: 5.6rem; }
+.opensource__logo--ucsd { --opensource-logo-scale: 0.86; max-height: 0.78rem; max-width: 4.65rem; }
+.opensource__logo--inria { --opensource-logo-scale: 1.05; max-height: 0.92rem; max-width: 4.8rem; }
+.opensource__logo--alljoined { --opensource-logo-scale: 1.1; max-height: 1rem; max-width: 4.8rem; }
+.opensource__logo--meta-brain { max-height: 1rem; max-width: 5rem; }
+.opensource__logo--interaxon { --opensource-logo-scale: 1.5; max-height: 1.14rem; max-width: 5rem; }
+.opensource__logo--meta-reality { --opensource-logo-scale: 1.5; max-height: 1.14rem; max-width: 5rem; }
+.opensource__logo--aws { --opensource-logo-scale: 1.1; max-height: 0.92rem; max-width: 3.9rem; }
+.opensource__logo--imperial { max-height: 1rem; max-width: 5rem; }
+.opensource__logo--donders { --opensource-logo-scale: 1.18; max-height: 1.1rem; max-width: 4.8rem; }
+.opensource__logo--isae { max-height: 1.14rem; max-width: 4.8rem; }
+.opensource__logo--paris-saclay { --opensource-logo-scale: 1.12; max-height: 1.02rem; max-width: 4.7rem; }
+.opensource__logo--bordeaux { max-height: 1.02rem; max-width: 4.7rem; }
+.opensource__logo--icm { max-height: 1.02rem; max-width: 4.6rem; }
+.opensource__logo--cnrs { max-height: 1.32rem; max-width: 3rem; }
+.opensource__logo--salk { max-height: 1.02rem; max-width: 3.9rem; }
+.opensource__logo--chalearn { --opensource-logo-scale: 1.1; max-height: 1.04rem; max-width: 4.6rem; }
+
+.opensource__items {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.opensource__items--compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.opensource__item {
+  background: #fff;
+  border: 1px solid #e6e9ed;
+  border-radius: 8px;
+  color: inherit;
+  display: block;
+  padding: 0.82rem 0.95rem;
+  position: relative;
+  text-decoration: none !important;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.opensource__item:hover,
+.opensource__item:focus-within {
+  border-color: rgba(43, 74, 111, 0.24);
+  box-shadow: 0 10px 24px rgba(32, 43, 57, 0.075);
+  color: inherit;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.opensource__item--preview:hover,
+.opensource__item--preview:focus-within {
+  z-index: 200;
+}
+
+.page__content .opensource__item h3 {
+  color: #263342;
+  font-size: 0.98rem;
+  line-height: 1.25;
+  margin: 0 0 0.28rem;
+}
+
+.page__content .opensource__item p {
+  color: #555d66;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.opensource__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.opensource__tags span {
+  background: #f6f8fa;
+  border: 1px solid #e7eaee;
+  border-radius: 999px;
+  color: #4f5863;
+  display: inline-flex;
+  font-size: 0.66rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0.3rem 0.46rem;
+}
+
+.opensource__item-footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.45rem 1rem;
+  margin-top: 0.58rem;
+}
+
+.opensource__mini-logos {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  gap: 0.78rem;
+  min-height: 1.48rem;
+  min-width: 0;
+}
+
+.opensource__mini-logos img {
+  display: inline-block;
+  height: auto;
+  max-height: 1.18rem;
+  max-width: 5.65rem;
+  object-fit: contain;
+  opacity: 0.92;
+  padding: 0;
+  width: auto;
+}
+
+.opensource__mini-logo--braindecode { max-height: 1.14rem; max-width: 5.45rem; }
+.opensource__mini-logo--codabench { max-height: 1.12rem; max-width: 5.15rem; }
+.opensource__mini-logo--yneuro { max-height: 1.18rem; max-width: 4.45rem; }
+.opensource__mini-logo--inria { max-height: 1.08rem; max-width: 4.65rem; }
+.opensource__mini-logo--lisn { max-height: 1.6rem; max-width: 4.45rem; }
+.opensource__mini-logo--paris-saclay { max-height: 1.35rem; max-width: 4.45rem; }
+.opensource__mini-logo--aws { max-height: 1.08rem; max-width: 3rem; }
+.opensource__mini-logos .opensource__mini-logo--deloitte {
+  height: 0.62rem;
+  max-height: 0.62rem;
+  max-width: 2.95rem;
+  width: auto;
+}
+.opensource__mini-logo--mne { max-height: 1.1rem; max-width: 3.9rem; }
+.opensource__mini-logo--imperial { max-height: 1.12rem; max-width: 4.7rem; }
+
+.opensource__mini-logos span {
+  background: #fff;
+  border: 1px solid #e7eaee;
+  border-radius: 999px;
+  align-items: center;
+  color: #4f5863;
+  display: inline-flex;
+  font-size: 0.58rem;
+  font-weight: 800;
+  height: 1.26rem;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  padding: 0.24rem 0.42rem;
+}
+
+.opensource__preview {
+  background: #fff;
+  border: 1px solid rgba(83, 88, 98, 0.24);
+  border-radius: 10px;
+  box-shadow: 0 14px 34px rgba(31, 35, 43, 0.2);
+  display: none;
+  left: clamp(20rem, 42vw, 34rem);
+  padding: 5px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(430px, 42vw);
+  z-index: 210;
+}
+
+.opensource__preview img {
+  border-radius: 6px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .opensource__item--preview:hover .opensource__preview,
+  .opensource__item--preview:focus-within .opensource__preview {
+    display: block;
+  }
 }
 
 /* --- Publications trajectory: manual data, Bruno-style rendering --- */
@@ -895,6 +1297,59 @@ $pub-demo: #c44b38;
 }
 
 @include breakpoint(max-width 48em) {
+  .opensource__verticals {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .opensource__verticals a:nth-child(3) {
+    border-left: 0;
+  }
+
+  .opensource__verticals a:nth-child(n + 3) {
+    border-top: 1px solid #eef0f3;
+  }
+
+  .opensource__section-head {
+    gap: 0.65rem;
+  }
+
+  .opensource__section-index {
+    font-size: 1.2rem;
+  }
+
+  .opensource__section > .opensource__challenge,
+  .opensource__section > .opensource__items {
+    margin-left: 0;
+  }
+
+  .opensource__challenge-main,
+  .opensource__items--compact {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .opensource__visual {
+    justify-self: start;
+    max-width: min(100%, 420px);
+  }
+
+  .opensource__tracks {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .opensource__stakeholders {
+    gap: 0.95rem 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .opensource__item-footer,
+  .opensource__mini-logos {
+    flex-wrap: wrap;
+  }
+
+  .opensource__preview {
+    display: none !important;
+  }
+
   .awards__stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

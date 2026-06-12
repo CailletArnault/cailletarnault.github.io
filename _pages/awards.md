@@ -26,31 +26,31 @@ author_profile: true
     <div class="awards__grid">
       <a class="award-card award-card--major" href="https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/vivatech.png' | relative_url }}" alt="VivaTech"></span>
-        <span class="award-card__body"><span class="award-card__meta">2024 · France <span class="award-card__flag">🇫🇷</span></span><strong>VivaTech</strong><em>Best Innovation Award</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2024 · France <span class="award-card__flag">🇫🇷</span><span class="award-card__trophy">🏆</span></span><strong>VivaTech</strong><em>Best Innovation Award</em></span>
       </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo award-card__logo--ceatec"><img src="{{ '/assets/images/awards/ceatec.jpg' | relative_url }}" alt="CEATEC"></span>
-        <span class="award-card__body"><span class="award-card__meta">2024 · Japan <span class="award-card__flag">🇯🇵</span></span><strong>CEATEC</strong><em>Global Category Award</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2024 · Japan <span class="award-card__flag">🇯🇵</span><span class="award-card__trophy">🏆</span></span><strong>CEATEC</strong><em>Global Category Award</em></span>
       </a>
       <a class="award-card award-card--major" href="https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/ai action summit.png' | relative_url }}" alt="AI Action Summit"></span>
-        <span class="award-card__body"><span class="award-card__meta">2025 · France <span class="award-card__flag">🇫🇷</span></span><strong>AI Action Summit</strong><em>Laureate, AI for Efficiency</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2025 · France <span class="award-card__flag">🇫🇷</span><span class="award-card__trophy">🏆</span></span><strong>AI Action Summit</strong><em>Laureate, AI for Efficiency</em></span>
       </a>
       <a class="award-card award-card--major" href="https://www.linkedin.com/posts/tdsemah_yneuro-named-startup-of-the-year-at-nexus-activity-7343529353827262464-EVjI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/nexus.jpg' | relative_url }}" alt="NEXUS"></span>
-        <span class="award-card__body"><span class="award-card__meta">2025 · Luxembourg <span class="award-card__flag">🇱🇺</span></span><strong>NEXUS</strong><em>Startup of the Year, Grand Winner</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2025 · Luxembourg <span class="award-card__flag">🇱🇺</span><span class="award-card__trophy">🏆</span></span><strong>NEXUS</strong><em>Startup of the Year, Grand Winner</em></span>
       </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/Unicorn-Summit-logo.jpg' | relative_url }}" alt="Unicorn Summit"></span>
-        <span class="award-card__body"><span class="award-card__meta">2025 · Portugal <span class="award-card__flag">🇵🇹</span></span><strong>Unicorn Summit</strong><em>Next Unicorn Award</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2025 · Portugal <span class="award-card__flag">🇵🇹</span><span class="award-card__trophy">🏆</span></span><strong>Unicorn Summit</strong><em>Next Unicorn Award</em></span>
       </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_ces-2026-starts-now-yneuro-shows-what-activity-7414217108445917184-MOYr?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo award-card__logo--ces"><img src="{{ '/assets/images/awards/CES.png' | relative_url }}" alt="CES"></span>
-        <span class="award-card__body"><span class="award-card__meta">2026 · United States <span class="award-card__flag">🇺🇸</span></span><strong>CES</strong><em>French Pavilion Walk of Fame</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2026 · United States <span class="award-card__flag">🇺🇸</span><span class="award-card__trophy">🏆</span></span><strong>CES</strong><em>French Pavilion Walk of Fame</em></span>
       </a>
       <a class="award-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7450089093688037377/">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/bpi france.png' | relative_url }}" alt="Bpifrance"></span>
-        <span class="award-card__body"><span class="award-card__meta">2026 · France <span class="award-card__flag">🇫🇷</span></span><strong>Bpifrance</strong><em>Qualification DeepTech</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2026 · France <span class="award-card__flag">🇫🇷</span><span class="award-card__trophy">🏆</span></span><strong>Bpifrance</strong><em>Qualification DeepTech</em></span>
       </a>
     </div>
 
