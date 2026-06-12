@@ -17,14 +17,8 @@ main:
   - title: "Supervision & Teaching"
     url: "/#-academic-supervision--teaching"
 
-  - title: "Patents"
-    url: "/#-patents-public"
-
   - title: "Publications"
-    url: "/#-publications"
+    url: "/publications/"
 
   - title: "Open Source"
-    url: "/#-open-source-contributions"
-
-  - title: "Talks & Abstracts"
-    url: "/talks/"
+    url: "/open-source/"

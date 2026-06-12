@@ -79,5 +79,5 @@ Also an **Honorary Research Officer** at <img src="/images/nantes_logo.png" alt=
 
 Whether public or proprietary, my priority is to deliver **high-quality, transparent, and verifiable research** with a product-driven mindset.  
 For instance, our flagship **Neuro ID® demos** have been [publicly tested](https://www.linkedin.com/posts/st%C3%A9phanie-obertin-7952677a_yneuro-nexus2025-yneuro-ugcPost-7341804939616108544-RK2X?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) by over a thousand curious participants across major tech events, private showcases, and media coverage.  
-I also contribute to **open-source research**, including datasets and code — see my [Open-Source Contributions](#-open-source-contributions) section.
+I also contribute to **open-source research**, including datasets, code, infrastructure, and community challenges — see my [Open Source](/open-source/) page.
 <br><br>
