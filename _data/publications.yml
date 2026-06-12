@@ -1,0 +1,436 @@
+- id: output-2026-multiscale-hill-type-actuator
+  authors: Sgarzi A., Caillet A.H., Millard M., Weidner S., Haralabidis N., Bolsterlee B., Farina D., Lovell N.H., Modenese L.
+  year: 2026
+  title: "Validation of a multiscale Hill-type actuator against comprehensive benchmarks of motor unit and muscle force measurements"
+  venue: Manuscript
+  type: journal
+  type_label: Journal paper
+  status: submitted
+  tags: [neuromuscular-modelling, benchmarking-evaluation]
+
+- id: output-2026-eusipco-artifact-rejection
+  authors: Hajhassani D., Aristimunha B., Graignic P.-A., Mellot A., Kusch L., Delorme A., Semah T., Caillet A.H.
+  year: 2026
+  title: "From EEG Cleaning to Decoding: The Role of Artifact Rejection in MI-based BCIs"
+  venue: EUSIPCO 2026, Belgium 🇧🇪
+  type: conference
+  type_label: Conference paper
+  tags: [eeg, preprocessing, neural-decoding-bci, benchmarking-evaluation]
+  links:
+    pdf: /assets/pdfs/artifact-rejection-eusipco26.pdf
+    arxiv: https://arxiv.org/abs/2605.12408
+    doi: https://doi.org/10.48550/arXiv.2605.12408
+  figure: /assets/images/publications/artifact-rejection-eusipco26.png
+
+- id: output-2026-eeg-emg-foundation-challenge
+  authors: Aristimunha B., Caillet A.H., Banville H., Guetschel P., King J.R., Jayaram V., Nunes U., Kojima S., Dreyer P., Roy R.N., Lotte F., Abou Jaoude M., Niu J., Aimone C., Mamidanna P., Gramfort A., Corsi M.-C., Moreau T., Raugel J., Kusch L., Semah T., Shirazi S.Y., Makeig S., Sejnowski T., Guyon I., Chevallier S., Delorme A.
+  year: 2026
+  title: "EEG/EMG Foundation Challenge 2026: Neural Interfaces for Generalizable Decoding"
+  venue: Manuscript
+  type: conference
+  type_label: Conference paper
+  status: submitted
+  tags: [eeg, emg, neural-decoding-bci, benchmarking-evaluation]
+
+- id: output-2026-icassp-demo
+  authors: Caillet A.H., Mellot A., Aristimunha B., Delorme A., Semah T.
+  year: 2026
+  title: "Real-Time Continuous EEG Authentication: Streaming Neural Biometrics"
+  venue: ICASSP Show & Tell Demos, Barcelona 🇪🇸
+  type: demo
+  type_label: Demo
+  tags: [eeg, preprocessing, neural-decoding-bci]
+  links:
+    site: https://2026.ieeeicassp.org/industry_program/
+
+- id: output-2025-neuroid-patent
+  authors: Caillet A.H., Shtarbanov A., Semah T.
+  year: 2025
+  title: Adaptable Neurophysiological Biometric Authentication System and Method
+  venue: Patent No. WO2025219294
+  type: patent
+  type_label: Patent
+  status: published 2025/10/22
+  tags: [eeg, neural-decoding-bci]
+  links:
+    site: https://patents.google.com/patent/WO2025219294A1
+
+- id: output-2025-muscle-load-patent
+  authors: Caillet A.H., Lacourpaille L., Hug F., Avrillon S.
+  year: 2025
+  title: Method for Determining an Internal Muscle Load, and Corresponding Device and Program
+  venue: Patent No. WO2025021987
+  type: patent
+  type_label: Patent
+  status: published 2025/01/31
+  tags: [emg, neuromuscular-modelling, msk-modelling]
+  links:
+    site: https://patents.google.com/patent/WO2025021987A1
+
+- id: output-2025-hill-type-review
+  authors: Caillet A.H., Phillips A.T.M., Carty C., Farina D., Modenese L.
+  year: 2025
+  title: "Hill-Type Models of Skeletal Muscle and Neuromuscular Actuators: A Systematic Review"
+  venue: IEEE Reviews in Biomedical Engineering, 19, 159-181
+  type: journal
+  type_label: Journal paper
+  tags: [neuromuscular-modelling]
+  links:
+    pdf: /assets/pdfs/Hill-Type_Models_of_Skeletal_Muscle_and_Neuromuscular_Actuators_A_Systematic_Review.pdf
+    doi: https://doi.org/10.1109/RBME.2025.3593185
+  figure: /assets/images/publications/hill-type-review-ieee-2025.png
+
+- id: output-2025-hamstring-activation
+  authors: Morin T., Caillet A.H., Nordez A., Doguet V., Lacourpaille L.
+  year: 2025
+  title: Robustness of hamstring muscle activation strategies following selective hypertrophy induced by Nordic hamstring curl and stiff-leg deadlift exercises
+  venue: Journal of Applied Physiology, 139(1), 296-307
+  type: journal
+  type_label: Journal paper
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+  links:
+    pdf: /assets/pdfs/morin-et-al-2025-robustness-of-hamstring-muscle-activation-strategies-following-selective-hypertrophy-induced-by-nordic.pdf
+    doi: https://doi.org/10.1152/japplphysiol.00237.2025
+  figure: /assets/images/publications/hamstring-activation-jap-2025.png
+
+- id: output-2025-hamstring-hypertrophy
+  authors: Morin T., Doguet V., Nordez A., Caillet A.H., Lacourpaille L.
+  year: 2025
+  title: "Minimal Role of Hamstring Hypertrophy in Strength Transfer Between Nordic Hamstring and Stiff-Leg Deadlift: A Blinded Randomized Controlled Trial"
+  venue: Journal of Strength & Conditioning Research
+  type: journal
+  type_label: Journal paper
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+  links:
+    pdf: /assets/pdfs/minimal_role_of_hamstring_hypertrophy_in_strength.2.pdf
+    doi: https://doi.org/10.1519/JSC.0000000000005159
+  figure: /assets/images/publications/hamstring-hypertrophy-jscr-2025.png
+
+- id: output-2025-muniverse
+  authors: Mamidanna P., Klotz T., Halatsis D., Grison A., Mendez-Guerra I., Ma S., Caillet A.H., Avrillon S., Rohlén R., Farina D.
+  year: 2025
+  title: "MUniverse: A Simulation and Benchmarking Suite for Motor Unit Decomposition"
+  venue: NeurIPS 2025, San Diego 🇺🇸
+  type: conference
+  type_label: Conference paper
+  tags: [emg, motor-unit, benchmarking-evaluation]
+  links:
+    pdf: /assets/pdfs/NeurIPS-2025-muniverse-a-simulation-and-benchmarking-suite-for-motor-unit-decomposition-Paper-Datasets_and_Benchmarks_Track.pdf
+    site: https://proceedings.neurips.cc/paper_files/paper/2025/hash/dcce28990bf662c6b916c52cd7e975da-Abstract-Datasets_and_Benchmarks_Track.html
+  figure: /assets/images/publications/muniverse-neurips-2025.png
+
+- id: output-2025-isb-hamstring-force
+  authors: Morin T., Doguet V., Nordez A., Caillet A.H., Lacourpaille L.
+  year: 2025
+  title: "Estimation of hamstring muscle forces during resistance training: Insight into structural muscle alterations and adaptations"
+  venue: ISB 2025, Stockholm 🇸🇪
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+
+- id: output-2025-isb-hill-type
+  authors: Sgarzi A., Meranger T., Bolsterlee B., Caillet A.H., Farina D., Lovell N.H., Modenese L.
+  year: 2025
+  title: Do coupling activation and contraction dynamics improve the accuracy of Hill-type models?
+  venue: ISB 2025, Stockholm 🇸🇪
+  type: abstract
+  type_label: Conference abstract
+  tags: [neuromuscular-modelling, motor-control]
+
+- id: output-2025-neuro-id-workshop
+  authors: Caillet A.H., Mariani T., Ploux M., Mellot A., Semah T.
+  year: 2025
+  title: "Neuro ID®: Real-Time EEG-Based Continuous Authentication"
+  venue: NeurIPS 2025, San Diego 🇺🇸
+  type: demo
+  type_label: demo
+  tags: [eeg, neural-decoding-bci]
+  links:
+    site: https://neurips.cc/virtual/2025/loc/san-diego/130021
+
+- id: output-2024-neuromechanics
+  authors: Caillet A.H., Phillips A.T.M., Modenese L., Farina D.
+  year: 2024
+  title: "NeuroMechanics: Electrophysiological and Computational Methods to Accurately Estimate the Neural Drive to Muscles in Humans In Vivo"
+  venue: Journal of Electromyography and Kinesiology, 76, 102873
+  type: journal
+  type_label: Journal paper
+  tags: [emg, motoneuron, motor-unit, preprocessing, neuromuscular-modelling]
+  links:
+    pdf: /assets/pdfs/neuromechanics.pdf
+    doi: https://doi.org/10.1016/j.jelekin.2024.102873
+  figure: /assets/images/publications/neuromechanics-jelekin-2024.png
+
+- id: output-2024-neuromotion
+  authors: Ma S., Mendez Guerra I., Caillet A.H., Zhao J., Clarke A.K., Maksymenko K., Deslauriers-Gauthier S., Sheng X., Zhu X., Farina D.
+  year: 2024
+  title: "NeuroMotion: Open-source platform with neuromechanical and deep network modules to generate surface EMG signals during voluntary movement"
+  venue: PLOS Computational Biology, 20(7), e1012257
+  type: journal
+  type_label: Journal paper
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+  links:
+    pdf: /assets/pdfs/neuromotion-ploscompbiol-2024.pdf
+    doi: https://doi.org/10.1371/journal.pcbi.1012257
+  figure: /assets/images/publications/neuromotion-ploscompbiol-2024.png
+
+- id: output-2024-motor-units-elife
+  authors: Avrillon S., Hug F., Enoka R.M., Caillet A.H., Farina D.
+  year: 2024
+  title: The identification of extensive samples of motor units in human muscles reveals diverse effects of neuromodulatory inputs on the rate coding
+  venue: eLife, 13:RP97085
+  type: journal
+  type_label: Journal paper
+  tags: [emg, motoneuron, motor-unit, motor-control]
+  links:
+    pdf: /assets/pdfs/motor-units-elife-2024.pdf
+    doi: https://doi.org/10.7554/eLife.97085
+  figure: /assets/images/publications/motor-units-elife-2024.png
+
+- id: output-2024-neurips-cortico-muscular
+  authors: Ma S., Hu B., Jia T., Clarke A.K., Zicher B., Caillet A.H., ... & Principe J.C.
+  year: 2024
+  title: Learning Cortico-Muscular Dependence through Orthonormal Decomposition of Density Ratios
+  venue: NeurIPS 2024, Vancouver 🇨🇦
+  type: conference
+  type_label: Conference paper
+  tags: [eeg, emg]
+  links:
+    pdf: /assets/pdfs/cortico-muscular-neurips-2024.pdf
+    arxiv: https://arxiv.org/abs/2410.14697
+    doi: https://doi.org/10.48550/arXiv.2410.14697
+    site: https://github.com/bohu615/corticomuscular-eigen-encoder
+  figure: /assets/images/publications/cortico-muscular-neurips-2024.png
+
+- id: output-2024-abc-muscle-models
+  authors: Sgarzi A., Meranger T., Caillet A.H., Farina D., Bolsterlee B., Modenese L.
+  year: 2024
+  title: Assessment of two muscle models with coupled activation and contraction dynamics
+  venue: Australian Biomechanics Congress 2024, Melbourne 🇦🇺
+  type: abstract
+  type_label: Conference abstract
+  tags: [neuromuscular-modelling, benchmarking-evaluation]
+
+- id: output-2024-isek-motor-units
+  authors: Avrillon S., Hug F., Enoka R.M., Caillet A.H., Farina D.
+  year: 2024
+  title: The decoding of extensive samples of motor units in human muscles reveals the rate coding of entire motoneuron pools
+  venue: ISEK 2024, Nagoya 🇯🇵
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, motor-control]
+
+- id: output-2024-isek-muscle-damage
+  authors: Morin T., Nordez A., Caillet A.H., Lacourpaille L.
+  year: 2024
+  title: Prediction of the distribution of muscle damage among hamstring heads during Nordic hamstring and stiff-leg deadlift exercises
+  venue: ISEK 2024, Nagoya 🇯🇵
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+
+- id: output-2024-isek-surface-emg
+  authors: Ma S., Mendez Guerra I., Caillet A.H., Zhao J., Clarke A.K., Farina D.
+  year: 2024
+  title: Modelling surface EMG signals during voluntary movements with neuromechanical and deep network models
+  venue: ISEK 2024, Nagoya 🇯🇵
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+
+- id: output-2024-motoneuron-meeting
+  authors: Avrillon S., Hug F., Enoka R.M., Caillet A.H., Farina D.
+  year: 2024
+  title: The decoding of extensive samples of motor units in human muscles reveals the rate coding of entire motoneuron pools
+  venue: International Motoneuron Meeting 2024, Bordeaux 🇫🇷
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, motor-control]
+
+- id: output-2024-erc-workshops
+  authors: Caillet A.H.
+  year: 2024
+  title: EMG-driven neuromusculoskeletal modelling, musculoskeletal simulations, and OpenSim methods
+  venue: ERC HybridNeuro, ERC Natural BionicS, and training events 🇪🇺
+  type: workshop
+  type_label: Workshop
+  tags: [emg, neuromuscular-modelling, msk-modelling]
+  links:
+    site: https://www.youtube.com/watch?v=KRYMWASZhL4
+
+- id: output-2024-neurorehab-dynamic-simulation
+  authors: Caillet A.H., Hodossy B.
+  year: 2024
+  title: Dynamic Simulation of Assistive Robotics and Human Motion (2)
+  venue: Summer School on Neurorehabilitation 2024, Baiona 🇪🇸
+  type: workshop
+  type_label: Workshop
+  tags: [msk-modelling, motor-control]
+
+- id: output-2023-eneuro-electrodes
+  authors: Caillet A.H., Avrillon S., Kundu A., Yu T., Phillips A.T.M., Modenese L., Farina D.
+  year: 2023
+  title: "Larger and denser: An optimal design for surface grids of EMG electrodes to identify greater and more representative samples of motor units"
+  venue: eNeuro, ENEURO.0064-23.2023
+  type: journal
+  type_label: Journal paper
+  tags: [emg, motor-unit, preprocessing]
+  links:
+    pdf: /assets/pdfs/larger-denser-eneuro-2023.pdf
+    doi: https://doi.org/10.1523/ENEURO.0064-23.2023
+    site: https://doi.org/10.6084/m9.figshare.22149287
+  figure: /assets/images/publications/larger-denser-eneuro-2023.png
+
+- id: output-2023-motoneuron-muscle-model
+  authors: Caillet A.H., Phillips A.T.M., Farina D., Modenese L.
+  year: 2023
+  title: Motoneuron-driven computational muscle modelling with motor unit resolution and subject-specific musculoskeletal anatomy
+  venue: PLOS Computational Biology, 19:e1011606
+  type: journal
+  type_label: Journal paper
+  tags:
+    [
+      emg,
+      motoneuron,
+      motor-unit,
+      neuromuscular-modelling,
+      msk-modelling,
+      motor-control,
+    ]
+  links:
+    pdf: /assets/pdfs/motoneuron-muscle-model-ploscompbiol-2023.pdf
+    doi: https://doi.org/10.1371/journal.pcbi.1011606
+    site: https://github.com/ArnaultCAILLET/MN-driven-Neuromuscular-Model-with-motor-unit-resolution
+  figure: /assets/images/publications/motoneuron-muscle-model-ploscompbiol-2023.png
+
+- id: output-2023-phd-thesis
+  authors: Caillet A.H.
+  year: 2023
+  title: Neuromuscular Modelling of Skeletal Muscle Contraction from Experimental Motoneuronal Activity
+  venue: PhD thesis, Imperial College London
+  type: thesis
+  type_label: PhD thesis
+  tags:
+    [
+      emg,
+      motoneuron,
+      motor-unit,
+      preprocessing,
+      neuromuscular-modelling,
+      msk-modelling,
+      motor-control,
+      benchmarking-evaluation,
+    ]
+  links:
+    pdf: /assets/pdfs/Caillet-A-2023-PhD-Thesis%20(2).pdf
+    doi: https://doi.org/10.25560/109896
+    site: https://spiral.imperial.ac.uk/entities/publication/297847f5-ad14-4461-bacd-91172f0d55f0
+  figure: /assets/images/publications/caillet-phd-thesis-2023.png
+
+- id: output-2023-nbhm-muscle-force
+  authors: Caillet A.H., Phillips A.T.M., Farina D., Modenese L.
+  year: 2023
+  title: "From experimental pools of discharging motor units to computational predictions of muscle force: a novel motoneuron-driven neuromechanical muscle model"
+  venue: NBHM 2023, London 🇬🇧
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, preprocessing, neuromuscular-modelling]
+
+- id: output-2023-ncm-motor-units
+  authors: Avrillon S., Caillet A.H., Zicher B., Grison A., Kundu A., Hug F., Farina D.
+  year: 2023
+  title: The behaviour of an exhaustive sample of motor units revealed by arrays of surface and intramuscular EMG electrodes
+  venue: NCM 2023, Victoria 🇨🇦
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motor-unit, preprocessing, motor-control]
+
+- id: output-2023-neurorehab-dynamic-simulation
+  authors: Caillet A.H., Kashiwakura J., Hodossy B.
+  year: 2023
+  title: Dynamic Simulation of Assistive Robotics and Human Motion (1)
+  venue: Summer School on Neurorehabilitation 2023, Baiona 🇪🇸
+  type: workshop
+  type_label: Workshop
+  tags: [msk-modelling, motor-control]
+
+- id: output-2023-neurorehab-prosthetics
+  authors: Caillet A.H., Sagastegui P., Kashiwakura J., Ferrante L.
+  year: 2023
+  title: Human-Machine Interfacing and Mechatronics for Myoelectric Prosthetics
+  venue: Summer School on Neurorehabilitation 2023, Baiona 🇪🇸
+  type: workshop
+  type_label: Workshop
+  tags: [emg, motor-control]
+
+- id: output-2022-motoneuron-pool
+  authors: Caillet A.H., Phillips A.T.M., Farina D., Modenese L.
+  year: 2022
+  title: Estimation of the firing behaviour of a complete motoneuron pool by combining electromyography signal decomposition and realistic motoneuron modelling
+  venue: PLOS Computational Biology, 18:e1010556
+  type: journal
+  type_label: Journal paper
+  tags: [emg, motoneuron, motor-unit, neuromuscular-modelling]
+  links:
+    pdf: /assets/pdfs/motoneuron-pool-ploscompbiol-2022.pdf
+    doi: https://doi.org/10.1371/journal.pcbi.1010556
+    site: https://github.com/ArnaultCAILLET/Caillet-et-al-2022-PLOS_Comput_Biol
+  figure: /assets/images/publications/motoneuron-pool-ploscompbiol-2022.png
+
+- id: output-2022-motoneuron-properties
+  authors: Caillet A.H., Phillips A.T.M., Farina D., Modenese L.
+  year: 2022
+  title: Mathematical relationships between spinal motoneuron properties
+  venue: eLife, 11:e76489
+  type: journal
+  type_label: Journal paper
+  tags: [motoneuron]
+  links:
+    pdf: /assets/pdfs/elife-76489-v2%20copy%202.pdf
+    doi: https://doi.org/10.7554/eLife.76489
+  figure: /assets/images/publications/motoneuron-properties-elife-copy-2022.png
+
+- id: output-2022-wcb-firing-behaviour
+  authors: Caillet A.H., Phillips A.T.M., Farina D., Modenese L.
+  year: 2022
+  title: Prediction of the firing behaviour of the motoneuron population for motoneuron-driven muscle modelling
+  venue: WCB 2022, Taipei 🇹🇼
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, neuromuscular-modelling]
+
+- id: output-2022-wcb-spinal-cord
+  authors: Modenese L., Caillet A.H., Phillips A.T.M., Farina D.
+  year: 2022
+  title: "From spinal cord neural signals to muscle contraction: the next generation of neuromechanical muscle models is motoneuron-driven"
+  venue: WCB 2022, Taipei 🇹🇼
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, neuromuscular-modelling]
+
+- id: output-2022-esb-muscle-force
+  authors: Caillet A.H., Phillips A.T.M., Farina D., Modenese L.
+  year: 2022
+  title: A novel neuromechanical model for predicting muscle force from motoneuron spike trains
+  venue: ESB 2022, Porto 🇵🇹
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, neuromuscular-modelling]
+
+- id: output-2021-isb-emg-driven
+  authors: Caillet A.H., Phillips A.T.M., Del Vecchio A., Farina D., Modenese L.
+  year: 2021
+  title: Development of a high-density EMG-driven Hill-type muscle model
+  venue: ISB 2021, Stockholm 🇸🇪
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motoneuron, motor-unit, neuromuscular-modelling]
+
+- id: output-2021-isb-hill-type
+  authors: Caillet A.H., Phillips A.T.M., Carty C., Farina D., Modenese L.
+  year: 2021
+  title: "Hill-type computational models of skeletal muscle-tendon actuators: a systematic review"
+  venue: ISB 2021, Stockholm 🇸🇪
+  type: abstract
+  type_label: Conference abstract
+  tags: [neuromuscular-modelling]

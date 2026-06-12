@@ -90,13 +90,9 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
+h1,
+.anchor {
+    scroll-margin-top: $scroll_offset;
 }
 
 .badge {
@@ -139,4 +135,596 @@ h1 {
 .profile_box .author__urls-wrapper {
   text-align: left; /* Keep icons and links left-aligned */
   margin-top: 1em;
+}
+
+/* --- Publications trajectory: manual data, Bruno-style rendering --- */
+$pub-patent: #7c3aed;
+$pub-journal: #009e73;
+$pub-conference: #0072b2;
+$pub-thesis: #4c6f8f;
+$pub-abstract: #8a9099;
+$pub-workshop: #e69f00;
+$pub-demo: #c44b38;
+
+.pubtrack {
+  margin: 1.6rem 0 2.6rem;
+}
+
+.pubtrack__showcase {
+  align-items: center;
+  display: flex;
+  gap: clamp(2.6rem, 6vw, 5.2rem);
+  justify-content: space-between;
+  margin-bottom: 1.55rem;
+}
+
+.pubtrack__chart-wrap {
+  flex: 0 0 auto;
+  margin-left: clamp(0.8rem, 2vw, 2.2rem);
+}
+
+.pubtrack__chart {
+  align-items: flex-end;
+  display: flex;
+}
+
+.pubtrack__venues {
+  --venue-logo-height: 31px;
+  align-items: center;
+  display: block;
+  flex: 1 1 min(720px, 64%);
+  max-width: 760px;
+  min-height: 190px;
+  padding: 0.2rem 0.1rem 0.05rem;
+  position: relative;
+}
+
+.pubtrack__venue-logo {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  min-width: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.pubtrack__venue-logo img {
+  display: block;
+  height: var(--venue-logo-height);
+  max-height: var(--venue-logo-height);
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+.pubtrack__venue-logo--compact img {
+  height: 28px;
+  max-height: 28px;
+}
+
+.pubtrack__venue-logo--spotlight img {
+  height: 45px;
+  max-height: 45px;
+}
+
+.pubtrack__venue-logo--featured img {
+  height: 39px;
+  max-height: 39px;
+}
+
+.pubtrack__venue-logo--plos img {
+  height: 35px;
+  max-height: 35px;
+}
+
+.pubtrack__venue-logo--quiet img {
+  height: 25px;
+  max-height: 25px;
+}
+
+.pubtrack__venue-logo--square img {
+  height: 36px;
+  max-height: 36px;
+}
+
+.pubtrack__venue-logo--ncm img {
+  height: 43px;
+  max-height: 43px;
+}
+
+.pubtrack__venue-logo--slot-a { left: 15%; top: 17%; }
+.pubtrack__venue-logo--slot-b { left: 22%; top: 39%; }
+.pubtrack__venue-logo--slot-c { left: 16%; top: 62%; }
+.pubtrack__venue-logo--slot-d { left: 22%; top: 85%; }
+.pubtrack__venue-logo--slot-e { left: 50%; top: 42%; }
+.pubtrack__venue-logo--slot-f { left: 72%; top: 19%; }
+.pubtrack__venue-logo--slot-g { left: 43%; top: 18%; }
+.pubtrack__venue-logo--slot-h { left: 78%; top: 42%; }
+.pubtrack__venue-logo--slot-i { left: 34%; top: 63%; }
+.pubtrack__venue-logo--slot-j { left: 44%; top: 66%; }
+.pubtrack__venue-logo--slot-k { left: 62%; top: 64%; }
+.pubtrack__venue-logo--slot-l { left: 87%; top: 63%; }
+.pubtrack__venue-logo--slot-m { left: 42%; top: 86%; }
+.pubtrack__venue-logo--slot-n { left: 60%; top: 87%; }
+.pubtrack__venue-logo--slot-o { left: 79%; top: 86%; }
+
+.pubtrack__col {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
+.pubtrack__col:hover,
+.pubtrack__col:focus-visible {
+  text-decoration: none;
+}
+
+.pubtrack__col:hover .pubtrack__stack,
+.pubtrack__col:focus-visible .pubtrack__stack {
+  transform: translateY(-2px);
+}
+
+.pubtrack__stack {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3px;
+  transition: transform 0.18s ease;
+}
+
+.pubtrack__cell {
+  border-radius: 3.5px;
+  display: block;
+  height: 13px;
+  transition: opacity 0.18s ease;
+  width: 13px;
+}
+
+.pubtrack__cell--patent { background: $pub-patent; }
+.pubtrack__cell--journal { background: $pub-journal; }
+.pubtrack__cell--conference { background: $pub-conference; }
+.pubtrack__cell--thesis { background: $pub-thesis; }
+.pubtrack__cell--abstract { background: $pub-abstract; }
+.pubtrack__cell--workshop { background: $pub-workshop; }
+.pubtrack__cell--demo { background: $pub-demo; }
+
+.pubtrack__cell.is-dim {
+  opacity: 0.18;
+}
+
+.pubtrack__tick {
+  background: #e2e4e8;
+  border-radius: 2px;
+  display: block;
+  height: 3px;
+  width: 13px;
+}
+
+.pubtrack__col-year {
+  color: #62686f;
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  transition: color 0.18s ease;
+}
+
+.pubtrack__col:hover .pubtrack__col-year,
+.pubtrack__col:focus-visible .pubtrack__col-year {
+  color: #1f232b;
+}
+
+.page__content .pubtrack__chart-note {
+  color: #62686f;
+  font-size: 0.74rem;
+  letter-spacing: 0.01em;
+  margin: 0.6rem 0 0;
+}
+
+.pubtrack__filters {
+  border-bottom: 1px solid rgba(31, 35, 43, 0.1);
+  border-top: 1px solid rgba(31, 35, 43, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 1.15rem;
+  margin: 0 0 1.7rem;
+  padding: 0.55rem 0;
+}
+
+.pubtrack__filters--author {
+  border-top: 0;
+  margin-top: -1.7rem;
+}
+
+.pubtrack__filters--tags {
+  border-top: 0;
+  gap: 0.1rem 0.9rem;
+  margin-top: -1.7rem;
+}
+
+.pubtrack__filter {
+  align-items: center;
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: #4d535b;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.84rem;
+  font-weight: 600;
+  gap: 0.42rem;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0.25rem 0;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.pubtrack__filter::before {
+  background: #1f232b;
+  border-radius: 3px;
+  content: "";
+  flex-shrink: 0;
+  height: 9px;
+  width: 9px;
+}
+
+.pubtrack__filter--patent::before { background: $pub-patent; }
+.pubtrack__filter--journal::before { background: $pub-journal; }
+.pubtrack__filter--conference::before { background: $pub-conference; }
+.pubtrack__filter--thesis::before { background: $pub-thesis; }
+.pubtrack__filter--abstract::before { background: $pub-abstract; }
+.pubtrack__filter--workshop::before { background: $pub-workshop; }
+.pubtrack__filter--demo::before { background: $pub-demo; }
+
+.pubtrack__filter--role::before {
+  display: none;
+}
+
+.pubtrack__filter--tag::before {
+  display: none;
+}
+
+.pubtrack__filter:hover,
+.pubtrack__filter:focus-visible,
+.pubtrack__filter.is-active {
+  color: #1f232b;
+}
+
+.pubtrack__filter.is-active {
+  border-bottom-color: #1f232b;
+}
+
+.pubtrack__count {
+  color: #62686f;
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.pubtrack__year {
+  margin-bottom: 1.9rem;
+}
+
+.pubtrack__year:last-child {
+  margin-bottom: 0;
+}
+
+.page__content .pubtrack__year-label {
+  color: #868d97;
+  font-size: 1.85rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  line-height: 1;
+  margin: 0 0 0.8rem;
+}
+
+.pubtrack__rows {
+  border-left: 2px solid rgba(31, 35, 43, 0.1);
+  display: grid;
+  gap: 1.25rem;
+  margin-left: 5px;
+  padding-left: 1.45rem;
+}
+
+.pubtrack__entry {
+  display: grid;
+  gap: 0.22rem;
+  position: relative;
+}
+
+.pubtrack__entry[hidden],
+.pubtrack__year[hidden] {
+  display: none;
+}
+
+.pubtrack__entry::before {
+  background: #1f232b;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  content: "";
+  height: 11px;
+  left: -1.45rem;
+  position: absolute;
+  top: 0.55rem;
+  transform: translateX(calc(-50% - 1px));
+  width: 11px;
+}
+
+.pubtrack__entry--patent::before { background: $pub-patent; }
+.pubtrack__entry--journal::before { background: $pub-journal; }
+.pubtrack__entry--conference::before { background: $pub-conference; }
+.pubtrack__entry--thesis::before { background: $pub-thesis; }
+.pubtrack__entry--abstract::before { background: $pub-abstract; }
+.pubtrack__entry--workshop::before { background: $pub-workshop; }
+.pubtrack__entry--demo::before { background: $pub-demo; }
+
+.page__content .pubtrack__title {
+  color: #1f232b;
+  font-size: 1.03rem;
+  font-weight: 700;
+  line-height: 1.38;
+  margin: 0;
+  position: relative;
+}
+
+.pubtrack__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pubtrack__title a:hover,
+.pubtrack__title a:focus {
+  color: #245dcc;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pubfig {
+  background: #fff;
+  border: 1px solid rgba(83, 88, 98, 0.28);
+  border-radius: 10px;
+  box-shadow: 0 14px 34px rgba(31, 35, 43, 0.22);
+  display: none;
+  left: 0;
+  padding: 5px;
+  pointer-events: none;
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  width: min(420px, 78vw);
+  z-index: 60;
+}
+
+.pubfig img {
+  border-radius: 6px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pubtrack__title:hover .pubfig,
+  .pubtrack__title a:focus-visible .pubfig {
+    display: block;
+  }
+}
+
+.page__content .pubtrack__meta {
+  color: #4d535b;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.pubtrack__meta > * + *::before {
+  color: #b9bec6;
+  content: "\00b7";
+  margin: 0 0.5em;
+}
+
+.pubtrack__type {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.pubtrack__status {
+  font-style: italic;
+}
+
+.page__content .pubtrack__authors {
+  color: #5d636c;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.pubtrack__authors strong {
+  color: #23272e;
+}
+
+.page__content .pubtrack__links {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.12rem 0 0;
+}
+
+.pubtrack__links a {
+  color: #3b66c4;
+  text-decoration: none;
+}
+
+.pubtrack__links a:hover,
+.pubtrack__links a:focus {
+  color: #245dcc;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pubtrack__links > a + a::before {
+  color: #b9bec6;
+  content: "\00b7";
+  font-weight: 400;
+  margin: 0 0.55em;
+}
+
+.page__content .pubtrack__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem;
+  margin: 0.22rem 0 0;
+}
+
+.pubtrack__tag {
+  background: rgba(76, 111, 143, 0.08);
+  border: 1px solid rgba(76, 111, 143, 0.14);
+  border-radius: 999px;
+  color: #4c535c;
+  display: inline-flex;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  padding: 0.26rem 0.42rem;
+}
+
+.pubtrack__tag--eeg { background: rgba(0, 114, 178, 0.08); border-color: rgba(0, 114, 178, 0.18); color: #1e5f91; }
+.pubtrack__tag--emg { background: rgba(0, 158, 115, 0.08); border-color: rgba(0, 158, 115, 0.18); color: #12775c; }
+.pubtrack__tag--motoneuron { background: rgba(213, 94, 0, 0.08); border-color: rgba(213, 94, 0, 0.18); color: #9b4c16; }
+.pubtrack__tag--motor-unit { background: rgba(230, 159, 0, 0.1); border-color: rgba(230, 159, 0, 0.2); color: #8a620c; }
+.pubtrack__tag--preprocessing { background: rgba(86, 180, 233, 0.11); border-color: rgba(86, 180, 233, 0.22); color: #28739c; }
+.pubtrack__tag--neuromuscular-modelling { background: rgba(124, 58, 237, 0.08); border-color: rgba(124, 58, 237, 0.18); color: #6240a3; }
+.pubtrack__tag--msk-modelling { background: rgba(122, 89, 37, 0.09); border-color: rgba(122, 89, 37, 0.18); color: #735424; }
+.pubtrack__tag--motor-control { background: rgba(93, 135, 35, 0.09); border-color: rgba(93, 135, 35, 0.18); color: #5b7626; }
+.pubtrack__tag--neural-decoding-bci { background: rgba(204, 121, 167, 0.09); border-color: rgba(204, 121, 167, 0.19); color: #95456d; }
+.pubtrack__tag--benchmarking-evaluation { background: rgba(35, 39, 46, 0.07); border-color: rgba(35, 39, 46, 0.15); color: #3f444d; }
+
+.pubtrack__glyph {
+  color: #62686f;
+  font-size: 0.72rem;
+  font-weight: 400;
+}
+
+@include breakpoint(max-width 48em) {
+  .pubtrack__showcase {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .pubtrack__chart-wrap {
+    margin-left: 0;
+  }
+
+  .pubtrack__venues {
+    --venue-logo-height: 26px;
+    display: grid;
+    flex-basis: auto;
+    gap: 0.65rem 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: none;
+    justify-items: center;
+    max-width: 100%;
+    min-height: 0;
+    width: 100%;
+  }
+
+  .pubtrack__venue-logo {
+    grid-column: auto;
+    grid-row: auto;
+    height: 28px;
+    justify-self: center;
+    left: auto;
+    position: static;
+    top: auto;
+    transform: none;
+  }
+
+  .pubtrack__venue-logo img {
+    height: var(--venue-logo-height);
+    max-height: var(--venue-logo-height);
+  }
+
+  .pubtrack__venue-logo--compact img {
+    height: 24px;
+    max-height: 24px;
+  }
+
+  .pubtrack__venue-logo--spotlight img {
+    height: 34px;
+    max-height: 34px;
+  }
+
+  .pubtrack__venue-logo--featured img {
+    height: 30px;
+    max-height: 30px;
+  }
+
+  .pubtrack__venue-logo--plos img {
+    height: 29px;
+    max-height: 29px;
+  }
+
+  .pubtrack__venue-logo--quiet img {
+    height: 22px;
+    max-height: 22px;
+  }
+
+  .pubtrack__venue-logo--square img {
+    height: 29px;
+    max-height: 29px;
+  }
+
+  .pubtrack__venue-logo--ncm img {
+    height: 34px;
+    max-height: 34px;
+  }
+
+  .pubtrack__col {
+    padding: 4px 7px;
+  }
+
+  .pubtrack__cell,
+  .pubtrack__tick {
+    width: 11px;
+  }
+
+  .pubtrack__cell {
+    height: 11px;
+  }
+
+  .pubtrack__filters {
+    gap: 0.1rem 0.9rem;
+  }
+
+  .page__content .pubtrack__year-label {
+    font-size: 1.5rem;
+  }
+
+  .pubtrack__rows {
+    margin-left: 4px;
+    padding-left: 1.15rem;
+  }
+
+  .pubtrack__entry::before {
+    height: 10px;
+    left: -1.15rem;
+    width: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pubtrack__stack,
+  .pubtrack__cell,
+  .pubtrack__col-year,
+  .pubtrack__filter,
+  .pubtrack__venue-logo {
+    transition: none !important;
+  }
 }
