@@ -2,8 +2,8 @@ main:
   - title: "Who is Arnault?"
     url: "/#who-is-arnault"
 
-  - title: "About Yneuro"
-    url: "/#about-yneuro"
+  - title: "CSO @ Yneuro"
+    url: "/cso-yneuro/"
 
   - title: "My other activities"
     url: "/#my-other-current-activities"

@@ -137,6 +137,421 @@ h1 {
   margin-top: 1em;
 }
 
+/* --- CSO @ Yneuro page --- */
+.cso-yneuro {
+  margin: 1.25rem 0 2.8rem;
+}
+
+.cso-yneuro__section {
+  border-top: 1px solid #e8eaee;
+  margin-top: 1.4rem;
+  padding-top: 1.15rem;
+}
+
+.cso-yneuro__section:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.page__content .cso-yneuro__section h2 {
+  color: #333b45;
+  font-size: 1.25rem;
+  margin: 0 0 0.7rem;
+}
+
+.page__content .cso-yneuro__section h3 {
+  color: #303842;
+  font-size: 1.02rem;
+  margin: 1.2rem 0 0.45rem;
+}
+
+.page__content .cso-yneuro__section p,
+.page__content .cso-yneuro__section li {
+  color: #4f5761;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.cso-yneuro__section-head {
+  max-width: 58rem;
+}
+
+.cso-yneuro__hero {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1.2fr) minmax(14rem, 0.8fr);
+}
+
+.page__content .cso-yneuro__lede {
+  color: #343c46;
+  font-size: 1rem;
+}
+
+.cso-yneuro__snapshot {
+  border-bottom: 1px solid #e8eaee;
+  border-top: 1px solid #e8eaee;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cso-yneuro__snapshot div {
+  padding: 0.85rem 0.8rem;
+}
+
+.cso-yneuro__snapshot div:nth-child(even) {
+  border-left: 1px solid #eef0f3;
+}
+
+.cso-yneuro__snapshot div:nth-child(n + 3) {
+  border-top: 1px solid #eef0f3;
+}
+
+.cso-yneuro__snapshot strong,
+.cso-yneuro__snapshot span {
+  display: block;
+}
+
+.cso-yneuro__snapshot strong {
+  color: #263342;
+  font-size: 0.88rem;
+  line-height: 1.2;
+}
+
+.cso-yneuro__snapshot span {
+  color: #68727d;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  margin-top: 0.25rem;
+}
+
+.cso-yneuro__section-head--with-link {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  max-width: none;
+}
+
+.page__content .cso-yneuro__text-link {
+  border: 1px solid #dfe5eb;
+  border-radius: 999px;
+  color: #385f88;
+  flex: 0 0 auto;
+  font-size: 0.88rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0.72rem 0.95rem;
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.page__content .cso-yneuro__text-link:hover,
+.page__content .cso-yneuro__text-link:focus {
+  background: #f4f8fb;
+  border-color: rgba(56, 95, 136, 0.22);
+  transform: translateY(-1px);
+}
+
+.cso-role-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1rem;
+}
+
+.cso-role-card {
+  border: 1px solid #e6e9ed;
+  border-radius: 8px;
+  padding: 0.8rem 0.85rem;
+}
+
+.cso-role-card span {
+  color: #a2adb8;
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.45rem;
+}
+
+.page__content .cso-role-card h3 {
+  color: #263342;
+  font-size: 0.92rem;
+  margin: 0 0 0.28rem;
+}
+
+.page__content .cso-role-card p {
+  color: #58616c;
+  font-size: 0.78rem;
+  line-height: 1.42;
+  margin: 0;
+}
+
+.page__content .cso-github-inline {
+  display: block;
+  margin-top: 0.55rem;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cso-github-inline img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.cso-awards-strip {
+  display: flex;
+  gap: 0.65rem;
+  overflow-x: auto;
+  padding: 0.15rem 0.1rem 0.75rem;
+  scrollbar-color: #c7d0da transparent;
+  scrollbar-width: thin;
+}
+
+.page__content .cso-awards-strip a {
+  align-items: center;
+  border: 1px solid #e6e9ed;
+  border-radius: 8px;
+  color: inherit;
+  display: flex;
+  flex: 0 0 9.6rem;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 7rem;
+  padding: 0.65rem;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.page__content .cso-awards-strip a:hover,
+.page__content .cso-awards-strip a:focus {
+  border-color: rgba(43, 74, 111, 0.24);
+  box-shadow: 0 10px 22px rgba(32, 43, 57, 0.07);
+  transform: translateY(-1px);
+}
+
+.cso-awards-strip img {
+  display: block;
+  height: 2rem;
+  max-width: 6.6rem;
+  object-fit: contain;
+  width: auto;
+}
+
+.cso-awards-strip strong {
+  color: #273442;
+  font-size: 0.8rem;
+  line-height: 1.15;
+  margin-top: 0.55rem;
+}
+
+.cso-awards-strip span {
+  color: #6a737d;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0.18rem;
+}
+
+.cso-media {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 1rem;
+}
+
+.cso-media__group--wide {
+  grid-column: 1 / -1;
+}
+
+.cso-media__group {
+  border: 1px solid #e6e9ed;
+  border-radius: 8px;
+  padding: 0.85rem;
+}
+
+.page__content .cso-media__group h3 {
+  color: #263342;
+  font-size: 0.9rem;
+  margin: 0 0 0.65rem;
+}
+
+.cso-media__logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.page__content .cso-media-logo {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e7eaee;
+  border-radius: 999px;
+  color: #303842;
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  min-height: 2rem;
+  padding: 0.55rem 0.72rem;
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.page__content .cso-media-logo:hover,
+.page__content .cso-media-logo:focus {
+  border-color: rgba(43, 74, 111, 0.22);
+  box-shadow: 0 8px 18px rgba(32, 43, 57, 0.07);
+  transform: translateY(-1px);
+}
+
+.cso-media-logo--tf1 { color: #17468f !important; }
+.cso-media-logo--france2 { color: #dd1d2d !important; }
+.cso-media-logo--rmc,
+.cso-media-logo--bfm,
+.cso-media-logo--techco { color: #d71920 !important; }
+.cso-media-logo--m6 { color: #111 !important; }
+.cso-media-logo--figaro { font-family: Georgia, serif; }
+.cso-media-logo--frenchweb { color: #245dcc !important; }
+.cso-media-logo--lacroix { color: #2f5f9f !important; }
+.cso-media-logo--paperjam { color: #111 !important; }
+.cso-media-logo--vivatech { color: #7b3fe4 !important; }
+.cso-media-logo--radio-classique { color: #3c405f !important; }
+.cso-media-logo--youtube { color: #d71920 !important; }
+.cso-media-logo--infoentreprise { color: #2a5f7c !important; }
+.cso-media-logo--lesechos { color: #c41230 !important; }
+.cso-media-logo--bigmedia { color: #1d4f8f !important; }
+.cso-media-logo--maddyness { color: #111 !important; }
+.cso-media-logo--monde-numerique { color: #286f9f !important; }
+
+.cso-team-gallery {
+  display: flex;
+  gap: 0.9rem;
+  margin-top: 1.2rem;
+  overflow-x: auto;
+  padding: 0 0.15rem 0.75rem;
+  scroll-snap-type: x proximity;
+  scrollbar-color: #c7d0da transparent;
+  scrollbar-width: thin;
+}
+
+.cso-team-card {
+  flex: 0 0 clamp(10.5rem, 21vw, 13.25rem);
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.cso-team-card__photo {
+  aspect-ratio: 4 / 5;
+  background: linear-gradient(145deg, #eef2f6 0%, #dbe3eb 100%);
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px rgba(38, 51, 66, 0.08);
+  overflow: hidden;
+  position: relative;
+}
+
+.cso-team-card__photo img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: filter 180ms ease, transform 180ms ease;
+  width: 100%;
+}
+
+.cso-team-card__photo img[alt="Apolline Mellot"] {
+  object-position: center top;
+}
+
+.cso-team-card__photo img[alt="Tom Mariani"] {
+  object-position: center 100%;
+}
+
+.cso-team-card__overlay {
+  align-items: center;
+  background: rgba(22, 31, 43, 0.72);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  inset: 0;
+  opacity: 0;
+  padding: 1rem;
+  position: absolute;
+  text-align: center;
+  transition: opacity 180ms ease;
+  z-index: 2;
+}
+
+.cso-team-card__caption {
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.54);
+  border-radius: 8px;
+  bottom: 0.5rem;
+  box-shadow: 0 8px 20px rgba(15, 23, 34, 0.12);
+  left: 0.5rem;
+  padding: 0.45rem 0.55rem;
+  position: absolute;
+  right: 0.5rem;
+  transition: opacity 180ms ease, transform 180ms ease;
+  z-index: 3;
+}
+
+.cso-team-card__photo:hover .cso-team-card__overlay,
+.cso-team-card__photo:focus .cso-team-card__overlay,
+.cso-team-card__photo:focus-visible .cso-team-card__overlay {
+  opacity: 1;
+}
+
+.cso-team-card__photo:hover img,
+.cso-team-card__photo:focus img,
+.cso-team-card__photo:focus-visible img {
+  filter: saturate(0.9) brightness(0.82);
+  transform: scale(1.025);
+}
+
+.cso-team-card__photo:hover .cso-team-card__caption,
+.cso-team-card__photo:focus .cso-team-card__caption,
+.cso-team-card__photo:focus-visible .cso-team-card__caption {
+  opacity: 0;
+  transform: translateY(0.25rem);
+}
+
+.page__content .cso-team-card__overlay p {
+  color: #fff;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.page__content .cso-team-card__overlay p + p {
+  margin-top: 0.65rem;
+}
+
+.page__content .cso-team-card__caption h3 {
+  color: #263342;
+  font-size: 0.82rem;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.page__content .cso-team-card__caption p {
+  color: #6a737d;
+  font-size: 0.66rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0.12rem 0 0;
+}
+
+.page__content .cso-team-card > h3,
+.page__content .cso-team-card > p {
+  margin: 0;
+}
+
 /* --- Awards page --- */
 .page__content .awards__intro {
   color: #4b5159;
@@ -1348,6 +1763,29 @@ $pub-demo: #c44b38;
 
   .opensource__preview {
     display: none !important;
+  }
+
+  .cso-yneuro__hero,
+  .cso-role-grid,
+  .cso-media {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .cso-media__group--wide {
+    grid-column: auto;
+  }
+
+  .cso-yneuro__section-head--with-link {
+    display: block;
+  }
+
+  .page__content .cso-yneuro__text-link {
+    display: inline-flex;
+    margin-top: 0.35rem;
+  }
+
+  .cso-yneuro__snapshot {
+    margin-top: 0.2rem;
   }
 
   .awards__stats {
