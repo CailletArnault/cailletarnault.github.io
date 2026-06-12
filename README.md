@@ -22,16 +22,18 @@ This is a static Jekyll site. The source files are converted into HTML/CSS/JS un
 - `_config.yml` defines site-wide settings: title, repository, author metadata, included/excluded paths, Markdown behavior, Sass settings, and plugins.
 - `_pages/about.md` is the homepage content. Its front matter sets `permalink: /`, so this Markdown file renders as the root page.
 - `_pages/awards.md` is a dedicated content page for awards and recognition.
-- `_pages/talks.md` is a dedicated content page for conference abstracts and invited talks. Future top-level sections can follow this same pattern with their own file and `permalink`.
+- `_pages/open-source.md` is a dedicated content page for open-source data, packages, infrastructure, and challenge organization.
+- `_pages/publications.md` renders a dedicated chronological page for patents, papers, conference abstracts, workshops, demos, and invited talks. Entries are maintained manually in `_data/publications.yml`.
 - `_pages/includes/intro.md` contains the first large homepage section and is included by `_pages/about.md` with `{% include_relative %}`.
 - `_layouts/default.html` is the main HTML shell. It assembles the head, masthead, sidebar, page content, and scripts.
 - `_includes/` contains reusable Liquid snippets:
   - `head.html`, `head/custom.html`, and `seo.html` build metadata, stylesheets, icons, and SEO tags.
   - `masthead.html`, `sidebar.html`, and `author-profile.html` build the visible navigation and author profile.
   - `scripts.html` and `analytics.html` load JavaScript and optional analytics behavior.
-- `_data/navigation.yml` defines the top navigation links shown in the masthead. Links can point either to homepage anchors or to dedicated pages such as `/awards/` and `/talks/`.
+- `_data/navigation.yml` defines the top navigation links shown in the masthead. Links can point either to homepage anchors or to dedicated pages such as `/awards/`, `/open-source/`, and `/publications/`.
 - `assets/css/main.scss` imports the Sass partials from `_sass/` and contains the current custom styling overrides.
-- `assets/js/main.min.js` is the JavaScript file loaded by the site.
+- `assets/js/main.min.js` is the main JavaScript file loaded by the site, and `assets/js/publications.js` powers publication filtering.
+- `assets/pdfs/` stores local publication PDFs, and `assets/images/publications/` stores optional hover-preview snapshots for publication entries.
 - `assets/css/academicons.css` and `assets/fonts/` support academic/social icons used in the author profile.
 - `images/` contains the profile photo and inline logos used by the homepage content.
 
