@@ -21,13 +21,14 @@ This is a static Jekyll site. The source files are converted into HTML/CSS/JS un
 
 - `_config.yml` defines site-wide settings: title, repository, author metadata, included/excluded paths, Markdown behavior, Sass settings, and plugins.
 - `_pages/about.md` is the homepage content. Its front matter sets `permalink: /`, so this Markdown file renders as the root page.
+- `_pages/talks.md` is a dedicated content page for conference abstracts and invited talks. Future top-level sections can follow this same pattern with their own file and `permalink`.
 - `_pages/includes/intro.md` contains the first large homepage section and is included by `_pages/about.md` with `{% include_relative %}`.
 - `_layouts/default.html` is the main HTML shell. It assembles the head, masthead, sidebar, page content, and scripts.
 - `_includes/` contains reusable Liquid snippets:
   - `head.html`, `head/custom.html`, and `seo.html` build metadata, stylesheets, icons, and SEO tags.
   - `masthead.html`, `sidebar.html`, and `author-profile.html` build the visible navigation and author profile.
   - `scripts.html` and `analytics.html` load JavaScript and optional analytics behavior.
-- `_data/navigation.yml` defines the top navigation anchors shown in the masthead.
+- `_data/navigation.yml` defines the top navigation links shown in the masthead. Links can point either to homepage anchors or to dedicated pages such as `/talks/`.
 - `assets/css/main.scss` imports the Sass partials from `_sass/` and contains the current custom styling overrides.
 - `assets/js/main.min.js` is the JavaScript file loaded by the site.
 - `assets/css/academicons.css` and `assets/fonts/` support academic/social icons used in the author profile.
@@ -37,7 +38,7 @@ This is a static Jekyll site. The source files are converted into HTML/CSS/JS un
 
 On build, Jekyll reads `_config.yml`, finds `_pages/about.md`, wraps it in `_layouts/default.html`, expands Liquid includes, compiles `assets/css/main.scss` into `assets/css/main.css`, and writes the rendered site to `_site/`.
 
-The main page content is mostly Markdown/HTML in `_pages/about.md` and `_pages/includes/intro.md`. The persistent left profile is driven by the `author` block in `_config.yml` and rendered by `_includes/author-profile.html`.
+The main page content is mostly Markdown/HTML in `_pages/about.md` and `_pages/includes/intro.md`. Dedicated section pages live beside it in `_pages/` and are exposed through their `permalink` front matter. The persistent left profile is driven by the `author` block in `_config.yml` and rendered by `_includes/author-profile.html`.
 
 ## Acknowledgements
 

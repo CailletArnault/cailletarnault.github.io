@@ -5,7 +5,15 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    {% assign author_avatar = author.avatar %}
+    {% unless author_avatar contains '://' %}
+      {% assign first_char = author_avatar | slice: 0 %}
+      {% unless first_char == "/" %}
+        {% assign author_avatar = author_avatar | prepend: "/" %}
+      {% endunless %}
+      {% assign author_avatar = author_avatar | relative_url %}
+    {% endunless %}
+    <img src="{{ author_avatar }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
   <div class="author__content">
@@ -54,7 +62,7 @@
       {% if author.imperial %}
         <li style="display: flex; align-items: center;">
           <a href="{{ author.imperial }}" style="display: flex; align-items: center; text-decoration: none;">
-            <img src="images/imperial_logo.png"
+            <img src="{{ '/images/imperial_logo.png' | relative_url }}"
                 alt="Imperial College London"
                 style="height:16px; width:auto; margin-right:8px; border-radius:0;">
             <span>Imperial College London</span>

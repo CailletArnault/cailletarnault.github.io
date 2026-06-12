@@ -30,4 +30,4 @@ main:
     url: "/#-open-source-contributions"
 
   - title: "Talks & Abstracts"
-    url: "/#conference-abstracts--invited-talks"
+    url: "/talks/"
