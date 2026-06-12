@@ -11,11 +11,8 @@ main:
   - title: "My philosophy"
     url: "/#my-philosophy"
 
-  - title: "Awards - Yneuro"
-    url: "/#-awards--recognition--yneuro"
-
-  - title: "Personal Awards"
-    url: "/#-personal-awards"
+  - title: "Awards"
+    url: "/awards/"
 
   - title: "Supervision & Teaching"
     url: "/#-academic-supervision--teaching"
