@@ -5,20 +5,14 @@ main:
   - title: "CSO @ Yneuro"
     url: "/cso-yneuro/"
 
-  - title: "My other activities"
-    url: "/#my-other-current-activities"
-
-  - title: "My philosophy"
-    url: "/#my-philosophy"
-
-  - title: "Awards"
-    url: "/awards/"
-
-  - title: "Supervision & Teaching"
-    url: "/#-academic-supervision--teaching"
-
   - title: "Publications"
     url: "/publications/"
 
   - title: "Open Source"
     url: "/open-source/"
+
+  - title: "Awards"
+    url: "/awards/"
+
+  - title: "Supervision & Teaching"
+    url: "/supervision-teaching/"
