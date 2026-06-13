@@ -94,7 +94,7 @@ My supervision and teaching work sits at the interface between academic research
         <span class="supervision__year">2017-2024</span>
         <div>
           <strong>Private Tutor</strong>
-          <span>Mathematics, physics, chemistry, and computer science for students in the UK, France, Hong Kong, and the US 🇬🇧🇫🇷🇭🇰🇺🇸</span>
+          <span>Mathematics, physics, chemistry, and computer science for students in the UK, France, Hong Kong, and the US 🇬🇧 🇫🇷 🇭🇰 🇺🇸</span>
           <small>Taught A-level students at Lycée Charles de Gaulle (London), Lycée Jeannine Manuel (London), and Lycée Jean-Pierre Vernant (Paris), among others.</small>
         </div>
       </li>

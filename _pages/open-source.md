@@ -10,7 +10,7 @@ author_profile: true
 <div class="opensource">
   <p class="opensource__intro">I am an advocate for <strong>open science</strong>. During my academic journey, I <strong>contributed datasets and code</strong> around motoneuron electrophysiology, cross-session/task high-density surface EMG, motor unit physiology and activity, and neuromuscular modelling.</p>
   <p class="opensource__intro">I now <strong>push open-science initiatives</strong> through my dual role as CSO of Yneuro and Honorary Research Officer at Imperial College London: developing and maintaining code libraries, organizing open competitions, and building bridges between academia and industry.</p>
-   <p class="opensource__intro">I strongly believe that science progresses when the academia-industry ecosystem can work hand-in-hand around shared tools, open benchmarks, and reusable resources on a large scale.</p>
+   <p class="opensource__intro">I strongly believe that science progresses when academia and industry work hand in hand around shared tools, open benchmarks, and reusable resources on a large scale.</p>
 
   <nav class="opensource__verticals" aria-label="Open-source verticals">
     <a href="#open-challenges"><strong>Open challenges</strong><span>Community competitions</span></a>
@@ -72,14 +72,14 @@ author_profile: true
       <span class="opensource__section-index">02</span>
       <div>
         <h2>Infrastructure</h2>
-        <p>Supporting the open-source libraries and benchmark platforms that make shared scientific progress easier to reproduce, maintain, and scale.</p>
+        <p>Supporting open-source libraries and benchmark platforms that make shared scientific progress easier to reproduce, maintain, and scale.</p>
       </div>
     </div>
 
     <div class="opensource__items">
       <a class="opensource__item opensource__item--preview" href="https://braindecode.org/stable/index.html">
         <h3>Braindecode</h3>
-        <p>Building the Yneuro x Inria Paris-Saclay collaboration to contribute to and sponsor development and maintenance of Braindecode.</p>
+        <p>Building the Yneuro x Inria Paris-Saclay collaboration to contribute to, sponsor, and maintain Braindecode.</p>
         <span class="opensource__item-footer">
           <span class="opensource__tags"><span>Library maintenance</span><span>Sponsorship</span><span>Neural decoding</span></span>
           <span class="opensource__mini-logos" aria-label="Braindecode stakeholders">
