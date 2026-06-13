@@ -12,7 +12,7 @@ author_profile: true
   <section class="cso-yneuro__section cso-yneuro__hero">
     <div class="cso-yneuro__hero-copy">
       <h2>About Yneuro</h2>
-      <p class="cso-yneuro__lede"><strong>Yneuro</strong> is a French deeptech startup based at <strong>Station F</strong>, developing a new authentication standard for <strong>B2B</strong> and <strong>B2B2C</strong> sectors. Our flagship technology, <strong>Neuro ID®</strong>, turns neural signals into a secure, privacy-preserving authentication layer for the next generation of head-wearables.</p>
+      <p class="cso-yneuro__lede"><strong>Yneuro</strong> is a French deeptech startup based at <strong>Station F</strong>, building <strong>Neuro ID®</strong>, the <strong>first neural authentication layer</strong> for B2B and B2B2C sectors. Our patented technology turns neural signals into a secure, privacy-preserving authentication standard for the next generation of head-wearables.</p>
       <p>As <strong>Founding Scientist</strong> and <strong>CSO</strong>, I connect research, product, and executive decisions: setting the R&amp;D roadmap, protecting the IP, managing the scientific team, and turning the science into systems that can be tested, trusted, and deployed. Beyond the product, I also push selected <a href="/open-source/">open-science initiatives</a> where shared tools, datasets, and benchmarks can move the field forward.</p>
     </div>
     <div class="cso-yneuro__snapshot" aria-label="Yneuro snapshot">
