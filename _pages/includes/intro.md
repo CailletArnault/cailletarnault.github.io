@@ -75,7 +75,7 @@ Alongside Yneuro, I am an **Honorary Research Officer** at <img src="/images/imp
 
   <section class="home-lane home-lane--engineering" aria-label="Scientific and Engineering foundations">
     <h3>Scientific and Engineering foundations</h3>
-    <article class="home-node home-node--cpge"><span>2013-2014</span><strong><img src="/images/Lycée_Henri-IV_logo.png" alt="Lycée Henri-IV" class="home-node__logo home-node__logo--compact"><img src="/images/Logo_Lycée_Louis-le-Grand.png" alt="Lycée Louis-le-Grand" class="home-node__logo home-node__logo--compact">Henri-IV → Louis-le-Grand</strong><p> MPSI, PSI*, maths, physics.</p></article>
+    <article class="home-node home-node--cpge"><span>2013-2014</span><strong><img src="/images/henri-iv-logo.png" alt="Lycée Henri-IV" class="home-node__logo home-node__logo--compact"><img src="/images/louis-le-grand-logo.png" alt="Lycée Louis-le-Grand" class="home-node__logo home-node__logo--compact">Henri-IV → Louis-le-Grand</strong><p> MPSI, PSI*, maths, physics.</p></article>
     <article class="home-node home-node--centrale"><span>2015-2018</span><strong><img src="/images/centrale_lyon_logo.png" alt="Centrale Lyon" class="home-node__logo">Ecole Centrale de Lyon</strong><p>MSc General Engineering.</p></article>
     <article class="home-node home-node--imperial-msc"><span>2017-2018</span><strong><img src="/images/imperial_logo.png" alt="Imperial College London" class="home-node__logo">Imperial College London</strong><p>MSc General Structural Engineering. Award of Excellence (Valedictorian).</p></article>
     <article class="home-node home-node--courses"><span>2020-</span><strong>Courses & self-teaching</strong><p>Scientific project management foundations, Git, machine learning, deep learning.</p></article>
@@ -115,7 +115,7 @@ Alongside Yneuro, I am an **Honorary Research Officer** at <img src="/images/imp
 ## Let's Collaborate!
 
 I like building with people who care about rigorous science, useful products, and clean execution. For academic collaborations, industrial partnerships, media coverage, or simply a good scientific discussion, reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136).
-For in-person chats, I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) in Paris. In the comming months, I'll be at VivaTech 2026 in Paris and EUSIPCO 2026 in Brussels. Let's meet! :)
+For in-person chats, I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) in Paris. In the coming months, I'll be at VivaTech 2026 in Paris and EUSIPCO 2026 in Brussels. Let's meet! :)
 <br><br>
 
 ## My philosophy
