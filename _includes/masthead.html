@@ -6,7 +6,14 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}#about-me" target="_self"></a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
+            {% assign link_path = link.url | split: "#" | first %}
+            {% assign active_link = false %}
+            {% if page.url == link_path or page.url == link.url %}
+              {% assign active_link = true %}
+            {% elsif page.url == "/" and link.url contains "#" %}
+              {% assign active_link = true %}
+            {% endif %}
+            <li class="masthead__menu-item{% if active_link %} masthead__menu-item--active{% endif %}"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

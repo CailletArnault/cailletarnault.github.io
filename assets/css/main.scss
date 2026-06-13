@@ -137,6 +137,66 @@ h1 {
   margin-top: 1em;
 }
 
+.profile_box .author__avatar img {
+  max-width: 145px;
+}
+
+.sidebar .author__name {
+  font-size: 1.35rem;
+  margin-top: 0.65rem;
+  margin-bottom: 0.45rem;
+}
+
+.profile_box .author__bio {
+  color: #4c535b;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  margin-bottom: 1.1rem;
+}
+
+.author__bio-secondary {
+  color: #626a73;
+  display: inline-block;
+  font-size: 0.92em;
+}
+
+.author__urls .author__urls-heading {
+  border-top: 1px solid #e8eaee;
+  color: #7b8794;
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  text-transform: uppercase;
+}
+
+.author__urls .author__urls-heading:first-of-type {
+  margin-top: 0.35rem;
+}
+
+.author__urls li {
+  line-height: 1.32;
+}
+
+.author__urls li a {
+  text-decoration: none;
+}
+
+.author__urls li a:hover {
+  color: #2b4a6f;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--active > a {
+  color: #2b4a6f;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--active > a::before {
+  background: #607b99;
+  transform: scaleX(1);
+}
+
 /* --- Homepage hub --- */
 .home-chrono {
   --label-col: 7.4rem;

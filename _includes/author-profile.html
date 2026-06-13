@@ -24,22 +24,13 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description and site.description != "" %}
-        <li><div style="white-space: normal; margin-bottom: 1em; text-align:center;">{{ site.description }}</div></li>
-      {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
-      {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
-      {% endif %}
+
+      <li class="author__urls-heading">Contact</li>
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
-      {% endif %}
-
-
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.linkedin %}
         {% assign linkedin_url = author.linkedin %}
@@ -47,7 +38,19 @@
           {% assign linkedin_url = "https://www.linkedin.com/in/" | append: author.linkedin %}
         {% endunless %}
         <li><a href="{{ linkedin_url }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-      {% endif %}    
+      {% endif %}
+      {% if author.twitter %}
+        {% assign twitter_url = author.twitter %}
+        {% unless author.twitter contains "http" %}
+          {% assign twitter_url = "https://x.com/" | append: author.twitter %}
+        {% endunless %}
+        <li><a href="{{ twitter_url }}"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i> X</a></li>
+      {% endif %}
+
+      <li class="author__urls-heading">Profiles</li>
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
@@ -58,7 +61,6 @@
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}      
       
-
       {% if author.imperial %}
         <li style="display: flex; align-items: center;">
           <a href="{{ author.imperial }}" style="display: flex; align-items: center; text-decoration: none;">
@@ -69,16 +71,6 @@
           </a>
         </li>
       {% endif %}
-
-      {% if author.twitter %}
-        {% assign twitter_url = author.twitter %}
-        {% unless author.twitter contains "http" %}
-          {% assign twitter_url = "https://x.com/" | append: author.twitter %}
-        {% endunless %}
-        <li><a href="{{ twitter_url }}"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i> X</a></li>
-      {% endif %}
-
-
 
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
