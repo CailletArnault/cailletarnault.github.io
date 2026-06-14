@@ -12,18 +12,18 @@ author_profile: true
   <section class="cso-yneuro__section cso-yneuro__hero">
     <div class="cso-yneuro__hero-copy">
       <h2>About Yneuro</h2>
-      <p class="cso-yneuro__lede"><strong>Yneuro</strong> is a French deeptech startup based at <strong>Station F</strong>, building <strong>Neuro ID®</strong>, the <strong>first neural authentication layer</strong> for B2B and B2B2C sectors. Our patented technology turns neural signals into a secure, privacy-preserving authentication standard for the next generation of head-wearables.</p>
-      <p>As <strong>Founding Scientist</strong> and <strong>CSO</strong>, I connect research, product, and executive decisions: setting the R&amp;D roadmap, protecting the IP, managing the scientific team, and turning the science into systems that can be tested, trusted, and deployed. Beyond the product, I also push selected <a href="/open-source/">open-science initiatives</a> where shared tools, datasets, and benchmarks can move the field forward.</p>
+      <p class="cso-yneuro__lede"><strong>Yneuro</strong> is a French deeptech startup based at <strong>Station F</strong>, building <strong>Neuro ID®</strong>, the first neural authentication solution for B2B and B2B2C sectors. Our patented technology is a new biometric standard that turns neural signals into a secure, privacy-preserving biometric layer for the next generation of head-wearables.</p>
+      <p>As <strong>Founding Scientist</strong> and <strong>CSO</strong>, I connect research, product, and executive decisions: setting the R&amp;D roadmap, protecting the IP, building and managing the scientific team, and turning the science into systems that can be tested, trusted, and deployed. Beyond the product, I also push with Yneuro selected <a href="/open-source/">open-science initiatives</a> where shared tools, datasets, and benchmarks can move the field forward.</p>
     </div>
     <div class="cso-yneuro__snapshot" aria-label="Yneuro snapshot">
       <div><strong>Neurotech + AI</strong><span>Secure neural authentication</span></div>
       <div><strong>Neuro ID®</strong><span>Patented core technology</span></div>
       <div><strong>Scientific R&amp;D</strong><span>EEG, ML, data, validation</span></div>
-      <div><strong>Station F, Paris</strong><span>Building beyond visible</span></div>
+      <div><strong>Station F, Paris</strong><span>French deeptech startup</span></div>
     </div>
   </section>
 
-  <section class="cso-yneuro__section">
+  <section class="cso-yneuro__section" id="role">
     <div class="cso-yneuro__section-head">
       <h2>My Role at Yneuro</h2>
     </div>
@@ -36,16 +36,16 @@ author_profile: true
       <div class="cso-role-card"><span>05</span><h3>Client Specs &amp; Validation</h3><p>Interface with clients and partners, translate requirements into scientific specifications, and define validation protocols for real-world use.</p></div>
       <div class="cso-role-card"><span>06</span><h3>IP Protection</h3><p>Identify patentable scientific and technical advances, structure invention disclosures, and work with counsel to protect the core Neuro ID® technology through <a href="/publications/">published and pending patents</a>.</p></div>
       <div class="cso-role-card"><span>07</span><h3>Neural Decoding Stack</h3><p>Lead work across EEG datasets, curation, preprocessing, domain adaptation, deep learning, foundation models, and authentication benchmarks, with selected outputs shared as <a href="/publications/">papers and demos</a>.</p></div>
-      <div class="cso-role-card"><span>08</span><h3>Technical contributor</h3><p>I closely collaborate with the team at the technical level, contributing to code, reviews, issues, and day-to-day implementation details across the R&amp;D stack.</p><a class="cso-github-inline" href="https://github.com/CailletArnault"><img src="https://ghchart.rshah.org/CailletArnault" alt="GitHub contributions"></a></div>
+      <div class="cso-role-card"><span>08</span><h3>Technical Collaborator</h3><p>I closely collaborate with the team at the technical level, contributing to code, reviews, issues, and day-to-day implementation details across the R&amp;D stack.</p><a class="cso-github-inline" href="https://github.com/CailletArnault"><img src="https://ghchart.rshah.org/CailletArnault" alt="GitHub contributions"></a></div>
       <div class="cso-role-card"><span>09</span><h3>Open Science Lead</h3><p>Push open datasets, libraries, infrastructure, and competitions that strengthen the broader ecosystem. See the <a href="/open-source/">Open Source</a> page.</p></div>
     </div>
 
   </section>
 
-  <section class="cso-yneuro__section cso-yneuro__team">
+  <section class="cso-yneuro__section cso-yneuro__team" id="team">
     <div class="cso-yneuro__section-head">
       <h2>Scientific Team</h2>
-      <p>I am lucky to manage and collaborate every day with a steadily growing team of exceptional scientists and engineers, whose expertise covers the full chain of end-to-end neural decoding: data engineering, curation, preprocessing, domain adaptation, machine learning for EEG, ML infrastructure, and product-grade scientific validation. Let's meet them!</p>
+      <p>I built and am now lucky to manage and collaborate every day with a steadily growing team of exceptional scientists and engineers, whose expertise covers the full chain of end-to-end neural decoding: data engineering, curation, preprocessing, domain adaptation, machine learning for EEG, ML infrastructure, and product-grade scientific validation. Let's meet them!</p>
     </div>
 
     <div class="cso-team-gallery">

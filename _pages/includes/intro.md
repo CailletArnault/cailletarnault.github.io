@@ -4,11 +4,19 @@
 
 # Who is Arnault?
 
-## My Current Activities
+## Current Activities
 
-I am the **Chief Scientific Officer** and **Founding Scientist** of **<img src="/images/yneuro_logo.png" alt="Yneuro" style="height:22px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**, where I lead the scientific R&D roadmap behind **[Neuro ID®](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, a proprietary neuro-biometric authentication technology. My role sits at the interface between research, product, IP, executive strategy, and the technical work of the R&D team.
+I am the **Chief Scientific Officer** and **Founding Scientist** of **<img src="/images/yneuro_logo.png" alt="Yneuro" style="height:17px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**, where I lead the scientific R&D roadmap behind **[Neuro ID®](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, our patented neuro-biometric authentication technology.<a class="home-inline-cta" href="/cso-yneuro/" target="_self">Learn more</a>
 
-Alongside Yneuro, I am an **Honorary Research Officer** at <img src="/images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)**, continuing work with the Neuromechanics and Rehabilitation Technology group on large-scale open-source initiatives, motor control, and motor unit physiology. I also maintain collaborations with <img src="/images/nantes_logo.png" alt="Université de Nantes" style="height:19px; vertical-align:middle; margin-left:-1px; margin-right:3px">**Université de Nantes** on neuromusculoskeletal modelling, muscle adaptation, and injury prevention.
+I am also an **Honorary Research Officer** at <img src="/images/imperial_logo.png" alt="Imperial College London" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:4px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)**, and maintain collaborations with <img src="/images/nantes_logo.png" alt="Université de Nantes" style="height:16px; vertical-align:middle; margin-left:-1px; margin-right:2px">Université de Nantes and <img src="/images/unsw_logo.png" alt="UNSW Sydney" style="height:21px; vertical-align:middle; margin-left:2px; margin-right:0px;">UNSW Sydney, for large-scale open-source synergies, high-density EMG, motor control, and neuromusculoskeletal modelling.<a class="home-inline-cta" href="/publications/" target="_self">Learn more</a>
+
+## My Philosophy
+
+Whether public or proprietary, I care about rigorous science that can be validated, tested, and used. At Yneuro, this means working with a [strong scientific team](/cso-yneuro/#team){: .home-quiet-link target="\_self" } around Neuro ID®, where we turn neural decoding into an ambitious product, including **demos** that have been [publicly tested](https://www.linkedin.com/posts/st%C3%A9phanie-obertin-7952677a_yneuro-nexus2025-yneuro-ugcPost-7341804939616108544-RK2X?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) by thousands and recognized with several **awards**.<a class="home-inline-cta" href="/awards/" target="_self">Learn more</a> Alongside that proprietary work, I keep the rest of my research contributions open through datasets, code, infrastructure, and community challenges. <a class="home-inline-cta" href="/open-/" target="_self">Learn more</a>
+
+## Let's Collaborate!
+
+I am always open to chat and happy to meet! For academic collaborations, industrial partnerships, media coverage, or simply a good scientific chat, reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136). For in-person chats, I am usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) in Paris. In the coming months, I will be at VivaTech 2026 in Paris and EUSIPCO 2026 in Brussels.
 
 <div class="home-nav-cards" aria-label="Explore the website">
   <a href="/cso-yneuro/" target="_self">
@@ -36,6 +44,8 @@ Alongside Yneuro, I am an **Honorary Research Officer** at <img src="/images/imp
 <hr class="home-section-divider">
 
 ## Snapshot of my Journey
+
+I have always wanted to do many things, and I've worked relentlessly to make them coexist. Too many passions to fit one single timeline! Today, I see myself as an entrepreneur, project manager, engineer & scientific researcher, mentor, and open-source advocate. I ground these in various experiences across France and the UK, and in many stretched hours stitching these threads together. Here is a snapshot of the journey so far, to be continued!
 
 <div class="home-chrono" aria-label="Parallel timeline of Arnault Caillet">
   <div class="home-chrono__years" aria-hidden="true">
@@ -111,16 +121,3 @@ Alongside Yneuro, I am an **Honorary Research Officer** at <img src="/images/imp
     });
   });
 </script>
-
-## Let's Collaborate!
-
-I like building with people who care about rigorous science, useful products, and clean execution. For academic collaborations, industrial partnerships, media coverage, or simply a good scientific discussion, reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136).
-For in-person chats, I’m usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) in Paris. In the coming months, I'll be at VivaTech 2026 in Paris and EUSIPCO 2026 in Brussels. Let's meet! :)
-<br><br>
-
-## My philosophy
-
-Whether public or proprietary, my priority is to make science that is solid, useful, and verifiable. At Yneuro, this means turning research into product, IP, public demos, and a strong scientific team around Neuro ID®. Our flagship **Neuro ID® demos** have been [publicly tested](https://www.linkedin.com/posts/st%C3%A9phanie-obertin-7952677a_yneuro-nexus2025-yneuro-ugcPost-7341804939616108544-RK2X?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) by over a thousand participants across major tech events, private showcases, and media coverage.
-
-Alongside that work, I keep pushing open science through datasets, code, infrastructure, and community challenges - see my [Open Source](/open-source/) page.
-<br><br>
