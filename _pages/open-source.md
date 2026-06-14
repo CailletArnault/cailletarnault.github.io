@@ -8,8 +8,8 @@ author_profile: true
 # Open Source
 
 <div class="opensource">
-  <p class="opensource__intro">I am an advocate for <strong>open science</strong>. During my academic journey, I <strong>contributed datasets and code</strong> around motoneuron electrophysiology, cross-session/task high-density surface EMG, motor unit physiology and activity, and neuromuscular modelling.</p>
-  <p class="opensource__intro">I now <strong>push open-science initiatives</strong> through my dual role as CSO of Yneuro and Honorary Research Officer at Imperial College London: developing and maintaining code libraries, organizing open competitions, and building bridges between academia and industry.</p>
+  <p class="opensource__intro">I am an advocate for <strong>open science</strong>. Through my academic journey, I <strong>directly contribute datasets and code</strong> around motoneuron electrophysiology, cross-session/task high-density surface EMG, motor unit physiology and activity, and neuromuscular modelling.</p>
+  <p class="opensource__intro">I also <strong>push open-science initiatives</strong> through my dual role as CSO of Yneuro and Honorary Research Officer at Imperial College London: developing and maintaining code libraries, organizing open competitions, and building bridges between academia and industry.</p>
    <p class="opensource__intro">I strongly believe that science progresses when academia and industry work hand in hand around shared tools, open benchmarks, and reusable resources on a large scale.</p>
 
   <nav class="opensource__verticals" aria-label="Open-source verticals">
