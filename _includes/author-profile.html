@@ -259,6 +259,11 @@
       {% if author.orcid %}
         <a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i></a>
       {% endif %}
+      {% if author.imperial %}
+        <a href="{{ author.imperial }}" aria-label="Imperial College London">
+          <img src="{{ '/images/imperial_logo.png' | relative_url }}" alt="" style="height:0.92em; width:auto; border-radius:0;">
+        </a>
+      {% endif %}
       {% if author.impactstory %}
         <a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i></a>
       {% endif %}
