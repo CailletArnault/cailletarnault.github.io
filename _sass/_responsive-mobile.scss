@@ -128,6 +128,19 @@
   }
 
   .page__content p,
+  .page__content li {
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .page__content .opensource__intro,
+  .page__content .awards__intro,
+  .page__content .supervision__intro,
+  .page__content .cso-yneuro__lede {
+    font-size: 0.92rem;
+  }
+
+  .page__content p,
   .page__content li,
   .page__content a,
   .page__content strong {
@@ -263,7 +276,11 @@
   }
 
   .home-lane {
+    background: transparent !important;
+    background-image: none !important;
     border-top: 1px solid #edf0f3;
+    display: flex;
+    flex-direction: column;
     padding: 0.95rem 0 0.45rem 1.45rem;
     position: relative;
   }
@@ -276,6 +293,7 @@
 
   .home-lane::before {
     background: linear-gradient(180deg, var(--lane-color, #607b99), rgba(96, 123, 153, 0.22));
+    background-image: linear-gradient(180deg, var(--lane-color, #607b99), rgba(96, 123, 153, 0.22)) !important;
     border-radius: 999px;
     bottom: 0.95rem;
     content: "";
@@ -287,14 +305,20 @@
   }
 
   .home-lane::after {
+    background: transparent !important;
+    background-image: none !important;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 7px solid var(--lane-color, #607b99);
     bottom: 0.65rem;
     content: "";
     display: block;
+    height: 0;
     left: calc(0.42rem - 4px);
     position: absolute;
+    right: auto;
+    top: auto;
+    width: 0;
   }
 
   .home-node {
@@ -313,7 +337,34 @@
   .home-lane--research { --lane-color: #1e5f91; }
   .home-lane--open { --lane-color: #8a620c; }
   .home-lane--engineering { --lane-color: #607b99; }
-  .home-lane--teaching { --lane-color: #7c5a21; }
+  .home-lane--teaching { --lane-color: #8a4f8d; }
+
+  .home-lane--industry .home-node--yneuro,
+  .home-lane--research .home-node--officer,
+  .home-lane--open .home-node--openpush,
+  .home-lane--engineering .home-node--courses,
+  .home-lane--teaching .home-node--phd-supervision { order: 1; }
+
+  .home-lane--industry .home-node--quadrature,
+  .home-lane--research .home-node--nantes,
+  .home-lane--open .home-node--publications,
+  .home-lane--engineering .home-node--imperial-msc,
+  .home-lane--teaching .home-node--msc-supervision { order: 2; }
+
+  .home-lane--industry .home-node--arep,
+  .home-lane--research .home-node--assoc,
+  .home-lane--engineering .home-node--centrale,
+  .home-lane--teaching .home-node--coach { order: 3; }
+
+  .home-lane--industry .home-node--startup,
+  .home-lane--research .home-node--phd,
+  .home-lane--engineering .home-node--cpge,
+  .home-lane--teaching .home-node--lecturer { order: 4; }
+
+  .home-lane--research .home-node--ra,
+  .home-lane--teaching .home-node--bde { order: 5; }
+
+  .home-lane--research .home-node--seftim { order: 6; }
 
   .supervision__verticals {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -419,6 +470,12 @@
   .opensource__item-footer,
   .opensource__mini-logos {
     flex-wrap: wrap;
+  }
+
+  .cso-role-card,
+  .cso-media__group,
+  .opensource__item {
+    background: #fbfcfd;
   }
 
   .opensource__preview {
@@ -629,8 +686,8 @@
   }
 
   .profile_box {
-    gap: 0.28rem 0.55rem;
-    grid-template-columns: 4.25rem minmax(0, 1fr) 3.35rem;
+    gap: 0.28rem 0.68rem;
+    grid-template-columns: 4.15rem minmax(0, 1fr) 4.05rem;
   }
 
   .profile_box .author__avatar {
@@ -658,6 +715,10 @@
     line-height: 1.22;
   }
 
+  .profile_box .author__bio-secondary {
+    font-size: 1em;
+  }
+
   .profile_box .author__urls-wrapper {
     align-self: center;
     grid-column: 3;
@@ -667,15 +728,15 @@
 
   .profile_box .author__urls_sm {
     display: grid;
-    gap: 0.28rem 0.3rem;
-    grid-template-columns: repeat(2, 1.12rem);
+    gap: 0.36rem 0.46rem;
+    grid-template-columns: repeat(2, 1.24rem);
     justify-content: end;
   }
 
   .profile_box .author__urls_sm a {
-    font-size: 0.78rem;
-    height: 1.12rem;
-    width: 1.12rem;
+    font-size: 0.84rem;
+    height: 1.24rem;
+    width: 1.24rem;
   }
 
   .profile_box .author__urls_sm img {
@@ -696,6 +757,31 @@
 
   .supervision__verticals {
     display: none;
+  }
+
+  .opensource__verticals {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .opensource__verticals a {
+    min-height: 4.25rem;
+    padding: 0.72rem 0.7rem;
+  }
+
+  .opensource__verticals a:nth-child(2n) {
+    border-left: 1px solid #eef0f3 !important;
+  }
+
+  .opensource__verticals a:nth-child(n + 3) {
+    border-top: 1px solid #eef0f3;
+  }
+
+  .opensource__verticals strong {
+    font-size: 0.95rem;
+  }
+
+  .opensource__verticals span {
+    font-size: 0.58rem;
   }
 
   .awards__stats {
@@ -724,14 +810,62 @@
     white-space: nowrap;
   }
 
+  .cso-role-grid {
+    gap: 0.55rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cso-role-card {
+    padding: 0.62rem 0.65rem;
+  }
+
+  .cso-role-card span {
+    font-size: 0.66rem;
+    margin-bottom: 0.32rem;
+  }
+
+  .page__content .cso-role-card h3 {
+    font-size: 0.78rem;
+  }
+
+  .page__content .cso-role-card p {
+    font-size: 0.66rem;
+    line-height: 1.35;
+  }
+
   .pubtrack__showcase {
     gap: 0.62rem;
-    grid-template-columns: minmax(7.6rem, 0.82fr) minmax(0, 1fr);
+    grid-template-columns: minmax(9.2rem, 1.18fr) minmax(0, 0.82fr);
   }
 
   .pubtrack__venues {
+    --venue-logo-height: 13px;
+    gap: 0.26rem 0.34rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-items: center;
+  }
+
+  .pubtrack__venue-logo {
+    height: 15px;
+  }
+
+  .pubtrack__venue-logo--compact img,
+  .pubtrack__venue-logo--quiet img {
+    height: 12px;
+    max-height: 12px;
+  }
+
+  .pubtrack__venue-logo--spotlight img,
+  .pubtrack__venue-logo--ncm img {
+    height: 17px;
+    max-height: 17px;
+  }
+
+  .pubtrack__venue-logo--featured img,
+  .pubtrack__venue-logo--plos img,
+  .pubtrack__venue-logo--square img {
+    height: 15px;
+    max-height: 15px;
   }
 
   .opensource__stakeholders {
@@ -755,6 +889,7 @@
   }
 
   .opensource__tracks a {
+    background: #fbfcfd;
     min-height: 0;
     padding: 0.48rem 0.55rem;
   }
@@ -773,12 +908,78 @@
     max-width: 3.2rem;
   }
 
+  .opensource__item-footer {
+    align-items: flex-start;
+    gap: 0.42rem;
+  }
+
+  .opensource__mini-logos {
+    flex-wrap: nowrap;
+    gap: 0.42rem;
+    width: 100%;
+  }
+
+  .opensource__mini-logos img {
+    flex: 0 1 auto;
+  }
+
+  .opensource__mini-logo--codabench { max-height: 0.92rem; max-width: 4.1rem; }
+  .opensource__mini-logo--yneuro { max-height: 0.9rem; max-width: 2.6rem; }
+  .opensource__mini-logo--paris-saclay { max-height: 0.9rem; max-width: 2.75rem; }
+  .opensource__mini-logo--aws { max-height: 0.82rem; max-width: 2.25rem; }
+  .opensource__mini-logos .opensource__mini-logo--deloitte { height: 0.5rem; max-height: 0.5rem; max-width: 2.45rem; }
+
   .pubtrack__filters {
     gap: 0.25rem 0.65rem;
   }
 
   .pubtrack__filter {
     font-size: 0.68rem;
+  }
+
+  .pubtrack__col {
+    padding: 3px 4px;
+  }
+
+  .pubtrack__cell,
+  .pubtrack__tick {
+    width: 9px;
+  }
+
+  .pubtrack__cell {
+    height: 9px;
+  }
+
+  .pubtrack__col-year {
+    font-size: 0.58rem;
+    white-space: nowrap;
+  }
+
+  .page__content .pubtrack__year-label {
+    font-size: 1.35rem;
+  }
+
+  .page__content .pubtrack__title {
+    font-size: 0.84rem;
+    line-height: 1.3;
+  }
+
+  .page__content .pubtrack__meta {
+    font-size: 0.66rem;
+  }
+
+  .page__content .pubtrack__authors {
+    font-size: 0.72rem;
+    line-height: 1.45;
+  }
+
+  .page__content .pubtrack__links {
+    font-size: 0.7rem;
+  }
+
+  .pubtrack__tag {
+    font-size: 0.58rem;
+    padding: 0.22rem 0.35rem;
   }
 
   .page__content .award-card {
@@ -789,16 +990,28 @@
     border-top: 1px solid #edf0f3;
   }
 
-  .awards__timeline::before,
-  .awards__timeline li::before {
-    display: none;
+  .awards__timeline::before {
+    bottom: 0.65rem;
+    display: block;
+    left: 0.38rem;
+    top: 0.7rem;
   }
 
   .page__content .awards__timeline li {
-    border-bottom: 1px solid #edf0f3;
-    display: block !important;
-    padding: 0.72rem 0;
+    border-bottom: 0;
+    display: grid !important;
+    gap: 0.62rem;
+    grid-template-columns: 3.1rem minmax(0, 1fr);
+    padding: 0.5rem 0 0.72rem 1.1rem;
     width: 100% !important;
+  }
+
+  .awards__timeline li::before {
+    display: block;
+    height: 0.58rem;
+    left: 0.06rem;
+    top: 0.86rem;
+    width: 0.58rem;
   }
 
   .awards__year {

@@ -21,15 +21,15 @@ I am always open to chat and happy to meet! For academic collaborations, industr
 <div class="home-nav-cards" aria-label="Explore the website">
   <a href="/cso-yneuro/" target="_self">
     <strong>CSO @ Yneuro</strong>
-    <span>Neuro ID®, scientific roadmap, team, media coverage, and company trajectory.</span>
+    <span>Neuro ID®, scientific roadmap, role, team, and media coverage.</span>
   </a>
   <a href="/publications/" target="_self">
     <strong>Publications</strong>
-    <span>Papers, patents, thesis, demos, abstracts, workshops, and talks.</span>
+    <span>Papers, patents, abstracts, demos, and workshops.</span>
   </a>
   <a href="/open-source/" target="_self">
     <strong>Open Source</strong>
-    <span>Datasets, code libraries, infrastructure, and open EEG/EMG challenges.</span>
+    <span>Shared datasets, code libraries, and open EEG/EMG challenges.</span>
   </a>
   <a href="/awards/" target="_self">
     <strong>Awards</strong>
