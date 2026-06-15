@@ -2441,8 +2441,6 @@ $pub-demo: #c44b38;
   font-weight: 400;
 }
 
-@import "responsive-mobile";
-
 @media (prefers-reduced-motion: reduce) {
   .pubtrack__stack,
   .pubtrack__cell,
