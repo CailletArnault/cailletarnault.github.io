@@ -8,7 +8,7 @@ author_profile: true
 # Supervision & Teaching
 
 <p class="supervision__intro">
-My supervision and teaching work sits at the interface between academic research, engineering foundations, and applied technical systems. The goal is to help students and collaborators turn complex biological signals, models, and datasets into rigorous, reproducible, and useful work.
+I have been supervising, teaching, and mentoring students since 2016, including PhD & MSc supervision.
 </p>
 
 <div class="supervision">
@@ -42,7 +42,7 @@ My supervision and teaching work sits at the interface between academic research
     <div class="supervision__grid">
       <article class="supervision-card">
         <span>2024-</span>
-        <h3>PhD Co-supervisor</h3>
+        <h3>PhD Supervisor</h3>
         <p><img src="/images/imperial_logo.png" alt="Imperial College London" class="supervision__inline-logo">Imperial College London.</p>
       </article>
 

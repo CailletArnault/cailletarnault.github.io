@@ -759,6 +759,7 @@ h1 {
 }
 
 .supervision-card {
+  background: linear-gradient(180deg, #fff 0%, #fbfcfd 100%);
   border: 1px solid #e6e9ed;
   border-radius: 8px;
   padding: 0.78rem 0.85rem;
@@ -991,6 +992,7 @@ h1 {
 }
 
 .cso-role-card {
+  background: linear-gradient(180deg, #fff 0%, #fbfcfd 100%);
   border: 1px solid #e6e9ed;
   border-radius: 8px;
   padding: 0.8rem 0.85rem;
@@ -1098,6 +1100,7 @@ h1 {
 }
 
 .cso-media__group {
+  background: linear-gradient(180deg, #fff 0%, #fbfcfd 100%);
   border: 1px solid #e6e9ed;
   border-radius: 8px;
   padding: 0.85rem;
@@ -1820,7 +1823,7 @@ h1 {
 }
 
 .opensource__item {
-  background: #fff;
+  background: linear-gradient(180deg, #fff 0%, #fbfcfd 100%);
   border: 1px solid #e6e9ed;
   border-radius: 8px;
   color: inherit;
@@ -1983,14 +1986,14 @@ $pub-demo: #c44b38;
 .pubtrack__showcase {
   align-items: center;
   display: flex;
-  gap: clamp(2.6rem, 6vw, 5.2rem);
+  gap: clamp(1.6rem, 4vw, 3.6rem);
   justify-content: space-between;
   margin-bottom: 1.55rem;
 }
 
 .pubtrack__chart-wrap {
   flex: 0 0 auto;
-  margin-left: clamp(0.8rem, 2vw, 2.2rem);
+  margin-left: clamp(0.45rem, 1.4vw, 1.45rem);
 }
 
 .pubtrack__chart {
