@@ -9,6 +9,8 @@ redirect_from:
 
 # Publications
 
+I actively share my research across peer-reviewed journal and conference papers, patents, abstracts, workshops, and demos. I contribute as first author, collaborator, and PI across several research domains mostly linked to EEG/EMG.
+
 {% assign pubs = site.data.publications %}
 {% assign n_patent = pubs | where: "type", "patent" | size %}
 {% assign n_journal = pubs | where: "type", "journal" | size %}
