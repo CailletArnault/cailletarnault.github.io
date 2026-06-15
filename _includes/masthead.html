@@ -18,6 +18,18 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <nav class="mobile-site-nav hidden" aria-label="Mobile primary navigation">
+        {% for link in site.data.navigation.main %}
+          {% assign link_path = link.url | split: "#" | first %}
+          {% assign active_link = false %}
+          {% if page.url == link_path or page.url == link.url %}
+            {% assign active_link = true %}
+          {% elsif page.url == "/" and link.url contains "#" %}
+            {% assign active_link = true %}
+          {% endif %}
+          <a class="{% if active_link %}is-active{% endif %}" href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
     </div>
   </div>
 </div>
