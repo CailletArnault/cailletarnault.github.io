@@ -24,7 +24,7 @@ author_profile: true
       <span class="opensource__section-index">01</span>
       <div>
         <h2>Open Challenges</h2>
-        <p>I co-lead with <a href="https://bruaristimunha.github.io/">Bruno Aristimunha</a> the organization of the <a href="https://neural-interfaces26.github.io/">EEG/EMG Foundation Challenge 2026</a>. The competition connects academic labs, open-source infrastructure, and industry research teams around EEG/EMG foundation models and domain shifts across subjects, sessions, emotions, context, and hardware. <strong>Yneuro</strong> is the lead organizer in collaboration with <strong>Inria</strong>, <strong>UCSD</strong>, and <strong>Meta</strong>, backed by <strong>AWS</strong>, with four tracks:</p>
+        <p>I co-lead with <a href="https://bruaristimunha.github.io/">Bruno Aristimunha</a> the organization of the <a href="https://neural-interfaces26.github.io/">EEG/EMG Foundation Challenge 2026</a>. The competition connects academic labs, open-source infrastructure, and industry research teams around EEG/EMG foundation models and domain shifts across subjects, sessions, emotions, context, and hardware. <strong>Yneuro</strong> is the lead organizer in collaboration with <strong>Inria</strong>, <strong>UCSD</strong>, and <strong>Meta</strong>, backed by <strong>AWS</strong>, with five tracks:</p>
       </div>
     </div>
 
@@ -36,6 +36,7 @@ author_profile: true
             <a href="https://neural-interfaces26.github.io/leaderboard.html#track-2"><strong>Track 2 - BCI Decoding</strong><small>Inria LaBRI</small></a>
             <a href="https://neural-interfaces26.github.io/leaderboard.html#track-3"><strong>Track 3 - EEG to Sleep Onset</strong><small>InteraXon Inc.</small></a>
             <a href="https://neural-interfaces26.github.io/leaderboard.html#track-4"><strong>Track 4 - EMG-to-Text</strong><small>Meta Reality Labs + Imperial</small></a>
+            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-5"><strong>Track 5 - Foundation Transfer</strong><small>Yneuro</small></a>
           </div>
 
           <div class="opensource__stakeholders" aria-label="Competition stakeholders">
@@ -172,17 +173,17 @@ author_profile: true
 
     <div class="opensource__items opensource__items--compact">
       <a class="opensource__item" href="https://figshare.com/articles/dataset/24640944/1">
-        <h3>High-Density EMG Dataset, 16 participants</h3>
-        <p>Signals and manually edited spike trains from two muscles, with 2000+ identified motor units.</p>
+        <h3>High-Density EMG Dataset II</h3>
+        <p>Signals and manually edited spike trains from 2 muscles, 16 participants, 8 contractions levels, 1 session, with 2000+ identified motor units.</p>
       </a>
 
       <a class="opensource__item" href="https://doi.org/10.6084/m9.figshare.22149287">
-        <h3>High-Density EMG Dataset, 6 participants</h3>
-        <p>Signals and manually edited spike trains from one muscle, with 500+ identified motor units.</p>
+        <h3>High-Density EMG Dataset I</h3>
+        <p>Signals and manually edited spike trains from 1 muscle, 6 participants, 2 contraction levels, 1 session, with 500+ identified motor units.</p>
       </a>
 
       <a class="opensource__item" href="https://zenodo.org/records/10069266">
-        <h3>Medical Imaging &amp; Musculoskeletal Model Dataset</h3>
+        <h3>Medical Imaging &amp; MSK Model Dataset</h3>
         <p>Segmented anatomical volumes and subject-specific musculoskeletal models for neuromuscular simulations.</p>
       </a>
 

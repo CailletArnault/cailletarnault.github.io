@@ -155,9 +155,48 @@ h1 {
 }
 
 .author__bio-secondary {
-  color: #626a73;
+  color: inherit;
   display: inline-block;
-  font-size: 0.92em;
+  font-size: inherit;
+}
+
+.masthead__menu {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.greedy-nav,
+.mobile-site-nav {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.site-view-toggle {
+  display: none;
+  background: #f8fafc;
+  border: 1px solid #dde4eb;
+  border-radius: 999px;
+  color: #607080;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: inherit;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0.5rem 0.72rem;
+  text-transform: uppercase;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+  white-space: nowrap;
+}
+
+.site-view-toggle:hover,
+.site-view-toggle:focus {
+  background: #eef4f8;
+  border-color: #c9d5df;
+  color: #2b4a6f;
+  outline: none;
+  transform: translateY(-1px);
 }
 
 .author__urls .author__urls-heading {
@@ -799,6 +838,15 @@ h1 {
   height: 0.95rem;
 }
 
+.supervision__inline-logo--cea {
+  height: 0.82rem;
+}
+
+.supervision__inline-logo--yneuro {
+  height: 0.74rem;
+  vertical-align: -0.08rem;
+}
+
 .supervision__timeline {
   list-style: none;
   margin: 0 0 0 3.45rem;
@@ -1044,6 +1092,7 @@ h1 {
 
 .page__content .cso-awards-strip a {
   align-items: center;
+  background: linear-gradient(180deg, #fff 0%, #fbfcfd 100%);
   border: 1px solid #e6e9ed;
   border-radius: 8px;
   color: inherit;
@@ -1699,7 +1748,7 @@ h1 {
 }
 
 .opensource__challenge-main {
-  align-items: stretch;
+  align-items: center;
   display: grid;
   gap: clamp(1.1rem, 2.6vw, 2rem);
   grid-template-columns: minmax(0, 1fr) minmax(17rem, 0.74fr);
@@ -1712,21 +1761,15 @@ h1 {
 }
 
 .opensource__visual {
-  background: #fff;
-  border: 1px solid #e5e8ed;
-  border-radius: 8px;
   display: block;
-  justify-self: end;
+  justify-self: center;
   max-width: 470px;
-  overflow: hidden;
   text-decoration: none;
-  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+  transition: transform 160ms ease;
 }
 
 .opensource__visual:hover,
 .opensource__visual:focus {
-  border-color: rgba(43, 74, 111, 0.24);
-  box-shadow: 0 12px 28px rgba(32, 43, 57, 0.09);
   transform: translateY(-1px);
 }
 

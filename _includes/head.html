@@ -10,6 +10,23 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+<script>
+  (function () {
+    var mode;
+    try {
+      mode = window.localStorage.getItem("arnault-site-view-mode");
+    } catch (error) {
+      mode = null;
+    }
+    if (mode === "mobile" || mode === "desktop") {
+      document.documentElement.className += " view-mode-" + mode + " ";
+    }
+    if (mode === "desktop") {
+      var viewport = document.querySelector('meta[name="viewport"]');
+      if (viewport) viewport.setAttribute("content", "width=1180");
+    }
+  }());
+</script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">

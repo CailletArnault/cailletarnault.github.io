@@ -5,7 +5,7 @@
    remains easy to reason about in assets/css/main.scss.
    ========================================================================== */
 
-@include breakpoint(max-width 48em) {
+@mixin responsive-mobile-base {
   html,
   body {
     max-width: 100%;
@@ -176,6 +176,13 @@
     padding: 0.42rem 0.6rem;
   }
 
+  .masthead__menu {
+    align-items: center;
+    display: grid;
+    gap: 0.45rem;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
   .greedy-nav {
     display: none;
   }
@@ -189,7 +196,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 0.2rem;
-    padding-right: 1.15rem;
+    padding-right: 0.15rem;
     scrollbar-width: none;
     touch-action: pan-x;
     visibility: visible !important;
@@ -225,6 +232,14 @@
     left: 0;
     position: absolute;
     right: 0;
+  }
+
+  .site-view-toggle {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 0.56rem;
+    padding: 0.42rem 0.5rem;
   }
 
   .home-nav-cards {
@@ -297,16 +312,18 @@
   }
 
   .home-lane::before {
-    background: linear-gradient(180deg, var(--lane-color, #607b99), rgba(96, 123, 153, 0.22));
-    background-image: linear-gradient(180deg, var(--lane-color, #607b99), rgba(96, 123, 153, 0.22)) !important;
+    background: var(--lane-color, #607b99);
+    background-image: none !important;
     border-radius: 999px;
     bottom: 0.72rem;
     content: "";
     display: block;
     left: 0.42rem;
+    opacity: 0.5;
     position: absolute;
     top: 2.8rem;
     width: 2px;
+    z-index: 0;
   }
 
   .home-lane::after {
@@ -325,6 +342,7 @@
     right: auto;
     top: 2.38rem;
     width: 0;
+    z-index: 0;
   }
 
   .home-node {
@@ -336,7 +354,9 @@
     margin: 0 0 0.44rem;
     min-width: 0;
     padding: 0.68rem 0.74rem;
+    position: relative;
     width: 100%;
+    z-index: 1;
   }
 
   .home-lane--industry { --lane-color: #0f766e; }
@@ -499,6 +519,10 @@
     background: #fbfcfd;
   }
 
+  #open-infrastructure .opensource__item {
+    background: #fff;
+  }
+
   .opensource__preview {
     display: none !important;
   }
@@ -575,6 +599,7 @@
   }
 
   .pubtrack__chart-wrap {
+    justify-self: end;
     margin-left: 0;
   }
 
@@ -586,6 +611,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: none;
     justify-items: start;
+    justify-self: start;
     max-width: 100%;
     min-height: 0;
     width: 100%;
@@ -597,14 +623,19 @@
     height: 20px;
     justify-self: center;
     left: auto;
+    min-width: 0;
+    overflow: hidden;
     position: static;
     top: auto;
     transform: none;
+    width: 100%;
   }
 
   .pubtrack__venue-logo img {
     height: var(--venue-logo-height);
     max-height: var(--venue-logo-height);
+    max-width: 100%;
+    object-fit: contain;
   }
 
   .pubtrack__venue-logo--compact img {
@@ -675,7 +706,11 @@
   }
 }
 
-@media (max-width: 34em) {
+@include breakpoint(max-width 48em) {
+  @include responsive-mobile-base;
+}
+
+@mixin responsive-mobile-small {
   #main {
     box-sizing: border-box;
     max-width: 100%;
@@ -855,38 +890,64 @@
   }
 
   .pubtrack__showcase {
-    gap: 0.28rem;
-    grid-template-columns: minmax(9.8rem, 1.16fr) minmax(0, 0.84fr);
+    gap: 0.12rem;
+    grid-template-columns: 7.85rem minmax(0, 1fr);
   }
 
   .pubtrack__venues {
-    --venue-logo-height: 13px;
-    gap: 0.24rem 0.25rem;
+    --venue-logo-height: 12px;
+    gap: 0.18rem 0.18rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    justify-items: start;
+    justify-items: center;
   }
 
   .pubtrack__venue-logo {
-    height: 15px;
+    height: 14px;
   }
 
   .pubtrack__venue-logo--compact img,
   .pubtrack__venue-logo--quiet img {
-    height: 12px;
-    max-height: 12px;
+    height: 11px;
+    max-height: 11px;
   }
 
   .pubtrack__venue-logo--spotlight img,
   .pubtrack__venue-logo--ncm img {
-    height: 17px;
-    max-height: 17px;
+    height: 15px;
+    max-height: 15px;
   }
 
   .pubtrack__venue-logo--featured img,
   .pubtrack__venue-logo--plos img,
   .pubtrack__venue-logo--square img {
-    height: 15px;
+    height: 13px;
+    max-height: 13px;
+  }
+
+  .pubtrack__venue-logo img {
+    height: auto !important;
+    max-width: 100%;
+    width: auto !important;
+  }
+
+  .pubtrack__venue-logo--compact img,
+  .pubtrack__venue-logo--quiet img {
+    max-height: 11px;
+  }
+
+  .pubtrack__venue-logo--spotlight img,
+  .pubtrack__venue-logo--ncm img {
     max-height: 15px;
+  }
+
+  .pubtrack__venue-logo--featured img,
+  .pubtrack__venue-logo--plos img,
+  .pubtrack__venue-logo--square img {
+    max-height: 13px;
+  }
+
+  .pubtrack__tick {
+    white-space: nowrap;
   }
 
   .opensource__stakeholders {
@@ -959,16 +1020,16 @@
   }
 
   .pubtrack__col {
-    padding: 3px 4px;
+    padding: 3px 3px;
   }
 
   .pubtrack__cell,
   .pubtrack__tick {
-    width: 9px;
+    width: 8px;
   }
 
   .pubtrack__cell {
-    height: 9px;
+    height: 8px;
   }
 
   .pubtrack__col-year {
@@ -1048,4 +1109,28 @@
   .page__content .awards__timeline span:not(.awards__year) {
     font-size: 0.8rem;
   }
+}
+
+@media (max-width: 34em) {
+  @include responsive-mobile-small;
+}
+
+html.view-mode-mobile {
+  background: #f3f6f8;
+}
+
+html.view-mode-mobile {
+  @include responsive-mobile-base;
+  @include responsive-mobile-small;
+}
+
+html.view-mode-mobile body {
+  background: #fff;
+  box-shadow: 0 0 40px rgba(32, 43, 57, 0.12);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 430px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
 }

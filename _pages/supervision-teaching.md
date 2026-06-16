@@ -41,6 +41,12 @@ I have been supervising, teaching, and mentoring students since 2016, including 
 
     <div class="supervision__grid">
       <article class="supervision-card">
+        <span>2026-</span>
+        <h3>PhD Supervisor</h3>
+        <p><img src="/images/cea-logo.png" alt="CEA" class="supervision__inline-logo supervision__inline-logo--cea">CEA x <img src="/images/yneuro_logo.png" alt="Yneuro" class="supervision__inline-logo supervision__inline-logo--yneuro">Yneuro, CIFRE PhD.</p>
+      </article>
+
+      <article class="supervision-card">
         <span>2024-</span>
         <h3>PhD Supervisor</h3>
         <p><img src="/images/imperial_logo.png" alt="Imperial College London" class="supervision__inline-logo">Imperial College London.</p>
