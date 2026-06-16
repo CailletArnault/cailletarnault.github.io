@@ -297,12 +297,10 @@
 
   .home-lane {
     background-color: transparent !important;
-    background-image:
-      linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)),
-      linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)) !important;
-    background-position: 0.42rem 3.35rem, 0 0 !important;
+    background-image: linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)) !important;
+    background-position: 0.42rem 3.35rem !important;
     background-repeat: no-repeat !important;
-    background-size: 2px calc(100% - 4.07rem), 100% 0.34rem !important;
+    background-size: 2px calc(100% - 4.07rem) !important;
     border-top: 0;
     display: flex;
     flex-direction: column;
