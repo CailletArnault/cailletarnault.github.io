@@ -52,10 +52,10 @@ I have been supervising, teaching, and mentoring students since 2016, including 
         <p><img src="/images/imperial_logo.png" alt="Imperial College London" class="supervision__inline-logo">Imperial College London.</p>
       </article>
 
-      <article class="supervision-card">
+      <article class="supervision-card" data-href="https://www.linkedin.com/feed/update/urn:li:activity:7409185227580796929/" data-target="_blank" role="link" tabindex="0">
         <span>2023-2025</span>
         <h3>PhD Supervisor</h3>
-        <p>Dr. Titouan Morin, <em>Quantification of internal muscular training load: toward prediction and optimization of muscular adaptations</em>, <img src="/images/nantes_logo.png" alt="Université de Nantes" class="supervision__inline-logo supervision__inline-logo--nantes">Université de Nantes.</p>
+        <p>Dr. Titouan Morin, <a href="https://theses.fr/2025NANU1017"><em>Quantification of internal muscular training load: toward prediction and optimization of muscular adaptations</em></a>, <img src="/images/nantes_logo.png" alt="Université de Nantes" class="supervision__inline-logo supervision__inline-logo--nantes">Université de Nantes.</p>
       </article>
 
       <article class="supervision-card">

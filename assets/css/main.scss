@@ -810,6 +810,19 @@ html.mobile-interface .site-view-toggle {
   padding: 0.78rem 0.85rem;
 }
 
+.supervision-card[data-href] {
+  cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.supervision-card[data-href]:hover,
+.supervision-card[data-href]:focus-visible {
+  border-color: rgba(43, 74, 111, 0.28);
+  box-shadow: 0 10px 24px rgba(32, 43, 57, 0.08);
+  outline: none;
+  transform: translateY(-1px);
+}
+
 .supervision-card > span {
   color: #7d8995;
   display: block;

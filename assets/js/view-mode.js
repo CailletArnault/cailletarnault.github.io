@@ -81,6 +81,25 @@
     });
   }
 
+  function initLinkedCards() {
+    document.querySelectorAll(".supervision-card[data-href]").forEach(function (card) {
+      function visit() {
+        window.open(card.dataset.href, card.dataset.target || "_self");
+      }
+
+      card.addEventListener("click", function (event) {
+        if (event.target.closest("a")) return;
+        visit();
+      });
+
+      card.addEventListener("keydown", function (event) {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        visit();
+      });
+    });
+  }
+
   if (toggle) {
     toggle.addEventListener("click", function () {
       if (!isMobileInterface()) return;
@@ -118,4 +137,5 @@
   applyMode(isMobileInterface() ? storedMode() : null);
   updateToggle();
   keepInternalLinksInTab();
+  initLinkedCards();
 }());
