@@ -298,24 +298,36 @@
   .home-lane {
     background-color: transparent !important;
     background-image: linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)) !important;
-    background-position: 0.42rem 3.35rem !important;
+    background-position: 0.42rem 3.85rem !important;
     background-repeat: no-repeat !important;
-    background-size: 2px calc(100% - 4.07rem) !important;
+    background-size: 2px calc(100% - 4.57rem) !important;
     border-top: 0;
     display: flex;
     flex-direction: column;
-    padding: 1.02rem 0 0.2rem 1.45rem;
+    padding: 1.55rem 0 0.2rem 1.45rem;
     position: relative;
   }
 
   .page__content .home-lane h3 {
     color: var(--lane-color, #607b99);
-    margin: 0 0 0.7rem;
+    margin: 0 0 0.72rem;
     padding-top: 0;
+    position: relative;
+    z-index: 1;
   }
 
   .page__content .home-lane h3::before {
-    display: none;
+    background: var(--lane-color, #607b99);
+    border-radius: 0 0 3px 3px;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 0.42rem) 100%, 0.42rem 100%);
+    content: "";
+    display: block;
+    height: 0.34rem;
+    left: -1.45rem;
+    position: absolute;
+    right: 0;
+    top: -1.02rem;
+    z-index: -1;
   }
 
   .home-lane::before {
@@ -347,7 +359,7 @@
     left: calc(0.42rem - 4px);
     position: absolute;
     right: auto;
-    top: 2.93rem;
+    top: 3.43rem;
     width: 0;
     z-index: 0;
   }
