@@ -297,14 +297,16 @@
 
   .home-lane {
     background-color: transparent !important;
-    background-image: linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)) !important;
-    background-position: 0.42rem 2.8rem !important;
+    background-image:
+      linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)),
+      linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)) !important;
+    background-position: 0.42rem 3.35rem, 0 0 !important;
     background-repeat: no-repeat !important;
-    background-size: 2px calc(100% - 3.52rem) !important;
-    border-top: 1px solid #edf0f3;
+    background-size: 2px calc(100% - 4.07rem), 100% 0.34rem !important;
+    border-top: 0;
     display: flex;
     flex-direction: column;
-    padding: 0.85rem 0 0.2rem 1.45rem;
+    padding: 1.02rem 0 0.2rem 1.45rem;
     position: relative;
   }
 
@@ -315,18 +317,22 @@
   }
 
   .page__content .home-lane h3::before {
-    background: var(--lane-color, #607b99);
-    border-radius: 999px;
-    content: "";
-    display: block;
-    height: 0.34rem;
-    margin: 0 0 0.7rem -1.45rem;
-    opacity: 0.96;
-    width: calc(100% + 1.45rem);
+    display: none;
   }
 
   .home-lane::before {
-    display: none !important;
+    border-left: 0.42rem solid transparent;
+    border-right: 0.42rem solid transparent;
+    border-top: 0.34rem solid var(--lane-color, #607b99);
+    content: "";
+    display: block !important;
+    height: 0;
+    left: 0;
+    opacity: 0.96;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
   }
 
   .home-lane::after {
@@ -343,7 +349,7 @@
     left: calc(0.42rem - 4px);
     position: absolute;
     right: auto;
-    top: 2.38rem;
+    top: 2.93rem;
     width: 0;
     z-index: 0;
   }
@@ -362,21 +368,24 @@
     z-index: 1;
   }
 
-  .home-node strong {
-    font-size: 0.86rem;
+  .page__content .home-chrono .home-node strong {
+    font-size: 0.84rem !important;
     line-height: 1.18;
   }
 
-  .page__content .home-node p {
-    font-size: 0.62rem;
-    line-height: 1.34;
+  .page__content .home-chrono .home-node p {
+    display: block !important;
+    font-size: 0.58rem !important;
+    line-height: 1.3 !important;
+    margin-top: 0.24rem !important;
+    width: auto !important;
   }
 
-  .home-node--seftim strong,
-  .home-node--mthesis strong,
-  .home-node--startup strong,
-  .home-node--arep strong {
-    font-size: 0.78rem;
+  .page__content .home-chrono .home-node--seftim strong,
+  .page__content .home-chrono .home-node--mthesis strong,
+  .page__content .home-chrono .home-node--startup strong,
+  .page__content .home-chrono .home-node--arep strong {
+    font-size: 0.72rem !important;
   }
 
   .home-lane--industry { --lane-color: #0f766e; }
