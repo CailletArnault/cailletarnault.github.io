@@ -199,6 +199,12 @@ h1 {
   transform: translateY(-1px);
 }
 
+html.mobile-interface .site-view-toggle {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
 .author__urls .author__urls-heading {
   border-top: 1px solid #e8eaee;
   color: #7b8794;

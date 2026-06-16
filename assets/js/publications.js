@@ -23,9 +23,51 @@
       return tag === "all" || tags.indexOf(" " + tag + " ") !== -1;
     }
 
+    function entryHasType(el, type) {
+      return type === "all" || el.getAttribute("data-type") === type;
+    }
+
+    function countVisibleEntries(matchFn) {
+      var count = 0;
+      entries.forEach(function (el) {
+        if (!el.hidden && matchFn(el)) {
+          count += 1;
+        }
+      });
+      return count;
+    }
+
+    function setButtonCount(button, count) {
+      var countEl = button.querySelector(".pubtrack__count");
+      if (countEl) countEl.textContent = count;
+    }
+
+    function updateCounts() {
+      typeFilters.forEach(function (b) {
+        var type = b.getAttribute("data-filter");
+        setButtonCount(b, countVisibleEntries(function (el) {
+          return entryHasType(el, type);
+        }));
+      });
+
+      authorFilters.forEach(function (b) {
+        var role = b.getAttribute("data-author-filter");
+        setButtonCount(b, countVisibleEntries(function (el) {
+          return entryHasAuthorRole(el, role);
+        }));
+      });
+
+      tagFilters.forEach(function (b) {
+        var tag = b.getAttribute("data-tag-filter");
+        setButtonCount(b, countVisibleEntries(function (el) {
+          return entryHasTag(el, tag);
+        }));
+      });
+    }
+
     function apply() {
       entries.forEach(function (el) {
-        var typeMatch = activeType === "all" || el.getAttribute("data-type") === activeType;
+        var typeMatch = entryHasType(el, activeType);
         var authorMatch = entryHasAuthorRole(el, activeAuthor);
         var tagMatch = entryHasTag(el, activeTag);
         var show = typeMatch && authorMatch && tagMatch;
@@ -59,6 +101,8 @@
         b.classList.toggle("is-active", on);
         b.setAttribute("aria-pressed", on ? "true" : "false");
       });
+
+      updateCounts();
     }
 
     typeFilters.forEach(function (b) {
@@ -81,6 +125,8 @@
         apply();
       });
     });
+
+    apply();
   }
 
   function ready(fn) {

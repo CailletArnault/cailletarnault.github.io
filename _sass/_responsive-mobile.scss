@@ -296,8 +296,11 @@
   }
 
   .home-lane {
-    background: transparent !important;
-    background-image: none !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(var(--lane-color, #607b99), var(--lane-color, #607b99)) !important;
+    background-position: 0.42rem 2.8rem !important;
+    background-repeat: no-repeat !important;
+    background-size: 2px calc(100% - 3.52rem) !important;
     border-top: 1px solid #edf0f3;
     display: flex;
     flex-direction: column;
@@ -312,18 +315,7 @@
   }
 
   .home-lane::before {
-    background: var(--lane-color, #607b99);
-    background-image: none !important;
-    border-radius: 999px;
-    bottom: 0.72rem;
-    content: "";
-    display: block;
-    left: 0.42rem;
-    opacity: 0.5;
-    position: absolute;
-    top: 2.8rem;
-    width: 2px;
-    z-index: 0;
+    display: none !important;
   }
 
   .home-lane::after {

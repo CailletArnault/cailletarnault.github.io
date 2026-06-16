@@ -4,8 +4,18 @@
   var viewport = document.querySelector('meta[name="viewport"]');
   var toggle = document.querySelector("[data-view-toggle]");
   var mobileQuery = window.matchMedia("(max-width: 48em)");
+  var mobileInterfaceQuery = window.matchMedia("(hover: none) and (pointer: coarse)");
   var desktopViewport = "width=1180";
   var mobileViewport = "width=device-width, initial-scale=1.0";
+
+  function isMobileInterface() {
+    var screenSize = window.screen ? Math.min(window.screen.width || 9999, window.screen.height || 9999) : 9999;
+    return mobileInterfaceQuery.matches || screenSize <= 768;
+  }
+
+  function updateInterfaceClass() {
+    root.classList.toggle("mobile-interface", isMobileInterface());
+  }
 
   function storedMode() {
     try {
@@ -37,7 +47,7 @@
   }
 
   function effectiveMode() {
-    if (!mobileQuery.matches) return "desktop";
+    if (!isMobileInterface()) return "desktop";
     var mode = storedMode();
     if (mode === "mobile" || mode === "desktop") return mode;
     return "mobile";
@@ -73,27 +83,39 @@
 
   if (toggle) {
     toggle.addEventListener("click", function () {
-      if (!mobileQuery.matches) return;
+      if (!isMobileInterface()) return;
       var nextMode = effectiveMode() === "mobile" ? "desktop" : "mobile";
       saveMode(nextMode);
       applyMode(nextMode);
+      updateInterfaceClass();
       updateToggle();
     });
   }
 
   if (mobileQuery.addEventListener) {
     mobileQuery.addEventListener("change", function () {
-      applyMode(mobileQuery.matches ? storedMode() : null);
+      updateInterfaceClass();
+      applyMode(isMobileInterface() ? storedMode() : null);
       updateToggle();
     });
   } else if (mobileQuery.addListener) {
     mobileQuery.addListener(function () {
-      applyMode(mobileQuery.matches ? storedMode() : null);
+      updateInterfaceClass();
+      applyMode(isMobileInterface() ? storedMode() : null);
       updateToggle();
     });
   }
 
-  applyMode(mobileQuery.matches ? storedMode() : null);
+  if (mobileInterfaceQuery.addEventListener) {
+    mobileInterfaceQuery.addEventListener("change", function () {
+      updateInterfaceClass();
+      applyMode(isMobileInterface() ? storedMode() : null);
+      updateToggle();
+    });
+  }
+
+  updateInterfaceClass();
+  applyMode(isMobileInterface() ? storedMode() : null);
   updateToggle();
   keepInternalLinksInTab();
 }());
