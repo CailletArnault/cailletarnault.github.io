@@ -310,9 +310,11 @@
 
   .page__content .home-lane h3 {
     color: var(--lane-color, #607b99);
+    display: block;
     margin: 0 0 0.72rem;
     padding-top: 0;
     position: relative;
+    width: 100%;
     z-index: 1;
   }
 
@@ -326,23 +328,13 @@
     left: -1.45rem;
     position: absolute;
     right: 0;
-    top: -1.02rem;
+    top: -0.86rem;
+    width: calc(100% + 1.45rem);
     z-index: -1;
   }
 
   .home-lane::before {
-    border-left: 0.42rem solid transparent;
-    border-right: 0.42rem solid transparent;
-    border-top: 0.34rem solid var(--lane-color, #607b99);
-    content: "";
-    display: block !important;
-    height: 0;
-    left: 0;
-    opacity: 0.96;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
+    display: none !important;
   }
 
   .home-lane::after {
