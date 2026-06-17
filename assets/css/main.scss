@@ -119,6 +119,72 @@ h1 {
   color: #607b99;
 }
 
+/* --- Quietly separate persistent chrome from page content --- */
+.masthead {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid rgba(96, 123, 153, 0.18);
+  box-shadow: 0 8px 28px rgba(43, 74, 111, 0.07);
+  backdrop-filter: saturate(145%) blur(10px);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.58em;
+  padding-bottom: 0.58em;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav .visible-links .masthead__menu-item > a {
+  color: #6b7480;
+  font-weight: 800;
+}
+
+.greedy-nav .visible-links .masthead__menu-item > a:hover,
+.greedy-nav .visible-links .masthead__menu-item--active > a {
+  color: #2b4a6f;
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    position: relative;
+  }
+
+  .sidebar::before {
+    background:
+      radial-gradient(
+        ellipse 62% 48% at 50% 42%,
+        rgba(96, 123, 153, 0.13) 0%,
+        rgba(96, 123, 153, 0.065) 34%,
+        rgba(96, 123, 153, 0.024) 55%,
+        rgba(96, 123, 153, 0) 78%
+      );
+    content: "";
+    height: 31rem;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 2.2rem;
+    transform: translateX(-50%);
+    width: 20rem;
+    z-index: -1;
+  }
+
+  .sidebar .profile_box {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .profile_box .author__avatar img {
+    background: #fff;
+    border-color: rgba(96, 123, 153, 0.2);
+    box-shadow: 0 8px 22px rgba(43, 74, 111, 0.085);
+  }
+}
+
 /* --- Center only name, photo, and bio in sidebar --- */
 .profile_box {
   text-align: center;
@@ -251,6 +317,71 @@ html.mobile-interface .site-view-toggle {
 
 html.mobile-interface .greedy-nav .visible-links .masthead__menu-control-item > .site-view-toggle {
   display: inline-flex;
+}
+
+html.mobile-interface .masthead__inner-wrap {
+  overflow: hidden;
+  padding: 0.38rem 0.55rem;
+}
+
+html.mobile-interface .masthead__menu {
+  display: block;
+}
+
+html.mobile-interface .greedy-nav {
+  display: none;
+}
+
+html.mobile-interface .mobile-site-nav.hidden {
+  align-items: center;
+  display: flex !important;
+  gap: 0.62rem;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.16rem;
+  padding-right: 0.15rem;
+  scrollbar-width: none;
+  touch-action: pan-x;
+  visibility: visible !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+html.mobile-interface .mobile-site-nav.hidden::-webkit-scrollbar {
+  display: none;
+}
+
+html.mobile-interface .mobile-site-nav a {
+  color: #7a8288;
+  display: block;
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1;
+  padding: 0.4rem 0 0.44rem;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap !important;
+}
+
+html.mobile-interface .mobile-site-nav .site-view-toggle,
+html.mobile-interface .mobile-site-nav .site-lang-toggle {
+  flex: 0 0 auto;
+  font-size: 0.58rem;
+  line-height: 1;
+  margin: 0;
+  padding: 0.38rem 0.48rem;
+  white-space: nowrap !important;
+}
+
+html.mobile-interface .mobile-site-nav .site-lang-toggle {
+  display: inline-flex;
+  gap: 0.2rem;
+}
+
+html.mobile-interface .mobile-site-nav .site-lang-toggle span {
+  font-size: 0.76rem;
 }
 
 .author__urls .author__urls-heading {

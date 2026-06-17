@@ -187,12 +187,12 @@
   .mobile-site-nav.hidden {
     align-items: center;
     display: flex !important;
-    gap: 0.82rem;
+    gap: 0.62rem;
     max-width: 100%;
     min-width: 0;
     overflow-x: auto;
     overflow-y: hidden;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.16rem;
     padding-right: 0.15rem;
     scrollbar-width: none;
     touch-action: pan-x;
@@ -208,10 +208,10 @@
     color: #7a8288;
     display: block;
     flex: 0 0 auto;
-    font-size: 0.88rem;
-    font-weight: 700;
+    font-size: 0.78rem;
+    font-weight: 750;
     line-height: 1;
-    padding: 0.46rem 0 0.5rem;
+    padding: 0.4rem 0 0.44rem;
     position: relative;
     text-decoration: none;
     white-space: nowrap !important;
@@ -220,15 +220,20 @@
   .mobile-site-nav .site-view-toggle,
   .mobile-site-nav .site-lang-toggle {
     flex: 0 0 auto;
-    font-size: 0.68rem;
+    font-size: 0.58rem;
     line-height: 1;
     margin: 0;
-    padding: 0.48rem 0.62rem;
+    padding: 0.38rem 0.48rem;
     white-space: nowrap !important;
   }
 
   .mobile-site-nav .site-lang-toggle {
     display: inline-flex;
+    gap: 0.2rem;
+  }
+
+  .mobile-site-nav .site-lang-toggle span {
+    font-size: 0.76rem;
   }
 
   .mobile-site-nav a.is-active {
