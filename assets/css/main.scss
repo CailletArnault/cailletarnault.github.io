@@ -185,13 +185,33 @@ h1 {
   cursor: pointer;
   flex: 0 0 auto;
   font-family: inherit;
-  font-size: 0.68rem;
+  font-size: 0.74rem;
   font-weight: 800;
   line-height: 1;
-  padding: 0.5rem 0.72rem;
+  padding: 0.52rem 0.78rem;
   text-transform: uppercase;
   transition: background 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
   white-space: nowrap;
+}
+
+.greedy-nav .visible-links .masthead__menu-control-item {
+  vertical-align: middle;
+}
+
+.greedy-nav .visible-links .masthead__menu-control-item:first-child {
+  font-weight: inherit;
+}
+
+.greedy-nav .visible-links .masthead__menu-control-item > .site-lang-toggle {
+  display: inline-flex;
+  margin: 0 0.25rem 0 0;
+  padding: 0.52rem 0.78rem;
+}
+
+.greedy-nav .visible-links .masthead__menu-control-item > .site-view-toggle {
+  display: none;
+  margin: 0 0.25rem 0 0;
+  padding: 0.52rem 0.78rem;
 }
 
 .site-view-toggle:hover,
@@ -214,14 +234,23 @@ h1 {
 }
 
 .site-lang-toggle span {
-  font-size: 0.78rem;
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.9rem;
+  height: 1em;
+  justify-content: center;
   line-height: 1;
+  transform: translateY(0.11em);
 }
 
 html.mobile-interface .site-view-toggle {
   align-items: center;
   display: inline-flex;
   justify-content: center;
+}
+
+html.mobile-interface .greedy-nav .visible-links .masthead__menu-control-item > .site-view-toggle {
+  display: inline-flex;
 }
 
 .author__urls .author__urls-heading {

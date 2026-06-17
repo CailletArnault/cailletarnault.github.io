@@ -2,7 +2,7 @@
   var STORAGE_KEY = "arnault-site-view-mode";
   var root = document.documentElement;
   var viewport = document.querySelector('meta[name="viewport"]');
-  var toggle = document.querySelector("[data-view-toggle]");
+  var toggles = Array.prototype.slice.call(document.querySelectorAll("[data-view-toggle]"));
   var mobileQuery = window.matchMedia("(max-width: 48em)");
   var mobileInterfaceQuery = window.matchMedia("(hover: none) and (pointer: coarse)");
   var desktopViewport = "width=1180";
@@ -54,12 +54,14 @@
   }
 
   function updateToggle() {
-    if (!toggle) return;
+    if (!toggles.length) return;
     var mode = effectiveMode();
     var nextLabel = mode === "mobile" ? "Laptop view" : "Smartphone view";
-    toggle.textContent = nextLabel;
-    toggle.setAttribute("aria-label", "Switch to " + nextLabel.toLowerCase());
-    toggle.setAttribute("title", "Switch to " + nextLabel.toLowerCase());
+    toggles.forEach(function (toggle) {
+      toggle.textContent = nextLabel;
+      toggle.setAttribute("aria-label", "Switch to " + nextLabel.toLowerCase());
+      toggle.setAttribute("title", "Switch to " + nextLabel.toLowerCase());
+    });
   }
 
   function keepInternalLinksInTab() {
@@ -100,7 +102,39 @@
     });
   }
 
-  if (toggle) {
+  function prefetchInternalPages() {
+    var prefetched = {};
+    var currentHost = window.location.host;
+
+    function prefetch(url) {
+      if (prefetched[url]) return;
+      prefetched[url] = true;
+      var link = document.createElement("link");
+      link.rel = "prefetch";
+      link.href = url;
+      document.head.appendChild(link);
+    }
+
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var rawHref = link.getAttribute("href");
+      var url;
+      if (!rawHref || rawHref.charAt(0) === "#" || rawHref.indexOf("mailto:") === 0 || rawHref.indexOf("tel:") === 0) {
+        return;
+      }
+      try {
+        url = new URL(rawHref, window.location.href);
+      } catch (error) {
+        return;
+      }
+      if (url.host !== currentHost || url.pathname === window.location.pathname || url.pathname.indexOf("/assets/") === 0) {
+        return;
+      }
+      link.addEventListener("pointerenter", function () { prefetch(url.href); }, { once: true });
+      link.addEventListener("touchstart", function () { prefetch(url.href); }, { once: true, passive: true });
+    });
+  }
+
+  toggles.forEach(function (toggle) {
     toggle.addEventListener("click", function () {
       if (!isMobileInterface()) return;
       var nextMode = effectiveMode() === "mobile" ? "desktop" : "mobile";
@@ -109,7 +143,7 @@
       updateInterfaceClass();
       updateToggle();
     });
-  }
+  });
 
   if (mobileQuery.addEventListener) {
     mobileQuery.addEventListener("change", function () {
@@ -138,4 +172,5 @@
   updateToggle();
   keepInternalLinksInTab();
   initLinkedCards();
+  prefetchInternalPages();
 }());

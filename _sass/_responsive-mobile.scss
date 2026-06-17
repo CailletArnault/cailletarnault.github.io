@@ -177,10 +177,7 @@
   }
 
   .masthead__menu {
-    align-items: center;
-    display: grid;
-    gap: 0.45rem;
-    grid-template-columns: auto auto minmax(0, 1fr);
+    display: block;
   }
 
   .greedy-nav {
@@ -220,6 +217,20 @@
     white-space: nowrap !important;
   }
 
+  .mobile-site-nav .site-view-toggle,
+  .mobile-site-nav .site-lang-toggle {
+    flex: 0 0 auto;
+    font-size: 0.68rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0.48rem 0.62rem;
+    white-space: nowrap !important;
+  }
+
+  .mobile-site-nav .site-lang-toggle {
+    display: inline-flex;
+  }
+
   .mobile-site-nav a.is-active {
     color: #2b4a6f;
   }
@@ -238,13 +249,6 @@
     align-items: center;
     display: inline-flex;
     justify-content: center;
-    font-size: 0.56rem;
-    padding: 0.42rem 0.5rem;
-  }
-
-  .site-lang-toggle {
-    font-size: 0.56rem;
-    padding: 0.42rem 0.5rem;
   }
 
   .home-nav-cards {
