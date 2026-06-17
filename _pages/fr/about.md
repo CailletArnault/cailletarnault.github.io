@@ -1,15 +1,12 @@
 ---
-permalink: /
+permalink: /fr/
 title: ""
 excerpt: ""
 author_profile: true
-lang: en
+lang: fr
 translation_key: about
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 <span class='anchor' id='about-me'></span>
 
-{% include_relative includes/intro.md %}
+{% include intro-fr.md %}

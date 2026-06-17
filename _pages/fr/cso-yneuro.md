@@ -1,9 +1,9 @@
 ---
-permalink: /cso-yneuro/
+permalink: /fr/cso-yneuro/
 title: "CSO @ Yneuro"
 excerpt: ""
 author_profile: true
-lang: en
+lang: fr
 translation_key: cso-yneuro
 ---
 
@@ -13,129 +13,129 @@ translation_key: cso-yneuro
 
   <section class="cso-yneuro__section cso-yneuro__hero">
     <div class="cso-yneuro__hero-copy">
-      <h2>About Yneuro</h2>
-      <p class="cso-yneuro__lede"><strong>Yneuro</strong> is a French deeptech startup based at <strong>Station F</strong>, building <strong>Neuro ID®</strong>, the first neural authentication solution for B2B and B2B2C sectors. Our patented technology is a new biometric standard that turns neural signals into a secure, privacy-preserving biometric layer for the next generation of head-wearables.</p>
-      <p>As <strong>Founding Scientist</strong> and <strong>CSO</strong>, I connect research, product, and executive decisions: setting the R&amp;D roadmap, protecting the IP, building and managing the scientific team, and turning the science into systems that can be tested, trusted, and deployed. Beyond the product, I also push with Yneuro selected <a href="/open-source/">open-science initiatives</a> where shared tools, datasets, and benchmarks can move the field forward.</p>
+      <h2>À propos de Yneuro</h2>
+      <p class="cso-yneuro__lede"><strong>Yneuro</strong> est une startup deeptech française basée à <strong>Station F</strong>. Nous y développons <strong>Neuro ID®</strong>, la première technologie d’authentification neurale pour les usages B2B et B2B2C. L’objectif : faire des signaux neuronaux un nouveau standard biométrique, sécurisé et respectueux de la vie privée, pour la prochaine génération de dispositifs portés type lunettes et écouteurs connectés.</p>
+      <p>En tant que <strong>Founding Scientist</strong> et <strong>CSO</strong> de Yneuro, je fais le lien entre la recherche, le produit et les décisions exécutives : feuille de route R&amp;D, propriété intellectuelle, construction de l’équipe scientifique, validation technique, puis passage de la science à des systèmes testables, fiables et déployables. Au-delà du produit, je porte aussi des <a href="/fr/open-source/">initiatives de science ouverte</a> avec Yneuro, convaincu que les synergies publiques autour d’outils, de données et de benchmarks partagés sont nécessaires pour faire progresser l’écosystème dans son ensemble.</p>
     </div>
-    <div class="cso-yneuro__snapshot" aria-label="Yneuro snapshot">
-      <div><strong>Neurotech + AI</strong><span>Secure neural authentication</span></div>
-      <div><strong>Neuro ID®</strong><span>Patented core technology</span></div>
-      <div><strong>Scientific R&amp;D</strong><span>EEG, ML, data, validation</span></div>
-      <div><strong>Station F, Paris</strong><span>French deeptech startup</span></div>
+    <div class="cso-yneuro__snapshot" aria-label="Aperçu de Yneuro">
+      <div><strong>Neurotech + IA</strong><span>Authentification neurale sécurisée</span></div>
+      <div><strong>Neuro ID®</strong><span>Technologie brevetée</span></div>
+      <div><strong>R&amp;D scientifique</strong><span>EEG, IA, données, validation</span></div>
+      <div><strong>Station F, Paris</strong><span>Startup deeptech française</span></div>
     </div>
   </section>
 
   <section class="cso-yneuro__section" id="role">
     <div class="cso-yneuro__section-head">
-      <h2>My Role at Yneuro</h2>
+      <h2>Mon rôle chez Yneuro</h2>
     </div>
 
     <div class="cso-role-grid">
-      <div class="cso-role-card"><span>01</span><h3>R&amp;D Roadmap</h3><p>Define the scientific roadmap, research priorities, validation standards, and technical milestones that make Neuro ID® reliable from lab to product.</p></div>
-      <div class="cso-role-card"><span>02</span><h3>Scientific Lead</h3><p>Manage and grow a scientific team spanning the full pipeline of neural decoding.</p></div>
-      <div class="cso-role-card"><span>03</span><h3>Scientific Voice</h3><p>Support the CEO with investors, partners, institutions, media, and public audiences, carrying Yneuro's scientific story.</p></div>
-      <div class="cso-role-card"><span>04</span><h3>Product &amp; Demos</h3><p>Turn models into deployable and usable Neuro ID® products. Develop public <a href="/publications/">demos</a> unveiled at <a href="https://www.linkedin.com/posts/tdsemah_neuro-id-french-ingenuity-global-reach-activity-7206185636322521088-VAYb?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">VivaTech 2024</a> and <a href="https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">VivaTech 2025</a>.</p></div>
-      <div class="cso-role-card"><span>05</span><h3>Client Specs &amp; Validation</h3><p>Interface with clients and partners, translate requirements into scientific specifications, and define validation protocols for real-world use.</p></div>
-      <div class="cso-role-card"><span>06</span><h3>IP Protection</h3><p>Identify patentable scientific and technical advances, structure invention disclosures, and work with counsel to protect the core Neuro ID® technology through <a href="/publications/">published and pending patents</a>.</p></div>
-      <div class="cso-role-card"><span>07</span><h3>Neural Decoding Stack</h3><p>Lead work across EEG datasets, curation, preprocessing, domain adaptation, deep learning, foundation models, and authentication benchmarks, with selected outputs shared as <a href="/publications/">papers and demos</a>.</p></div>
-      <div class="cso-role-card"><span>08</span><h3>Technical Collaborator</h3><p>I closely collaborate with the team at the technical level, contributing to code, reviews, issues, and day-to-day implementation details across the R&amp;D stack.</p><a class="cso-github-inline" href="https://github.com/CailletArnault"><img src="https://ghchart.rshah.org/CailletArnault" alt="GitHub contributions"></a></div>
-      <div class="cso-role-card"><span>09</span><h3>Open Science Lead</h3><p>Push open datasets, libraries, infrastructure, and competitions that strengthen the broader ecosystem. See the <a href="/open-source/">Open Source</a> page.</p></div>
+      <div class="cso-role-card"><span>01</span><h3>Feuille de route R&amp;D</h3><p>Définir les priorités scientifiques, les standards de validation et les jalons techniques qui font passer Neuro ID® du laboratoire au produit.</p></div>
+      <div class="cso-role-card"><span>02</span><h3>Direction scientifique</h3><p>Construire et piloter une équipe scientifique capable de couvrir toute la chaîne du décodage neural.</p></div>
+      <div class="cso-role-card"><span>03</span><h3>Voix scientifique</h3><p>Accompagner le CEO auprès des investisseurs, partenaires, institutions, médias et du grand public, avec un discours scientifique clair, précis et assumé.</p></div>
+      <div class="cso-role-card"><span>04</span><h3>Produit &amp; démos</h3><p>Transformer des modèles en produits Neuro ID® utilisables. Concevoir des <a href="/fr/publications/">démos</a> publiques présentées à <a href="https://www.linkedin.com/posts/tdsemah_neuro-id-french-ingenuity-global-reach-activity-7206185636322521088-VAYb?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">VivaTech 2024</a> et <a href="https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">VivaTech 2025</a>.</p></div>
+      <div class="cso-role-card"><span>05</span><h3>Spécifications &amp; validation</h3><p>Échanger avec clients et partenaires, transformer les besoins en specs scientifiques, puis définir les protocoles de validation pour l’usage réel.</p></div>
+      <div class="cso-role-card"><span>06</span><h3>Propriété intellectuelle</h3><p>Identifier les avancées brevetables, structurer les déclarations d’invention et protéger la technologie Neuro ID® à travers des <a href="/fr/publications/">brevets</a>.</p></div>
+      <div class="cso-role-card"><span>07</span><h3>Chaîne de décodage neural</h3><p>Piloter les travaux sur les données EEG, la curation, le prétraitement, l’adaptation de domaine, le deep learning, les modèles de fondation et les benchmarks d’authentification, avec certains résultats partagés via <a href="/fr/publications/">articles de recherche et démos</a>.</p></div>
+      <div class="cso-role-card"><span>08</span><h3>Implication technique</h3><p>Au contact direct de l’équipe sur la verticale technique : code, revues, issues et arbitrages d’implémentation au quotidien sur la chaîne R&amp;D.</p><a class="cso-github-inline" href="https://github.com/CailletArnault"><img src="https://ghchart.rshah.org/CailletArnault" alt="Contributions GitHub"></a></div>
+      <div class="cso-role-card"><span>09</span><h3>Science ouverte</h3><p>Construire et porter des synergies publiques autour des données, librairies, infrastructures et compétitions ouvertes qui renforcent l’écosystème. Voir la page <a href="/fr/open-source/">Science ouverte</a>.</p></div>
     </div>
 
   </section>
 
   <section class="cso-yneuro__section cso-yneuro__team" id="team">
     <div class="cso-yneuro__section-head">
-      <h2>Scientific Team</h2>
-      <p>I built and am now lucky to manage and collaborate every day with a steadily growing team of exceptional scientists and engineers, whose expertise covers the full chain of end-to-end neural decoding: data engineering, curation, preprocessing, domain adaptation, machine learning for EEG, ML infrastructure, and product-grade scientific validation. Let's meet them!</p>
+      <h2>Équipe scientifique</h2>
+      <p>J’ai construit cette équipe et j’ai aujourd’hui la chance de la diriger tout en travaillant chaque jour à ses côtés. Elle réunit des scientifiques et ingénieurs remarquables, avec des compétences complémentaires sur toute la chaîne du décodage neural : data engineering, curation, prétraitement, adaptation de domaine, machine learning pour l’EEG, infrastructure ML et validation scientifique orientée produit.</p>
     </div>
 
     <div class="cso-team-gallery">
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/apolline.jpeg' | relative_url }}" alt="Apolline Mellot">
-          <div class="cso-team-card__caption"><h3>Apolline Mellot, PhD</h3><p>Research Scientist</p></div>
-          <div class="cso-team-card__overlay"><p>Machine learning and domain adaptation for EEG.</p><p>PhD in EEG representation learning and neural decoding (Inria MIND).</p></div>
+          <div class="cso-team-card__caption"><h3>Apolline Mellot, PhD</h3><p>Chercheuse scientifique</p></div>
+          <div class="cso-team-card__overlay"><p>Apprentissage automatique et adaptation de domaine appliqués à l’EEG.</p><p>PhD en représentation EEG et décodage neural (Inria MIND).</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/bruno.jpeg' | relative_url }}" alt="Bruno Aristimunha">
-          <div class="cso-team-card__caption"><h3>Bruno Aristimunha, PhD</h3><p>Research Scientist</p></div>
-          <div class="cso-team-card__overlay"><p>Deep learning and EEG decoding, and Yneuro's open-source ecosystem builder.</p><p>PhD in machine learning applied to EEG decoding (Université Paris-Saclay).</p></div>
+          <div class="cso-team-card__caption"><h3>Bruno Aristimunha, PhD</h3><p>Chercheur scientifique</p></div>
+          <div class="cso-team-card__overlay"><p>Apprentissage profond, décodage EEG et développement de l’écosystème open source de Yneuro.</p><p>PhD en machine learning appliqué au décodage EEG (Université Paris-Saclay).</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/lionel.jpeg' | relative_url }}" alt="Lionel Kusch">
-          <div class="cso-team-card__caption"><h3>Lionel Kusch, PhD</h3><p>ML Infrastructure Engineer</p></div>
-          <div class="cso-team-card__overlay"><p>Large-scale EEG data and machine learning infrastructure.</p><p>PhD in computational neuroscience (INS). Ex-Research Software Engineer in the Inria-CEA MIND team.</p></div>
+          <div class="cso-team-card__caption"><h3>Lionel Kusch, PhD</h3><p>Ingénieur infrastructure ML</p></div>
+          <div class="cso-team-card__overlay"><p>Données EEG à grande échelle et infrastructure de machine learning.</p><p>PhD en neurosciences computationnelles (INS). Ancien Research Software Engineer dans l’équipe Inria-CEA MIND.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/Davoud.jpeg' | relative_url }}" alt="Davoud Hajhassani">
-          <div class="cso-team-card__caption"><h3>Davoud Hajhassani, PhD</h3><p>Data Scientist</p></div>
-          <div class="cso-team-card__overlay"><p>EEG data curation and processing pipelines.</p><p>PhD in EEG signal processing (GIPSA-lab). Biomedical engineer.</p></div>
+          <div class="cso-team-card__caption"><h3>Davoud Hajhassani, PhD</h3><p>Scientifique des données</p></div>
+          <div class="cso-team-card__overlay"><p>Curation des données EEG et pipelines de traitement.</p><p>PhD en traitement du signal EEG (GIPSA-lab). Ingénieur biomédical.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/tom.jpeg' | relative_url }}" alt="Tom Mariani">
-          <div class="cso-team-card__caption"><h3>Tom Mariani</h3><p>Research Scientist</p></div>
-          <div class="cso-team-card__overlay"><p>Deep learning architectures for neural decoding.</p><p>Master's from Mines Paris and ENS MVA.</p></div>
+          <div class="cso-team-card__caption"><h3>Tom Mariani</h3><p>Chercheur scientifique</p></div>
+          <div class="cso-team-card__overlay"><p>Architectures d’apprentissage profond pour le décodage neural.</p><p>Master Mines Paris et ENS MVA.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/pauladrien.jpeg' | relative_url }}" alt="Paul-Adrien Graignic">
-          <div class="cso-team-card__caption"><h3>Paul-Adrien Graignic</h3><p>Research Engineer</p></div>
-          <div class="cso-team-card__overlay"><p>EEG data engineering, alignment, and curation.</p><p>Master's from ETS Montreal and Phelma.</p></div>
+          <div class="cso-team-card__caption"><h3>Paul-Adrien Graignic</h3><p>Ingénieur de recherche</p></div>
+          <div class="cso-team-card__overlay"><p>Ingénierie des données EEG, alignement et curation.</p><p>Master ETS Montréal et Phelma.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/leo.jpeg' | relative_url }}" alt="Leo Burgund">
-          <div class="cso-team-card__caption"><h3>Léo Burgund</h3><p>Machine Learning Researcher</p></div>
-          <div class="cso-team-card__overlay"><p>Machine learning workflows for neural decoding.</p><p>Master's from Paris-Saclay and Inria research in machine learning.</p></div>
+          <div class="cso-team-card__caption"><h3>Léo Burgund</h3><p>Chercheur machine learning</p></div>
+          <div class="cso-team-card__overlay"><p>Chaînes de travail machine learning pour le décodage neural.</p><p>Master Paris-Saclay et recherche Inria en machine learning.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/clement.jpeg' | relative_url }}" alt="Clement Nober">
-          <div class="cso-team-card__caption"><h3>Clément Nober</h3><p>Applied Researcher</p></div>
-          <div class="cso-team-card__overlay"><p>Domain adaptation and optimal transport methods for shift mitigation.</p><p>Master's from Mines Paris and ENS MVA.</p></div>
+          <div class="cso-team-card__caption"><h3>Clément Nober</h3><p>Chercheur appliqué</p></div>
+          <div class="cso-team-card__overlay"><p>Adaptation de domaine et transport optimal pour réduire les changements de distribution.</p><p>Master Mines Paris et ENS MVA.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/bruna.jpeg' | relative_url }}" alt="Bruna">
-          <div class="cso-team-card__caption"><h3>Bruna Lopes</h3><p>Industrial PhD (CIFRE)</p></div>
-          <div class="cso-team-card__overlay"><p>Multimodal EEG-fMRI alignment.</p><p>Master's from ENS MVA and LISN research.</p></div>
+          <div class="cso-team-card__caption"><h3>Bruna Lopes</h3><p>Thèse CIFRE</p></div>
+          <div class="cso-team-card__overlay"><p>Alignement multimodal EEG-fMRI.</p><p>Master ENS MVA et recherche au LISN.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/marcandre.jpeg' | relative_url }}" alt="Marc-Andre Ploux">
-          <div class="cso-team-card__caption"><h3>Marc-André Ploux</h3><p>Freelance Full-Stack Developer</p></div>
-          <div class="cso-team-card__overlay"><p>Full-stack development for internal scientific tools and product interfaces.</p><p>Ecole 42 background and CTO of EXA Market.</p></div>
+          <div class="cso-team-card__caption"><h3>Marc-André Ploux</h3><p>Développeur full-stack</p></div>
+          <div class="cso-team-card__overlay"><p>Développement full-stack pour les outils scientifiques internes et les interfaces produit.</p><p>Parcours École 42 et CTO d’EXA Market.</p></div>
         </div>
       </article>
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/adam.jpeg' | relative_url }}" alt="Adam Mounir">
-          <div class="cso-team-card__caption"><h3>Adam Mounir</h3><p>Open-Source Developer</p></div>
-          <div class="cso-team-card__overlay"><p>Open-source developer and maintainer of Braindecode.</p><p>Master's from Efrei and UC Irvine.</p></div>
+          <div class="cso-team-card__caption"><h3>Adam Mounir</h3><p>Développeur Open-Source</p></div>
+          <div class="cso-team-card__overlay"><p>Développeur open source et maintainer de Braindecode.</p><p>Master Efrei et UC Irvine.</p></div>
         </div>
       </article>
     </div>
@@ -145,13 +145,13 @@ translation_key: cso-yneuro
   <section class="cso-yneuro__section">
     <div class="cso-yneuro__section-head cso-yneuro__section-head--with-link">
       <div>
-        <h2>Awards &amp; Recognition</h2>
-        <p>Yneuro has been recognized across major international tech venues, with <strong>Neuro ID®</strong> at the center of the momentum.</p>
+        <h2>Prix &amp; reconnaissances</h2>
+        <p>Yneuro a été reconnu dans plusieurs grands rendez-vous tech internationaux, avec <strong>Neuro ID®</strong> au centre de cette dynamique.</p>
       </div>
-      <a class="cso-yneuro__text-link" href="/awards/">Full awards page</a>
+      <a class="cso-yneuro__text-link" href="/fr/awards/">Voir tous les prix</a>
     </div>
 
-    <div class="cso-awards-strip" aria-label="Yneuro awards preview">
+    <div class="cso-awards-strip" aria-label="Aperçu des prix de Yneuro">
       <a href="https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/vivatech.png' | relative_url }}" alt="VivaTech"><strong>VivaTech</strong><span>Best Innovation</span></a>
       <a href="https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/ceatec.jpg' | relative_url }}" alt="CEATEC"><strong>CEATEC</strong><span>Global Category</span></a>
       <a href="https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/ai action summit.png' | relative_url }}" alt="AI Action Summit"><strong>AI Action Summit</strong><span>AI for Efficiency</span></a>
@@ -165,13 +165,13 @@ translation_key: cso-yneuro
 
   <section class="cso-yneuro__section">
     <div class="cso-yneuro__section-head">
-      <h2>Media Coverage</h2>
-      <p>Neuro ID® has been covered across TV, business press, tech media, and founder interviews.</p>
+      <h2>Couverture média</h2>
+      <p>Neuro ID® a été présenté à la télévision, dans la presse économique, dans les médias tech et dans plusieurs formats d’interview.</p>
     </div>
 
     <div class="cso-media">
       <div class="cso-media__group">
-        <h3>TV &amp; Broadcast</h3>
+        <h3>TV &amp; formats vidéo</h3>
         <div class="cso-media__logos">
           <a class="cso-media-logo cso-media-logo--tf1" href="https://www.linkedin.com/posts/tdsemah_at-yneuro-our-dedicated-team-of-engineers-activity-7202200665694044160-jBkl?utm_source=share&amp;utm_medium=member_desktop">TF1</a>
           <a class="cso-media-logo cso-media-logo--france2" href="https://www.linkedin.com/posts/tdsemah_neuro-id-goodbye-passwords-hello-freedom-activity-7267437767209496577-AXiV?utm_source=share&amp;utm_medium=member_desktop">France 2</a>
@@ -185,7 +185,7 @@ translation_key: cso-yneuro
       </div>
 
       <div class="cso-media__group">
-        <h3>Press &amp; Articles</h3>
+        <h3>Presse &amp; articles</h3>
         <div class="cso-media__logos">
           <a class="cso-media-logo cso-media-logo--figaro" href="https://www.lefigaro.fr/secteur/high-tech/yneuro-cette-start-up-francaise-qui-veut-remplacer-les-mots-de-passe-par-l-authentification-neuronale-20260117">Le Figaro</a>
           <a class="cso-media-logo cso-media-logo--lesechos" href="https://www.linkedin.com/posts/tdsemah_trust-is-no-longer-a-default-setting-in-activity-7452607325309251584-1Tgj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">Les Echos</a>
@@ -203,7 +203,7 @@ translation_key: cso-yneuro
       </div>
 
       <div class="cso-media__group">
-        <h3>Tech, Interviews &amp; Creators</h3>
+        <h3>Tech, interviews &amp; créateurs</h3>
         <div class="cso-media__logos">
           <a class="cso-media-logo cso-media-logo--techco" href="https://www.bfmtv.com/tech/actualites/video-deverrouiller-son-smartphone-avec-son-cerveau_VN-202601090582.html">Tech &amp; Co</a>
           <a class="cso-media-logo cso-media-logo--radio-classique" href="https://smartlinks.audiomeans.fr/l/comment-j-ai-reussi--d9b5010caef0/thomas-semah-fondateur-de-yneuro-1a575646755b">Radio Classique</a>

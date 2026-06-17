@@ -180,7 +180,7 @@
     align-items: center;
     display: grid;
     gap: 0.45rem;
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: auto auto minmax(0, 1fr);
   }
 
   .greedy-nav {
@@ -238,6 +238,11 @@
     align-items: center;
     display: inline-flex;
     justify-content: center;
+    font-size: 0.56rem;
+    padding: 0.42rem 0.5rem;
+  }
+
+  .site-lang-toggle {
     font-size: 0.56rem;
     padding: 0.42rem 0.5rem;
   }

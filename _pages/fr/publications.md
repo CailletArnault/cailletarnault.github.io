@@ -1,17 +1,15 @@
 ---
-permalink: /publications/
-title: "Publications, Patents & Talks"
+permalink: /fr/publications/
+title: "Publications, brevets & interventions"
 excerpt: ""
 author_profile: true
-lang: en
+lang: fr
 translation_key: publications
-redirect_from:
-  - /talks/
 ---
 
 # Publications
 
-I actively share my research across peer-reviewed journal and conference papers, patents, abstracts, workshops, and demos. I contribute as first author, collaborator, and PI across several research domains mostly linked to EEG/EMG.
+Je partage publiquement mes travaux de recherche sous plusieurs formats : articles de revue, articles de conférence, brevets, abstracts, workshops scientifiques et démonstrations. Je contribue à ces travaux comme premier auteur, collaborateur ou PI, principalement autour de l’EEG et de l’EMG.
 
 {% assign pubs = site.data.publications %}
 {% assign n_patent = pubs | where: "type", "patent" | size %}
@@ -86,12 +84,12 @@ I actively share my research across peer-reviewed journal and conference papers,
 <div class="pubtrack" data-pubtrack>
   <div class="pubtrack__showcase">
     <div class="pubtrack__chart-wrap">
-      <div class="pubtrack__chart" role="img" aria-label="One square per public output, stacked by year from 2021 to 2026 and colored by type.">
+      <div class="pubtrack__chart" role="img" aria-label="Un carré par sortie scientifique publique, empilé par année de 2021 à 2026 et coloré par type.">
         {% for y in (2021..2026) %}
           {% assign ystr = y | append: "" %}
           {% assign g = chart_groups | where: "name", ystr | first %}
           {% if g %}
-            <a class="pubtrack__col" href="#pubyear-{{ y }}" target="_self" data-chart-year="{{ y }}" aria-label="{{ y }}: {{ g.items | size }} public outputs">
+            <a class="pubtrack__col" href="#pubyear-{{ y }}" target="_self" data-chart-year="{{ y }}" aria-label="{{ y }} : {{ g.items | size }} sorties scientifiques publiques">
               <span class="pubtrack__stack">{% for pub in g.items %}<i class="pubtrack__cell pubtrack__cell--{{ pub.type }}" data-cell-type="{{ pub.type }}" title="{{ pub.title | escape }}"></i>{% endfor %}</span>
               <span class="pubtrack__col-year">&rsquo;{{ ystr | slice: 2, 2 }}</span>
             </a>
@@ -104,7 +102,7 @@ I actively share my research across peer-reviewed journal and conference papers,
         {% endfor %}
       </div>
     </div>
-    <div class="pubtrack__venues" aria-label="Journal and conference venues">
+    <div class="pubtrack__venues" aria-label="Revues et conférences">
       <span class="pubtrack__venue-logo pubtrack__venue-logo--spotlight pubtrack__venue-logo--slot-a"><img src="{{ '/assets/images/venues/neurips-cropped.jpeg' | relative_url }}" alt="NeurIPS"></span>
       <span class="pubtrack__venue-logo pubtrack__venue-logo--spotlight pubtrack__venue-logo--slot-b"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.35.39.png' | relative_url }}" alt="IEEE Signal Processing Society"></span>
       <span class="pubtrack__venue-logo pubtrack__venue-logo--featured pubtrack__venue-logo--slot-c"><img src="{{ '/assets/images/venues/elife-cropped.png' | relative_url }}" alt="eLife"></span>
@@ -123,34 +121,34 @@ I actively share my research across peer-reviewed journal and conference papers,
     </div>
   </div>
 
-  <div class="pubtrack__filters" role="group" aria-label="Filter public outputs by type">
-    <button type="button" class="pubtrack__filter is-active" data-filter="all" aria-pressed="true">All <span class="pubtrack__count">{{ n_all }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--patent" data-filter="patent" aria-pressed="false">Patent <span class="pubtrack__count">{{ n_patent }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--journal" data-filter="journal" aria-pressed="false">Journal <span class="pubtrack__count">{{ n_journal }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--conference" data-filter="conference" aria-pressed="false">Conference <span class="pubtrack__count">{{ n_conference }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--thesis" data-filter="thesis" aria-pressed="false">PhD thesis <span class="pubtrack__count">{{ n_thesis }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--abstract" data-filter="abstract" aria-pressed="false">Abstract <span class="pubtrack__count">{{ n_abstract }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--workshop" data-filter="workshop" aria-pressed="false">Workshop <span class="pubtrack__count">{{ n_workshop }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--demo" data-filter="demo" aria-pressed="false">Demo <span class="pubtrack__count">{{ n_demo }}</span></button>
+  <div class="pubtrack__filters" role="group" aria-label="Filtrer les sorties scientifiques par type">
+    <button type="button" class="pubtrack__filter is-active" data-filter="all" aria-pressed="true">Tout <span class="pubtrack__count">{{ n_all }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--patent" data-filter="patent" aria-pressed="false">Brevet <span class="pubtrack__count">{{ n_patent }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--journal" data-filter="journal" aria-pressed="false">Revue <span class="pubtrack__count">{{ n_journal }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--conference" data-filter="conference" aria-pressed="false">Conférence <span class="pubtrack__count">{{ n_conference }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--thesis" data-filter="thesis" aria-pressed="false">Thèse <span class="pubtrack__count">{{ n_thesis }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--abstract" data-filter="abstract" aria-pressed="false">abstract <span class="pubtrack__count">{{ n_abstract }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--workshop" data-filter="workshop" aria-pressed="false">Atelier <span class="pubtrack__count">{{ n_workshop }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--demo" data-filter="demo" aria-pressed="false">Démo <span class="pubtrack__count">{{ n_demo }}</span></button>
   </div>
-  <div class="pubtrack__filters pubtrack__filters--author" role="group" aria-label="Filter public outputs by author position">
-    <button type="button" class="pubtrack__filter pubtrack__filter--role is-active" data-author-filter="all" aria-pressed="true">Any role</button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--role" data-author-filter="first" aria-pressed="false">First author <span class="pubtrack__count">{{ n_first_author }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--role" data-author-filter="second" aria-pressed="false">Second author <span class="pubtrack__count">{{ n_second_author }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--role" data-author-filter="last" aria-pressed="false">Last author <span class="pubtrack__count">{{ n_last_author }}</span></button>
+  <div class="pubtrack__filters pubtrack__filters--author" role="group" aria-label="Filtrer les sorties scientifiques par position dans la liste d’auteurs">
+    <button type="button" class="pubtrack__filter pubtrack__filter--role is-active" data-author-filter="all" aria-pressed="true">Tous rôles</button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--role" data-author-filter="first" aria-pressed="false">Premier auteur <span class="pubtrack__count">{{ n_first_author }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--role" data-author-filter="second" aria-pressed="false">Deuxième auteur <span class="pubtrack__count">{{ n_second_author }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--role" data-author-filter="last" aria-pressed="false">Dernier auteur <span class="pubtrack__count">{{ n_last_author }}</span></button>
   </div>
-  <div class="pubtrack__filters pubtrack__filters--tags" role="group" aria-label="Filter public outputs by scientific tag">
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag is-active" data-tag-filter="all" aria-pressed="true">All topics</button>
+  <div class="pubtrack__filters pubtrack__filters--tags" role="group" aria-label="Filtrer les sorties scientifiques par sujet">
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag is-active" data-tag-filter="all" aria-pressed="true">Tous sujets</button>
     <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="eeg" aria-pressed="false">EEG <span class="pubtrack__count">{{ n_tag_eeg }}</span></button>
     <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="emg" aria-pressed="false">EMG <span class="pubtrack__count">{{ n_tag_emg }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="motoneuron" aria-pressed="false">Motoneuron <span class="pubtrack__count">{{ n_tag_motoneuron }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="motor-unit" aria-pressed="false">Motor unit <span class="pubtrack__count">{{ n_tag_motor_unit }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="preprocessing" aria-pressed="false">Preprocessing <span class="pubtrack__count">{{ n_tag_preprocessing }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="neuromuscular-modelling" aria-pressed="false">Neuromuscular modelling <span class="pubtrack__count">{{ n_tag_neuromuscular_modelling }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="msk-modelling" aria-pressed="false">MSK modelling <span class="pubtrack__count">{{ n_tag_msk_modelling }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="motor-control" aria-pressed="false">Motor control <span class="pubtrack__count">{{ n_tag_motor_control }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="neural-decoding-bci" aria-pressed="false">Neural decoding & BCI <span class="pubtrack__count">{{ n_tag_neural_decoding_bci }}</span></button>
-    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="benchmarking-evaluation" aria-pressed="false">Benchmarking & evaluation <span class="pubtrack__count">{{ n_tag_benchmarking_evaluation }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="motoneuron" aria-pressed="false">Motoneurone <span class="pubtrack__count">{{ n_tag_motoneuron }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="motor-unit" aria-pressed="false">Unité motrice <span class="pubtrack__count">{{ n_tag_motor_unit }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="preprocessing" aria-pressed="false">Prétraitement <span class="pubtrack__count">{{ n_tag_preprocessing }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="neuromuscular-modelling" aria-pressed="false">Modélisation neuromusculaire <span class="pubtrack__count">{{ n_tag_neuromuscular_modelling }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="msk-modelling" aria-pressed="false">Modélisation MSK <span class="pubtrack__count">{{ n_tag_msk_modelling }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="motor-control" aria-pressed="false">Contrôle moteur <span class="pubtrack__count">{{ n_tag_motor_control }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="neural-decoding-bci" aria-pressed="false">Décodage neural & BCI <span class="pubtrack__count">{{ n_tag_neural_decoding_bci }}</span></button>
+    <button type="button" class="pubtrack__filter pubtrack__filter--tag" data-tag-filter="benchmarking-evaluation" aria-pressed="false">Benchmark & évaluation <span class="pubtrack__count">{{ n_tag_benchmarking_evaluation }}</span></button>
   </div>
 
   <div class="pubtrack__years">
@@ -190,13 +188,23 @@ I actively share my research across peer-reviewed journal and conference papers,
             {% else %}
               {% assign pubfig = "" %}
             {% endif %}
+            {% case pub.type %}
+              {% when "patent" %}{% assign display_type = "BREVET" %}
+              {% when "journal" %}{% assign display_type = "ARTICLE DE REVUE" %}
+              {% when "conference" %}{% assign display_type = "ARTICLE DE CONFÉRENCE" %}
+              {% when "thesis" %}{% assign display_type = "THÈSE" %}
+              {% when "abstract" %}{% assign display_type = "ABSTRACT" %}
+              {% when "workshop" %}{% assign display_type = "WORKSHOP" %}
+              {% when "demo" %}{% assign display_type = "DÉMO" %}
+              {% else %}{% assign display_type = pub.type_label | default: pub.type %}
+            {% endcase %}
             <article class="pubtrack__entry pubtrack__entry--{{ pub.type }} anchor" id="{{ pub.id }}" data-type="{{ pub.type }}" data-tags="{{ pub.tags | join: ' ' }}" data-author-roles="{{ author_roles | strip }}">
               {% if title_href != "" %}
                 <p class="pubtrack__title"><a href="{{ title_href }}">{{ pub.title }}{{ pubfig }}</a></p>
               {% else %}
                 <p class="pubtrack__title">{{ pub.title }}{{ pubfig }}</p>
               {% endif %}
-              <p class="pubtrack__meta"><span class="pubtrack__type pubtrack__type--{{ pub.type }}">{{ pub.type_label | default: pub.type }}</span><span class="pubtrack__venue">{{ pub.venue }}</span>{% if pub.status %}<span class="pubtrack__status">{{ pub.status | replace: "-", " " }}</span>{% endif %}</p>
+              <p class="pubtrack__meta"><span class="pubtrack__type pubtrack__type--{{ pub.type }}">{{ display_type }}</span><span class="pubtrack__venue">{{ pub.venue }}</span>{% if pub.status %}<span class="pubtrack__status">{{ pub.status | replace: "-", " " }}</span>{% endif %}</p>
               <p class="pubtrack__authors">{{ authors }}</p>
               {% if pub.links %}
                 <p class="pubtrack__links">{% if pub.links.pdf %}<a href="{{ pub.links.pdf | relative_url }}">PDF<span class="pubtrack__glyph">&nbsp;&darr;</span></a>{% endif %}{% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}">arXiv<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}{% if pub.links.doi %}<a href="{{ pub.links.doi }}">DOI<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}{% if pub.links.site %}<a href="{{ pub.links.site }}">Site<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}</p>
@@ -207,14 +215,14 @@ I actively share my research across peer-reviewed journal and conference papers,
                     {% case tag %}
                       {% when "eeg" %}{% assign tag_label = "EEG" %}
                       {% when "emg" %}{% assign tag_label = "EMG" %}
-                      {% when "motoneuron" %}{% assign tag_label = "Motoneuron" %}
-                      {% when "motor-unit" %}{% assign tag_label = "Motor unit" %}
-                      {% when "preprocessing" %}{% assign tag_label = "Preprocessing" %}
-                      {% when "neuromuscular-modelling" %}{% assign tag_label = "Neuromuscular modelling" %}
-                      {% when "msk-modelling" %}{% assign tag_label = "MSK modelling" %}
-                      {% when "motor-control" %}{% assign tag_label = "Motor control" %}
-                      {% when "neural-decoding-bci" %}{% assign tag_label = "Neural decoding & BCI" %}
-                      {% when "benchmarking-evaluation" %}{% assign tag_label = "Benchmarking & evaluation" %}
+                      {% when "motoneuron" %}{% assign tag_label = "Motoneurone" %}
+                      {% when "motor-unit" %}{% assign tag_label = "Unité motrice" %}
+                      {% when "preprocessing" %}{% assign tag_label = "Prétraitement" %}
+                      {% when "neuromuscular-modelling" %}{% assign tag_label = "Modélisation neuromusculaire" %}
+                      {% when "msk-modelling" %}{% assign tag_label = "Modélisation MSK" %}
+                      {% when "motor-control" %}{% assign tag_label = "Contrôle moteur" %}
+                      {% when "neural-decoding-bci" %}{% assign tag_label = "Décodage neural & BCI" %}
+                      {% when "benchmarking-evaluation" %}{% assign tag_label = "Benchmark & évaluation" %}
                       {% else %}{% assign tag_label = tag %}
                     {% endcase %}
                     <span class="pubtrack__tag pubtrack__tag--{{ tag }}">{{ tag_label }}</span>

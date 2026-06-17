@@ -1,47 +1,47 @@
 ---
-permalink: /open-source/
-title: "Open Source"
+permalink: /fr/open-source/
+title: "Science ouverte"
 excerpt: ""
 author_profile: true
-lang: en
+lang: fr
 translation_key: open-source
 ---
 
-# Open Source
+# Science ouverte
 
 <div class="opensource">
-  <p class="opensource__intro">I am an advocate for <strong>open science</strong>. Through my academic journey, I <strong>directly contribute datasets and code</strong> around motoneuron electrophysiology, cross-session/task high-density surface EMG, motor unit physiology and activity, and neuromuscular modelling.</p>
-  <p class="opensource__intro">I also <strong>push open-science initiatives</strong> through my dual role as CSO of Yneuro and Honorary Research Officer at Imperial College London: developing and maintaining code libraries, organizing open competitions, and building bridges between academia and industry.</p>
-   <p class="opensource__intro">I strongly believe that science progresses when academia and industry work hand in hand around shared tools, open benchmarks, and reusable resources on a large scale.</p>
+  <p class="opensource__intro">Je suis attaché à une <strong>science ouverte</strong>, exigeante et réutilisable. Pendant mon parcours académique, j’ai contribué à cette synergie open-source en <strong>publiant des jeux de données et du code publics</strong> autour de l’électrophysiologie des motoneurones, de l’EMG haute densité multi-session/multi-tâche, de la physiologie des unités motrices et de la modélisation neuromusculaire.</p>
+  <p class="opensource__intro">Aujourd’hui, je prolonge cette trajectoire open-source à travers mon double rôle de CSO de Yneuro et d’Honorary Research Officer à Imperial College London : librairies de code, compétitions ouvertes et collaborations concrètes entre recherche académique et industrie.</p>
+  <p class="opensource__intro">Je suis convaincu que l'écosystème neurotech a aujourd'hui besoin d'outils partagés, de benchmarks ouverts et de ressources réutilisables à grande échelle, développés collectivement par les entreprises et les institutions académiques.</p>
 
-  <nav class="opensource__verticals" aria-label="Open-source verticals">
-    <a href="#open-challenges"><strong>Open challenges</strong><span>Community competitions</span></a>
-    <a href="#open-infrastructure"><strong>Infrastructure</strong><span>Shared libraries and platforms</span></a>
-    <a href="#open-packages"><strong>Python packages</strong><span>Reusable research code</span></a>
-    <a href="#open-data"><strong>Data release</strong><span>Open datasets</span></a>
+  <nav class="opensource__verticals" aria-label="Axes de science ouverte">
+    <a href="#open-challenges"><strong>Arènes publiques</strong><span>Compétitions scientifiques</span></a>
+    <a href="#open-infrastructure"><strong>Infrastructure</strong><span>Librairies et plateformes partagées</span></a>
+    <a href="#open-packages"><strong>Packages Python</strong><span>Code de recherche réutilisable</span></a>
+    <a href="#open-data"><strong>Données ouvertes</strong><span>Jeux de données ouverts</span></a>
   </nav>
 
   <section class="opensource__section anchor" id="open-challenges">
     <div class="opensource__section-head">
       <span class="opensource__section-index">01</span>
       <div>
-        <h2>Open Challenges</h2>
-        <p>I co-lead with <a href="https://bruaristimunha.github.io/">Bruno Aristimunha</a> the organization of the <a href="https://neural-interfaces26.github.io/">EEG/EMG Foundation Challenge 2026</a>. The competition connects academic labs, open-source infrastructure, and industry research teams around EEG/EMG foundation models and domain shifts across subjects, sessions, emotions, context, and hardware. <strong>Yneuro</strong> is the lead organizer in collaboration with <strong>Inria</strong>, <strong>UCSD</strong>, and <strong>Meta</strong>, backed by <strong>AWS</strong>, with five tracks:</p>
+        <h2>Arènes publiques</h2>
+        <p>Je co-dirige avec <a href="https://bruaristimunha.github.io/">Bruno Aristimunha</a> l’organisation du <a href="https://neural-interfaces26.github.io/">EEG/EMG Foundation Challenge 2026</a>. La compétition réunit laboratoires académiques, infrastructure open source et équipes de recherche industrielles autour des modèles de fondation EEG/EMG et de l'adaptation de domaine liée aux sujets, sessions, émotions, contextes et matériels. <strong>Yneuro</strong> en est l’organisateur principal, aux côtés d’<strong>Inria</strong>, <strong>UCSD</strong> et <strong>Meta</strong>, avec le soutien d’<strong>AWS</strong>. Cinq axes structurent la compétition :</p>
       </div>
     </div>
 
     <div class="opensource__challenge">
       <div class="opensource__challenge-main">
         <div class="opensource__challenge-left">
-          <div class="opensource__tracks" aria-label="Competition tracks">
+          <div class="opensource__tracks" aria-label="Axes de compétition">
             <a href="https://neural-interfaces26.github.io/leaderboard.html#track-1"><strong>Track 1 - EEG-to-Image</strong><small>Meta FAIR Brain &amp; AI + Alljoined</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-2"><strong>Track 2 - BCI Decoding</strong><small>Inria LaBRI</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-3"><strong>Track 3 - EEG to Sleep Onset</strong><small>InteraXon Inc.</small></a>
+            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-2"><strong>Track 2 - Décodage BCI</strong><small>Inria LaBRI</small></a>
+            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-3"><strong>Track 3 - Détection d’endormissement EEG</strong><small>InteraXon Inc.</small></a>
             <a href="https://neural-interfaces26.github.io/leaderboard.html#track-4"><strong>Track 4 - EMG-to-Text</strong><small>Meta Reality Labs + Imperial</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-5"><strong>Track 5 - Foundation Transfer</strong><small>Yneuro</small></a>
+            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-5"><strong>Track 5 - Transfert de fondation</strong><small>Yneuro</small></a>
           </div>
 
-          <div class="opensource__stakeholders" aria-label="Competition stakeholders">
+          <div class="opensource__stakeholders" aria-label="Partenaires de la compétition">
             <img class="opensource__logo opensource__logo--yneuro" src="{{ '/assets/images/opensource/logos/yneuro.png' | relative_url }}" alt="Yneuro">
             <img class="opensource__logo opensource__logo--ucsd" src="{{ '/assets/images/opensource/logos/ucsd.svg' | relative_url }}" alt="UC San Diego">
             <img class="opensource__logo opensource__logo--inria" src="{{ '/assets/images/opensource/logos/inria.png' | relative_url }}" alt="Inria">
@@ -75,32 +75,32 @@ translation_key: open-source
       <span class="opensource__section-index">02</span>
       <div>
         <h2>Infrastructure</h2>
-        <p>Supporting open-source libraries and benchmark platforms that make shared scientific progress easier to reproduce, maintain, and scale.</p>
+        <p>À travers mon rôle de CSO à Yneuro, je soutiens activement des librairies open source et des plateformes de benchmark qui rendent le travail scientifique plus reproductible, maintenable et partageable.</p>
       </div>
     </div>
 
     <div class="opensource__items">
       <a class="opensource__item opensource__item--preview" href="https://braindecode.org/stable/index.html">
         <h3>Braindecode</h3>
-        <p>Building the Yneuro x Inria Paris-Saclay collaboration to contribute to, sponsor, and maintain Braindecode.</p>
+        <p>Construire une collaboration Yneuro x Inria Paris-Saclay pour contribuer au développement, au financement et à la maintenance de Braindecode.</p>
         <span class="opensource__item-footer">
-          <span class="opensource__tags"><span>Library maintenance</span><span>Sponsorship</span><span>Neural decoding</span></span>
-          <span class="opensource__mini-logos" aria-label="Braindecode stakeholders">
+          <span class="opensource__tags"><span>Maintenance</span><span>Soutien</span><span>Décodage neural</span></span>
+          <span class="opensource__mini-logos" aria-label="Partenaires Braindecode">
             <img class="opensource__mini-logo--braindecode" src="{{ '/assets/images/opensource/logos/braindecode.svg' | relative_url }}" alt="Braindecode">
             <img class="opensource__mini-logo--yneuro" src="{{ '/assets/images/opensource/logos/yneuro-mini.png' | relative_url }}" alt="Yneuro">
             <img class="opensource__mini-logo--inria" src="{{ '/assets/images/opensource/logos/inria.png' | relative_url }}" alt="Inria">
             <img class="opensource__mini-logo--lisn" src="{{ '/assets/images/opensource/logos/lisn.png' | relative_url }}" alt="LISN">
           </span>
         </span>
-        <span class="opensource__preview"><img src="{{ '/assets/images/opensource/generated/braindecode-home.png' | relative_url }}" alt="Braindecode website preview"></span>
+        <span class="opensource__preview"><img src="{{ '/assets/images/opensource/generated/braindecode-home.png' | relative_url }}" alt="Aperçu du site Braindecode"></span>
       </a>
 
       <a class="opensource__item opensource__item--preview" href="https://www.codabench.org/">
         <h3>Codabench</h3>
-        <p>Commissioning AWS and Deloitte to support the Codabench team at Paris-Saclay to scale the competition platform.</p>
+        <p>Mobiliser AWS et Deloitte pour soutenir l’équipe Codabench à Paris-Saclay dans le développement de la plateforme.</p>
         <span class="opensource__item-footer">
-          <span class="opensource__tags"><span>Library scaling</span><span>Benchmark</span><span>Competition</span></span>
-          <span class="opensource__mini-logos" aria-label="Codabench stakeholders">
+          <span class="opensource__tags"><span>Stress tests</span><span>Benchmark</span><span>Compétition</span></span>
+          <span class="opensource__mini-logos" aria-label="Partenaires Codabench">
             <img class="opensource__mini-logo--codabench" src="{{ '/assets/images/opensource/logos/codabench.png' | relative_url }}" alt="Codabench">
             <img class="opensource__mini-logo--yneuro" src="{{ '/assets/images/opensource/logos/yneuro-mini.png' | relative_url }}" alt="Yneuro">
             <img class="opensource__mini-logo--paris-saclay" src="{{ '/assets/images/opensource/logos/paris-saclay.png' | relative_url }}" alt="Paris-Saclay University">
@@ -108,15 +108,15 @@ translation_key: open-source
             <img class="opensource__mini-logo--deloitte" src="{{ '/assets/images/opensource/logos/deloitte.jpg' | relative_url }}" alt="Deloitte">
           </span>
         </span>
-        <span class="opensource__preview"><img src="{{ '/assets/images/opensource/generated/codabench-home.png' | relative_url }}" alt="Codabench website preview"></span>
+        <span class="opensource__preview"><img src="{{ '/assets/images/opensource/generated/codabench-home.png' | relative_url }}" alt="Aperçu du site Codabench"></span>
       </a>
 
       <a class="opensource__item" href="https://mne.tools/stable/index.html">
         <h3>MNE-EMG</h3>
-        <p>Initiating, with Pranav Mamidanna, a central Python package for EMG signal processing and analysis within the MNE-Python ecosystem.</p>
+        <p>Initier, avec Pranav Mamidanna, un package Python central pour le traitement et l’analyse des signaux EMG dans l’écosystème MNE-Python.</p>
         <span class="opensource__item-footer">
-          <span class="opensource__tags"><span>Package development</span><span>EMG</span><span>MNE ecosystem</span></span>
-          <span class="opensource__mini-logos" aria-label="MNE-EMG stakeholders">
+          <span class="opensource__tags"><span>Package Python</span><span>EMG</span><span>Écosystème MNE</span></span>
+          <span class="opensource__mini-logos" aria-label="Partenaires MNE-EMG">
             <img class="opensource__mini-logo--mne" src="{{ '/assets/images/opensource/logos/mne.svg' | relative_url }}" alt="MNE-Python">
             <img class="opensource__mini-logo--yneuro" src="{{ '/assets/images/opensource/logos/yneuro-mini.png' | relative_url }}" alt="Yneuro">
             <img class="opensource__mini-logo--imperial" src="{{ '/assets/images/opensource/logos/imperial.png' | relative_url }}" alt="Imperial College London">
@@ -131,34 +131,34 @@ translation_key: open-source
     <div class="opensource__section-head">
       <span class="opensource__section-index">03</span>
       <div>
-        <h2>Python Packages</h2>
-        <p>Releasing reusable code around EMG, motoneurons, motor units, simulation, and neuromuscular modelling.</p>
+        <h2>Packages Python</h2>
+        <p>Publier du code réutilisable pour l’EMG, les motoneurones, les unités motrices, la simulation et la modélisation neuromusculaire.</p>
       </div>
     </div>
 
     <div class="opensource__items opensource__items--compact">
       <a class="opensource__item" href="https://github.com/dfarinagroup/muniverse">
         <h3>MUniverse</h3>
-        <p>Simulation and benchmarking suite for motor unit decomposition, spanning synthetic, hybrid, and experimental EMG with ground-truth motor unit spikes.</p>
-        <span class="opensource__tags"><span>Benchmark</span><span>Motor unit</span><span>HD-EMG</span></span>
+        <p>Suite de simulation et de benchmark pour la décomposition d’unités motrices, avec EMG synthétique, hybride et expérimental, et spike trains de référence.</p>
+        <span class="opensource__tags"><span>Benchmark</span><span>Unité motrice</span><span>HD-EMG</span></span>
       </a>
 
       <a class="opensource__item" href="https://github.com/ArnaultCAILLET/MN-driven-Neuromuscular-Model-with-motor-unit-resolution">
         <h3>Motoneuron-Driven Neuromuscular Model</h3>
-        <p>Subject-specific neuromuscular modelling with motor unit resolution.</p>
-        <span class="opensource__tags"><span>Neuromuscular model</span><span>Musculoskeletal model</span><span>HD-EMG</span></span>
+        <p>Modélisation neuromusculaire sujet-spécifique avec résolution à l’échelle de l’unité motrice.</p>
+        <span class="opensource__tags"><span>Modèle neuromusculaire</span><span>Modèle MSK</span><span>HD-EMG</span></span>
       </a>
 
       <a class="opensource__item" href="https://github.com/shihan-ma/NeuroMotion">
         <h3>NeuroMotion Simulator</h3>
-        <p>Dynamic, motion-driven EMG signal generation with neuromechanical and deep learning models.</p>
-        <span class="opensource__tags"><span>VAE</span><span>EMG</span><span>Motion</span></span>
+        <p>Génération dynamique de signaux EMG à partir du mouvement, avec modèles neuromécaniques et deep learning.</p>
+        <span class="opensource__tags"><span>VAE</span><span>EMG</span><span>Mouvement</span></span>
       </a>
 
       <a class="opensource__item" href="https://github.com/ArnaultCAILLET/Caillet-et-al-2022-PLOS_Comput_Biol">
         <h3>Data Augmentation for Motoneuron Pool Reconstruction</h3>
-        <p>EMG-based motoneuron pool reconstruction with data augmentation.</p>
-        <span class="opensource__tags"><span>Motoneuron pool</span><span>Data augmentation</span><span>HD-EMG</span></span>
+        <p>Reconstruction de pools de motoneurones à partir de l’EMG, avec augmentation de données.</p>
+        <span class="opensource__tags"><span>Pool de motoneurones</span><span>Augmentation de données</span><span>HD-EMG</span></span>
       </a>
     </div>
 
@@ -168,30 +168,30 @@ translation_key: open-source
     <div class="opensource__section-head">
       <span class="opensource__section-index">04</span>
       <div>
-        <h2>Data Release</h2>
-        <p>Making datasets reusable for motor unit physiology, high-density EMG, neuromuscular simulation, and cross-species motoneuron modelling.</p>
+        <h2>Données ouvertes</h2>
+        <p>Rendre les données réutilisables pour la physiologie des unités motrices, l’EMG haute densité, la simulation neuromusculaire et la modélisation inter-espèces des motoneurones.</p>
       </div>
     </div>
 
     <div class="opensource__items opensource__items--compact">
       <a class="opensource__item" href="https://figshare.com/articles/dataset/24640944/1">
         <h3>High-Density EMG Dataset II</h3>
-        <p>Signals and manually edited spike trains from 2 muscles, 16 participants, 8 contractions levels, 1 session, with 2000+ identified motor units.</p>
+        <p>Signaux et spike trains corrigés manuellement pour 2 muscles, 16 participants, 8 niveaux de contraction et plus de 2000 unités motrices identifiées.</p>
       </a>
 
       <a class="opensource__item" href="https://doi.org/10.6084/m9.figshare.22149287">
         <h3>High-Density EMG Dataset I</h3>
-        <p>Signals and manually edited spike trains from 1 muscle, 6 participants, 2 contraction levels, 1 session, with 500+ identified motor units.</p>
+        <p>Signaux et spike trains corrigés manuellement pour 1 muscle, 6 participants, 2 niveaux de contraction et plus de 500 unités motrices identifiées.</p>
       </a>
 
       <a class="opensource__item" href="https://zenodo.org/records/10069266">
         <h3>Medical Imaging &amp; MSK Model Dataset</h3>
-        <p>Segmented anatomical volumes and subject-specific musculoskeletal models for neuromuscular simulations.</p>
+        <p>Volumes anatomiques segmentés et modèles musculosquelettiques sujet-spécifiques pour simulations neuromusculaires.</p>
       </a>
 
       <a class="opensource__item" href="https://elifesciences.org/articles/76489/figures#content">
         <h3>Cat &amp; Rat Motoneuron Electrophysiology Dataset</h3>
-        <p>Experimental motoneuron electrophysiology data for cross-species modelling.</p>
+        <p>Données expérimentales d’électrophysiologie de motoneurones pour la modélisation inter-espèces.</p>
       </a>
     </div>
 

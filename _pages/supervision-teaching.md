@@ -3,6 +3,8 @@ permalink: /supervision-teaching/
 title: "Supervision & Teaching"
 excerpt: ""
 author_profile: true
+lang: en
+translation_key: supervision-teaching
 ---
 
 # Supervision & Teaching

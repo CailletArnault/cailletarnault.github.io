@@ -1,28 +1,28 @@
 ---
-permalink: /awards/
-title: "Awards & Recognition"
+permalink: /fr/awards/
+title: "Prix & reconnaissances"
 excerpt: ""
 author_profile: true
-lang: en
+lang: fr
 translation_key: awards
 ---
 
-# Awards & Recognition
+# Prix & reconnaissances
 
-<p class="awards__intro">Selected recognitions from two sides of my work: building <strong>Yneuro</strong> into a visible neurotech company, and the academic path that shaped my research background.</p>
+<p class="awards__intro">Quelques reconnaissances marquantes, à la croisée de deux trajectoires qui animent mon parcours depuis 2018 : la construction de <strong>Yneuro</strong> comme neurotech visible, et un parcours académique entre génie civil, neurosciences, biomécanique et modélisation computationnelle.</p>
 
 <div class="awards">
-  <div class="awards__stats" aria-label="Awards summary">
-    <div class="awards__stat"><span class="awards__stat-number">7</span><span class="awards__stat-label">Yneuro awards</span></div>
-    <div class="awards__stat"><span class="awards__stat-number">4</span><span class="awards__stat-label">startup recognitions</span></div>
-    <div class="awards__stat"><span class="awards__stat-number">8</span><span class="awards__stat-label">academic awards</span></div>
-    <div class="awards__stat"><span class="awards__stat-number">2018-2026</span><span class="awards__stat-label">recognized trajectory</span></div>
+  <div class="awards__stats" aria-label="Synthèse des prix">
+    <div class="awards__stat"><span class="awards__stat-number">7</span><span class="awards__stat-label">prix pour Yneuro</span></div>
+    <div class="awards__stat"><span class="awards__stat-number">4</span><span class="awards__stat-label">reconnaissances startup</span></div>
+    <div class="awards__stat"><span class="awards__stat-number">8</span><span class="awards__stat-label">prix académiques</span></div>
+    <div class="awards__stat"><span class="awards__stat-number">2018-2026</span><span class="awards__stat-label">trajectoire reconnue</span></div>
   </div>
 
   <section class="awards__section">
     <div class="awards__section-head">
-      <h2>Yneuro Recognition</h2>
-      <p>Company-level recognitions for <strong>Yneuro</strong>. My role in that trajectory is as <strong>Founding CSO</strong> and <strong>scientific lead</strong> behind the R&D and creation of <strong>Neuro ID®</strong>, the core technology at the center of this momentum.</p>
+      <h2>Reconnaissances de Yneuro</h2>
+      <p>Ces prix sont attribués à <strong>Yneuro</strong>. Mon rôle dans cette trajectoire est celui de <strong>Founding CSO</strong> et de responsable scientifique derrière la R&D et la création de <strong>Neuro ID®</strong>, technologie au cœur de cette dynamique primée.</p>
     </div>
 
     <div class="awards__grid">
@@ -32,7 +32,7 @@ translation_key: awards
       </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_ces-2026-starts-now-yneuro-shows-what-activity-7414217108445917184-MOYr?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo award-card__logo--ces"><img src="{{ '/assets/images/awards/CES.png' | relative_url }}" alt="CES"></span>
-        <span class="award-card__body"><span class="award-card__meta">2026 · United States <span class="award-card__flag">🇺🇸</span><span class="award-card__trophy">🏆</span></span><strong>CES</strong><em>French Pavilion Walk of Fame</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2026 · États-Unis <span class="award-card__flag">🇺🇸</span><span class="award-card__trophy">🏆</span></span><strong>CES</strong><em>French Pavilion Walk of Fame</em></span>
       </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/Unicorn-Summit-logo.jpg' | relative_url }}" alt="Unicorn Summit"></span>
@@ -44,11 +44,11 @@ translation_key: awards
       </a>
       <a class="award-card award-card--major" href="https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/ai action summit.png' | relative_url }}" alt="AI Action Summit"></span>
-        <span class="award-card__body"><span class="award-card__meta">2025 · France <span class="award-card__flag">🇫🇷</span><span class="award-card__trophy">🏆</span></span><strong>AI Action Summit</strong><em>Laureate, AI for Efficiency</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2025 · France <span class="award-card__flag">🇫🇷</span><span class="award-card__trophy">🏆</span></span><strong>AI Action Summit</strong><em>Lauréat, AI for Efficiency</em></span>
       </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo award-card__logo--ceatec"><img src="{{ '/assets/images/awards/ceatec.jpg' | relative_url }}" alt="CEATEC"></span>
-        <span class="award-card__body"><span class="award-card__meta">2024 · Japan <span class="award-card__flag">🇯🇵</span><span class="award-card__trophy">🏆</span></span><strong>CEATEC</strong><em>Global Category Award</em></span>
+        <span class="award-card__body"><span class="award-card__meta">2024 · Japon <span class="award-card__flag">🇯🇵</span><span class="award-card__trophy">🏆</span></span><strong>CEATEC</strong><em>Global Category Award</em></span>
       </a>
       <a class="award-card award-card--major" href="https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/vivatech.png' | relative_url }}" alt="VivaTech"></span>
@@ -57,7 +57,7 @@ translation_key: awards
     </div>
 
     <div class="awards__also">
-      <span>Yneuro is also recognized through</span>
+      <span>Yneuro est également distingué par</span>
       <a href="https://stationf.co/news/station-f-unveils-future-40-2021">Station F Future 40</a>
       <span>FORBES 1000</span>
       <a href="https://www.linkedin.com/feed/update/urn:li:activity:7447162191213948930/">Choiseul 100</a>
@@ -68,7 +68,7 @@ translation_key: awards
 
   <section class="awards__section awards__section--academic">
     <div class="awards__section-head">
-      <h2>Personal Academic Awards</h2>
+      <h2>Prix académiques personnels</h2>
     </div>
 
     <ol class="awards__timeline">

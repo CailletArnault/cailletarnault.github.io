@@ -16,3 +16,17 @@ main:
 
   - title: "Supervision & Teaching"
     url: "/supervision-teaching/"
+
+main_fr:
+  - title: "Qui est Arnault ?"
+    url: "/fr/#qui-est-arnault"
+  - title: "CSO @ Yneuro"
+    url: "/fr/cso-yneuro/"
+  - title: "Publications"
+    url: "/fr/publications/"
+  - title: "Science ouverte"
+    url: "/fr/open-source/"
+  - title: "Prix"
+    url: "/fr/awards/"
+  - title: "Encadrement & enseignement"
+    url: "/fr/supervision-teaching/"
