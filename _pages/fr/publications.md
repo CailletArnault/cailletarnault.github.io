@@ -90,7 +90,7 @@ Je partage publiquement mes travaux de recherche sous plusieurs formats : articl
           {% assign g = chart_groups | where: "name", ystr | first %}
           {% if g %}
             <a class="pubtrack__col" href="#pubyear-{{ y }}" target="_self" data-chart-year="{{ y }}" aria-label="{{ y }} : {{ g.items | size }} sorties scientifiques publiques">
-              <span class="pubtrack__stack">{% for pub in g.items %}<i class="pubtrack__cell pubtrack__cell--{{ pub.type }}" data-cell-type="{{ pub.type }}" title="{{ pub.title | escape }}"></i>{% endfor %}</span>
+              <span class="pubtrack__stack">{% for pub in g.items %}{% assign venue_key = "" %}{% if pub.venue contains "NeurIPS" %}{% assign venue_key = "neurips" %}{% elsif pub.venue contains "PLOS Computational Biology" %}{% assign venue_key = "plos-computational-biology" %}{% elsif pub.venue contains "Journal of Strength" %}{% assign venue_key = "journal-strength-conditioning" %}{% elsif pub.venue contains "ICASSP" %}{% assign venue_key = "icassp" %}{% elsif pub.venue contains "Journal of Applied Physiology" %}{% assign venue_key = "journal-applied-physiology" %}{% elsif pub.venue contains "ESB" %}{% assign venue_key = "esb" %}{% elsif pub.venue contains "eLife" %}{% assign venue_key = "elife" %}{% elsif pub.venue contains "ISB" %}{% assign venue_key = "isb" %}{% elsif pub.venue contains "WCB" %}{% assign venue_key = "wcb" %}{% elsif pub.venue contains "HybridNeuro" %}{% assign venue_key = "hybridneuro" %}{% elsif pub.venue contains "eNeuro" %}{% assign venue_key = "eneuro" %}{% elsif pub.venue contains "IEEE Reviews in Biomedical Engineering" %}{% assign venue_key = "ieee-reviews-biomedical-engineering" %}{% elsif pub.venue contains "ISEK" %}{% assign venue_key = "isek" %}{% elsif pub.venue contains "NCM" %}{% assign venue_key = "ncm" %}{% endif %}<i class="pubtrack__cell pubtrack__cell--{{ pub.type }}" data-cell-type="{{ pub.type }}" data-cell-venue="{{ venue_key }}" title="{{ pub.title | escape }}"></i>{% endfor %}</span>
               <span class="pubtrack__col-year">&rsquo;{{ ystr | slice: 2, 2 }}</span>
             </a>
           {% else %}
@@ -103,21 +103,21 @@ Je partage publiquement mes travaux de recherche sous plusieurs formats : articl
       </div>
     </div>
     <div class="pubtrack__venues" aria-label="Revues et conférences">
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--spotlight pubtrack__venue-logo--slot-a"><img src="{{ '/assets/images/venues/neurips-cropped.jpeg' | relative_url }}" alt="NeurIPS"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--spotlight pubtrack__venue-logo--slot-b"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.35.39.png' | relative_url }}" alt="IEEE Signal Processing Society"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--featured pubtrack__venue-logo--slot-c"><img src="{{ '/assets/images/venues/elife-cropped.png' | relative_url }}" alt="eLife"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--featured pubtrack__venue-logo--slot-d"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.37.30.png' | relative_url }}" alt="EMB"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-e"><img src="{{ '/assets/images/venues/APS-Journal-of-Applied-Physiology.png' | relative_url }}" alt="Journal of Applied Physiology"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-f"><img src="{{ '/assets/images/venues/JSC-logo.png' | relative_url }}" alt="Journal of Strength and Conditioning Research"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--plos pubtrack__venue-logo--slot-g"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.28.55.png' | relative_url }}" alt="PLOS Computational Biology"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-h"><img src="{{ '/assets/images/venues/ESB_logo_on_white-1024x276.png' | relative_url }}" alt="European Society of Biomechanics"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--square pubtrack__venue-logo--slot-i"><img src="{{ '/assets/images/venues/logo-isb-oversize.png' | relative_url }}" alt="International Society of Biomechanics"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--square pubtrack__venue-logo--slot-j"><img src="{{ '/assets/images/venues/WCB-2026-Logo-Package_Coloured-Stacked-Primary-Logo-with-Website-05.png' | relative_url }}" alt="World Congress of Biomechanics"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-k"><img src="{{ '/assets/images/venues/hn_logo_round.webp' | relative_url }}" alt="HybridNeuro"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--quiet pubtrack__venue-logo--slot-l"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.32.12.png' | relative_url }}" alt="eNeuro"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--quiet pubtrack__venue-logo--slot-m"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.29.44.png' | relative_url }}" alt="IEEE"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--square pubtrack__venue-logo--slot-n"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.39.06.png' | relative_url }}" alt="ISEK"></span>
-      <span class="pubtrack__venue-logo pubtrack__venue-logo--ncm pubtrack__venue-logo--slot-o"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.42.06.png' | relative_url }}" alt="NCM"></span>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--spotlight pubtrack__venue-logo--slot-a" data-venue-filter="neurips" aria-pressed="false" aria-label="Filtrer NeurIPS"><img src="{{ '/assets/images/venues/neurips-cropped.jpeg' | relative_url }}" alt="NeurIPS"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--spotlight pubtrack__venue-logo--slot-b" data-venue-filter="icassp" aria-pressed="false" aria-label="Filtrer ICASSP"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.35.39.png' | relative_url }}" alt="IEEE Signal Processing Society"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--featured pubtrack__venue-logo--slot-c" data-venue-filter="elife" aria-pressed="false" aria-label="Filtrer eLife"><img src="{{ '/assets/images/venues/elife-cropped.png' | relative_url }}" alt="eLife"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--featured pubtrack__venue-logo--slot-d" data-venue-filter="ieee-reviews-biomedical-engineering" aria-pressed="false" aria-label="Filtrer IEEE Reviews in Biomedical Engineering"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.37.30.png' | relative_url }}" alt="EMB"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-e" data-venue-filter="journal-applied-physiology" aria-pressed="false" aria-label="Filtrer Journal of Applied Physiology"><img src="{{ '/assets/images/venues/APS-Journal-of-Applied-Physiology.png' | relative_url }}" alt="Journal of Applied Physiology"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-f" data-venue-filter="journal-strength-conditioning" aria-pressed="false" aria-label="Filtrer Journal of Strength and Conditioning Research"><img src="{{ '/assets/images/venues/JSC-logo.png' | relative_url }}" alt="Journal of Strength and Conditioning Research"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--plos pubtrack__venue-logo--slot-g" data-venue-filter="plos-computational-biology" aria-pressed="false" aria-label="Filtrer PLOS Computational Biology"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.28.55.png' | relative_url }}" alt="PLOS Computational Biology"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-h" data-venue-filter="esb" aria-pressed="false" aria-label="Filtrer European Society of Biomechanics"><img src="{{ '/assets/images/venues/ESB_logo_on_white-1024x276.png' | relative_url }}" alt="European Society of Biomechanics"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--square pubtrack__venue-logo--slot-i" data-venue-filter="isb" aria-pressed="false" aria-label="Filtrer International Society of Biomechanics"><img src="{{ '/assets/images/venues/logo-isb-oversize.png' | relative_url }}" alt="International Society of Biomechanics"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--square pubtrack__venue-logo--slot-j" data-venue-filter="wcb" aria-pressed="false" aria-label="Filtrer World Congress of Biomechanics"><img src="{{ '/assets/images/venues/WCB-2026-Logo-Package_Coloured-Stacked-Primary-Logo-with-Website-05.png' | relative_url }}" alt="World Congress of Biomechanics"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--wide pubtrack__venue-logo--slot-k" data-venue-filter="hybridneuro" aria-pressed="false" aria-label="Filtrer HybridNeuro"><img src="{{ '/assets/images/venues/hn_logo_round.webp' | relative_url }}" alt="HybridNeuro"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--quiet pubtrack__venue-logo--slot-l" data-venue-filter="eneuro" aria-pressed="false" aria-label="Filtrer eNeuro"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.32.12.png' | relative_url }}" alt="eNeuro"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--quiet pubtrack__venue-logo--slot-m" data-venue-filter="icassp" aria-pressed="false" aria-label="Filtrer ICASSP"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.29.44.png' | relative_url }}" alt="IEEE"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--square pubtrack__venue-logo--slot-n" data-venue-filter="isek" aria-pressed="false" aria-label="Filtrer ISEK"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.39.06.png' | relative_url }}" alt="ISEK"></button>
+      <button type="button" class="pubtrack__venue-logo pubtrack__venue-logo--ncm pubtrack__venue-logo--slot-o" data-venue-filter="ncm" aria-pressed="false" aria-label="Filtrer NCM"><img src="{{ '/assets/images/venues/Screenshot 2026-06-12 at 17.42.06.png' | relative_url }}" alt="NCM"></button>
     </div>
   </div>
 
@@ -198,7 +198,23 @@ Je partage publiquement mes travaux de recherche sous plusieurs formats : articl
               {% when "demo" %}{% assign display_type = "DÉMO" %}
               {% else %}{% assign display_type = pub.type_label | default: pub.type %}
             {% endcase %}
-            <article class="pubtrack__entry pubtrack__entry--{{ pub.type }} anchor" id="{{ pub.id }}" data-type="{{ pub.type }}" data-tags="{{ pub.tags | join: ' ' }}" data-author-roles="{{ author_roles | strip }}">
+            {% assign venue_key = "" %}
+            {% if pub.venue contains "NeurIPS" %}{% assign venue_key = "neurips" %}
+            {% elsif pub.venue contains "PLOS Computational Biology" %}{% assign venue_key = "plos-computational-biology" %}
+            {% elsif pub.venue contains "Journal of Strength" %}{% assign venue_key = "journal-strength-conditioning" %}
+            {% elsif pub.venue contains "ICASSP" %}{% assign venue_key = "icassp" %}
+            {% elsif pub.venue contains "Journal of Applied Physiology" %}{% assign venue_key = "journal-applied-physiology" %}
+            {% elsif pub.venue contains "ESB" %}{% assign venue_key = "esb" %}
+            {% elsif pub.venue contains "eLife" %}{% assign venue_key = "elife" %}
+            {% elsif pub.venue contains "ISB" %}{% assign venue_key = "isb" %}
+            {% elsif pub.venue contains "WCB" %}{% assign venue_key = "wcb" %}
+            {% elsif pub.venue contains "HybridNeuro" %}{% assign venue_key = "hybridneuro" %}
+            {% elsif pub.venue contains "eNeuro" %}{% assign venue_key = "eneuro" %}
+            {% elsif pub.venue contains "IEEE Reviews in Biomedical Engineering" %}{% assign venue_key = "ieee-reviews-biomedical-engineering" %}
+            {% elsif pub.venue contains "ISEK" %}{% assign venue_key = "isek" %}
+            {% elsif pub.venue contains "NCM" %}{% assign venue_key = "ncm" %}
+            {% endif %}
+            <article class="pubtrack__entry pubtrack__entry--{{ pub.type }} anchor" id="{{ pub.id }}" data-type="{{ pub.type }}" data-venue="{{ venue_key }}" data-tags="{{ pub.tags | join: ' ' }}" data-author-roles="{{ author_roles | strip }}">
               {% if title_href != "" %}
                 <p class="pubtrack__title"><a href="{{ title_href }}">{{ pub.title }}{{ pubfig }}</a></p>
               {% else %}

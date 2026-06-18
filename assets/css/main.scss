@@ -136,6 +136,10 @@ h1 {
   background: transparent;
 }
 
+.greedy-nav .visible-links .masthead__menu-home-item {
+  display: none !important;
+}
+
 .greedy-nav .visible-links .masthead__menu-item > a {
   color: #6b7480;
   font-weight: 800;
@@ -147,41 +151,28 @@ h1 {
 }
 
 @media (min-width: 64em) {
-  .sidebar {
+  .greedy-nav .visible-links {
+    margin-left: calc((100% / 12) * 2.5);
+    margin-right: 0;
     position: relative;
   }
 
-  .sidebar::before {
-    background:
-      radial-gradient(
-        ellipse 62% 48% at 50% 42%,
-        rgba(96, 123, 153, 0.13) 0%,
-        rgba(96, 123, 153, 0.065) 34%,
-        rgba(96, 123, 153, 0.024) 55%,
-        rgba(96, 123, 153, 0) 78%
-      );
-    content: "";
-    height: 31rem;
-    left: 50%;
-    pointer-events: none;
+  .greedy-nav .visible-links .masthead__menu-control-item {
     position: absolute;
-    top: 2.2rem;
-    transform: translateX(-50%);
-    width: 20rem;
-    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
-  .sidebar .profile_box {
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    padding: 0;
+  .greedy-nav .visible-links .masthead__menu-control-item:first-child {
+    left: -9.2rem;
   }
 
-  .profile_box .author__avatar img {
-    background: #fff;
-    border-color: rgba(96, 123, 153, 0.2);
-    box-shadow: 0 8px 22px rgba(43, 74, 111, 0.085);
+  .greedy-nav .visible-links .masthead__menu-control-item:nth-child(2) {
+    left: -8.3rem;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item:nth-child(4) > a {
+    margin-left: 0;
   }
 }
 
@@ -2256,12 +2247,17 @@ $pub-demo: #c44b38;
 .pubtrack__venue-logo {
   align-items: center;
   background: transparent;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
   display: flex;
   height: 32px;
   justify-content: center;
   min-width: 0;
+  padding: 0.2rem;
   position: absolute;
   transform: translate(-50%, -50%);
+  transition: filter 160ms ease, opacity 160ms ease, transform 160ms ease;
 }
 
 .pubtrack__venue-logo img {
@@ -2271,6 +2267,26 @@ $pub-demo: #c44b38;
   max-width: 100%;
   object-fit: contain;
   width: auto;
+}
+
+.pubtrack__venue-logo:hover,
+.pubtrack__venue-logo:focus-visible,
+.pubtrack__venue-logo.is-active {
+  filter: saturate(1.05);
+  opacity: 1;
+  outline: none;
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.pubtrack__venue-logo.is-active::after {
+  background: rgba(96, 123, 153, 0.55);
+  border-radius: 999px;
+  bottom: -0.22rem;
+  content: "";
+  height: 3px;
+  left: 18%;
+  position: absolute;
+  right: 18%;
 }
 
 .pubtrack__venue-logo--compact img {
