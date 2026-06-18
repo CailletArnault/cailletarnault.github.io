@@ -358,17 +358,12 @@ html.mobile-interface .mobile-site-nav a {
 
 html.mobile-interface .mobile-site-nav .site-view-toggle,
 html.mobile-interface .mobile-site-nav .site-lang-toggle {
-  align-items: center;
   flex: 0 0 auto;
   font-size: 0.58rem;
   line-height: 1;
   margin: 0;
   padding: 0.38rem 0.48rem;
   white-space: nowrap !important;
-}
-
-html.mobile-interface .mobile-site-nav .site-view-toggle {
-  transform: translateY(0.03rem);
 }
 
 html.mobile-interface .mobile-site-nav .site-lang-toggle {
@@ -378,18 +373,6 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle {
 
 html.mobile-interface .mobile-site-nav .site-lang-toggle span {
   font-size: 0.76rem;
-}
-
-html.mobile-interface.view-mode-desktop body {
-  max-width: none;
-  min-width: 1180px;
-  overflow-x: auto;
-}
-
-html.mobile-interface.view-mode-desktop #main {
-  max-width: 1180px;
-  min-width: 1180px;
-  width: 1180px;
 }
 
 .author__urls .author__urls-heading {
