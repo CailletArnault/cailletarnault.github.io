@@ -5,7 +5,7 @@
   var toggles = Array.prototype.slice.call(document.querySelectorAll("[data-view-toggle]"));
   var mobileQuery = window.matchMedia("(max-width: 48em)");
   var mobileInterfaceQuery = window.matchMedia("(hover: none) and (pointer: coarse)");
-  var desktopViewport = "width=1180";
+  var desktopViewport = "width=device-width, initial-scale=1.0";
   var mobileViewport = "width=device-width, initial-scale=1.0";
 
   function isMobileInterface() {

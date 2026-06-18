@@ -21,10 +21,6 @@
     if (mode === "mobile" || mode === "desktop") {
       document.documentElement.className += " view-mode-" + mode + " ";
     }
-    if (mode === "desktop") {
-      var viewport = document.querySelector('meta[name="viewport"]');
-      if (viewport) viewport.setAttribute("content", "width=1180");
-    }
   }());
 </script>
 

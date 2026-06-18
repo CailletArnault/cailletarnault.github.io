@@ -1179,3 +1179,20 @@ html.view-mode-mobile body {
   overflow-x: hidden;
   width: 100%;
 }
+
+html.mobile-interface.view-mode-desktop body {
+  max-width: none;
+  min-width: 1180px;
+  overflow-x: auto;
+}
+
+html.mobile-interface.view-mode-desktop #main {
+  max-width: 1180px;
+  min-width: 1180px;
+  width: 1180px;
+}
+
+html.mobile-interface .mobile-site-nav .site-view-toggle {
+  align-items: center;
+  transform: translateY(0.03rem);
+}
