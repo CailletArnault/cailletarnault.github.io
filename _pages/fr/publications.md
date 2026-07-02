@@ -173,7 +173,11 @@ Je partage publiquement mes travaux de recherche sous plusieurs formats : articl
             {% endif %}
             {% assign authors = pub.authors | replace: "Caillet A.H.", "<strong>Caillet A.H.</strong>" | replace: "Caillet,", "<strong>Caillet</strong>," | replace: " Caillet.", " <strong>Caillet</strong>." %}
             {% if pub.links.pdf %}
-              {% assign title_href = pub.links.pdf | relative_url %}
+              {% if pub.links.pdf contains "://" %}
+                {% assign title_href = pub.links.pdf %}
+              {% else %}
+                {% assign title_href = pub.links.pdf | relative_url %}
+              {% endif %}
             {% elsif pub.links.arxiv %}
               {% assign title_href = pub.links.arxiv %}
             {% elsif pub.links.doi %}
@@ -223,7 +227,7 @@ Je partage publiquement mes travaux de recherche sous plusieurs formats : articl
               <p class="pubtrack__meta"><span class="pubtrack__type pubtrack__type--{{ pub.type }}">{{ display_type }}</span><span class="pubtrack__venue">{{ pub.venue }}</span>{% if pub.status %}<span class="pubtrack__status">{{ pub.status | replace: "-", " " }}</span>{% endif %}</p>
               <p class="pubtrack__authors">{{ authors }}</p>
               {% if pub.links %}
-                <p class="pubtrack__links">{% if pub.links.pdf %}<a href="{{ pub.links.pdf | relative_url }}">PDF<span class="pubtrack__glyph">&nbsp;&darr;</span></a>{% endif %}{% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}">arXiv<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}{% if pub.links.doi %}<a href="{{ pub.links.doi }}">DOI<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}{% if pub.links.site %}<a href="{{ pub.links.site }}">Site<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}</p>
+                <p class="pubtrack__links">{% if pub.links.pdf %}{% if pub.links.pdf contains "://" %}{% assign pdf_href = pub.links.pdf %}{% else %}{% assign pdf_href = pub.links.pdf | relative_url %}{% endif %}<a href="{{ pdf_href }}">PDF<span class="pubtrack__glyph">&nbsp;&darr;</span></a>{% endif %}{% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}">arXiv<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}{% if pub.links.doi %}<a href="{{ pub.links.doi }}">DOI<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}{% if pub.links.site %}<a href="{{ pub.links.site }}">Site<span class="pubtrack__glyph">&nbsp;&nearr;</span></a>{% endif %}</p>
               {% endif %}
               {% if pub.tags %}
                 <p class="pubtrack__tags">

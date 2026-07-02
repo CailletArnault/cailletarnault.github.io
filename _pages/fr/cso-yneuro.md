@@ -159,6 +159,7 @@ translation_key: cso-yneuro
       <a href="https://www.linkedin.com/posts/tdsemah_yneuro-named-next-unicorn-at-unicorn-summit-activity-7378314139196215296-NBtY?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/Unicorn-Summit-logo.jpg' | relative_url }}" alt="Unicorn Summit"><strong>Unicorn Summit</strong><span>Next Unicorn</span></a>
       <a href="https://www.linkedin.com/posts/tdsemah_ces-2026-starts-now-yneuro-shows-what-activity-7414217108445917184-MOYr?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/CES.png' | relative_url }}" alt="CES"><strong>CES</strong><span>Walk of Fame</span></a>
       <a href="https://www.linkedin.com/feed/update/urn:li:activity:7450089093688037377/"><img src="{{ '/assets/images/awards/bpi france.png' | relative_url }}" alt="Bpifrance"><strong>Bpifrance</strong><span>DeepTech</span></a>
+      <a href="https://www.linkedin.com/posts/tdsemah_140-billion-thats-the-size-of-the-digital-activity-7475076594173243392-YE20?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/elysee.svg' | relative_url }}" alt="Élysée"><strong>Élysée</strong><span>Innovation &amp; souveraineté</span></a>
     </div>
 
   </section>
@@ -181,6 +182,8 @@ translation_key: cso-yneuro
           <a class="cso-media-logo cso-media-logo--bfm" href="https://www.bfmtv.com/economie/replay-emissions/french-tech/video-french-tech-yneuro-un-capteur-neuronal-non-invasif-06-02_VN-202602060277.html">BFM Business</a>
           <a class="cso-media-logo cso-media-logo--bfm" href="https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-thomas-semah-yneuro-yneuro-le-cerveau-pour-s-authentifier-10-11_VN-202511100921.html">BFMTV</a>
           <a class="cso-media-logo cso-media-logo--vivatech" href="https://www.linkedin.com/posts/vivatechparis_vivastory-vivatech-neurotech-ugcPost-7414603581351309313-SNNu?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">VivaTech</a>
+          <a class="cso-media-logo cso-media-logo--figaro" href="https://video.lefigaro.fr/figaro/points-de-vue-etait-en-direct-du-salon-vivatech-20260617">Le Figaro</a>
+          <a class="cso-media-logo cso-media-logo--bpifrance" href="https://www.youtube.com/watch?v=-xIfEBa7uaA">Bpifrance</a>
         </div>
       </div>
 
@@ -208,6 +211,7 @@ translation_key: cso-yneuro
           <a class="cso-media-logo cso-media-logo--techco" href="https://www.bfmtv.com/tech/actualites/video-deverrouiller-son-smartphone-avec-son-cerveau_VN-202601090582.html">Tech &amp; Co</a>
           <a class="cso-media-logo cso-media-logo--radio-classique" href="https://smartlinks.audiomeans.fr/l/comment-j-ai-reussi--d9b5010caef0/thomas-semah-fondateur-de-yneuro-1a575646755b">Radio Classique</a>
           <a class="cso-media-logo cso-media-logo--monde-numerique" href="https://smartlinks.audiomeans.fr/l/monde-numerique-actu-des-technologies--a5b78a1f2972/acceder-a-ses-donnees-sans-geste-ni-code-grace-au-cerveau-thomas-semah-yneuro-1778762c">Monde Numérique</a>
+          <a class="cso-media-logo cso-media-logo--next" href="https://www.youtube.com/playlist?list=PLsm5RXYHaflUD3VZsTPfIRfTsGVBHdwsF">40 Nuances de Next</a>
           <a class="cso-media-logo cso-media-logo--youtube" href="https://youtu.be/HgAbcdUQJI0?si=N79-ejbBovvHZAFG">Tev</a>
           <a class="cso-media-logo cso-media-logo--youtube" href="https://www.youtube.com/@ValenWerle/shorts">Valen Werle</a>
         </div>

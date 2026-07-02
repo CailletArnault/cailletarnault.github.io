@@ -13,7 +13,7 @@ translation_key: awards
 
 <div class="awards">
   <div class="awards__stats" aria-label="Awards summary">
-    <div class="awards__stat"><span class="awards__stat-number">7</span><span class="awards__stat-label">Yneuro awards</span></div>
+    <div class="awards__stat"><span class="awards__stat-number">8</span><span class="awards__stat-label">Yneuro awards</span></div>
     <div class="awards__stat"><span class="awards__stat-number">4</span><span class="awards__stat-label">startup recognitions</span></div>
     <div class="awards__stat"><span class="awards__stat-number">8</span><span class="awards__stat-label">academic awards</span></div>
     <div class="awards__stat"><span class="awards__stat-number">2018-2026</span><span class="awards__stat-label">recognized trajectory</span></div>
@@ -26,6 +26,10 @@ translation_key: awards
     </div>
 
     <div class="awards__grid">
+      <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_140-billion-thats-the-size-of-the-digital-activity-7475076594173243392-YE20?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
+        <span class="award-card__logo award-card__logo--elysee"><img src="{{ '/assets/images/awards/elysee.svg' | relative_url }}" alt="Élysée"></span>
+        <span class="award-card__body"><span class="award-card__meta">2026 · France <span class="award-card__flag">🇫🇷</span></span><strong>Élysée</strong><em>Dedicated invitation at the Élysée for French digital innovation and sovereignty.</em></span>
+      </a>
       <a class="award-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7450089093688037377/">
         <span class="award-card__logo"><img src="{{ '/assets/images/awards/bpi france.png' | relative_url }}" alt="Bpifrance"></span>
         <span class="award-card__body"><span class="award-card__meta">2026 · France <span class="award-card__flag">🇫🇷</span><span class="award-card__trophy">🏆</span></span><strong>Bpifrance</strong><em>Qualification DeepTech</em></span>

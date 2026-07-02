@@ -1398,6 +1398,8 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 .cso-media-logo--bigmedia { color: #1d4f8f !important; }
 .cso-media-logo--maddyness { color: #111 !important; }
 .cso-media-logo--monde-numerique { color: #286f9f !important; }
+.cso-media-logo--bpifrance { color: #273442 !important; }
+.cso-media-logo--next { color: #7c3f98 !important; }
 
 .cso-team-gallery {
   display: flex;
@@ -1666,6 +1668,11 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 .award-card__logo--ceatec img {
   max-height: 2.55rem;
   max-width: 7.4rem;
+}
+
+.award-card__logo--elysee img {
+  max-height: 2.45rem;
+  max-width: 7.6rem;
 }
 
 .award-card__body {

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 62" role="img" aria-label="Élysée">
+  <g transform="translate(0 3)">
+    <rect x="0" y="0" width="7" height="52" fill="#1d3f74"/>
+    <rect x="9" y="0" width="7" height="52" fill="#ffffff" stroke="#e6e9ed"/>
+    <rect x="18" y="0" width="7" height="52" fill="#d32027"/>
+  </g>
+  <text x="42" y="32" fill="#1f2f46" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">Élysée</text>
+  <text x="44" y="52" fill="#69717c" font-family="Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.7">PRÉSIDENCE DE LA RÉPUBLIQUE</text>
+</svg>

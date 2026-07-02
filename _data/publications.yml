@@ -7,6 +7,11 @@
   type_label: Journal paper
   status: submitted
   tags: [neuromuscular-modelling, benchmarking-evaluation]
+  links:
+    pdf: https://www.biorxiv.org/content/10.64898/2026.06.15.732276v1.full.pdf
+    doi: https://doi.org/10.64898/2026.06.15.732276
+    site: https://www.biorxiv.org/content/10.64898/2026.06.15.732276v1.abstract
+  figure: /assets/images/publications/sgarzi-biorxiv-2026.png
 
 - id: output-2026-eusipco-artifact-rejection
   authors: Hajhassani D., Aristimunha B., Graignic P.-A., Mellot A., Kusch L., Delorme A., Semah T., Caillet A.H.
