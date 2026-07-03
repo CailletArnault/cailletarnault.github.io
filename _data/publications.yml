@@ -37,6 +37,19 @@
   status: submitted
   tags: [eeg, emg, neural-decoding-bci, benchmarking-evaluation]
 
+- id: output-2026-isek-motor-unit-discharge
+  authors: Sabatini C., Caillet A.H., Hodossy B.K., Avrillon S., Hug F., Farina D.
+  year: 2026
+  title: "Force, recruitment threshold, and muscle as determinants of discharge rate and variability in human motor units"
+  venue: ISEK 2026, Jyväskylä, Finland 🇫🇮
+  type: abstract
+  type_label: Conference abstract
+  tags: [emg, motor-unit, motor-control]
+  links:
+    pdf: /assets/pdfs/isek-2026-motor-unit-discharge-rate-variability.pdf
+    site: https://isek.org/wp-content/uploads/2026/06/ISEK-2026-abstract-Book_June22.pdf
+  figure: /assets/images/publications/isek-2026-motor-unit-discharge-rate-variability.png
+
 - id: output-2026-icassp-demo
   authors: Caillet A.H., Mellot A., Aristimunha B., Delorme A., Semah T.
   year: 2026
