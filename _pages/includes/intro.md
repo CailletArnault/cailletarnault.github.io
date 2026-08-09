@@ -45,7 +45,7 @@ I am always open to chat and happy to meet! For academic collaborations, industr
 
 ## Snapshot of my Journey
 
-I have always wanted to do many things, and I've worked relentlessly to make them coexist. Too many passions to fit one single timeline! Today, I see myself as an entrepreneur, project manager, engineer & scientific researcher, mentor, and open-source advocate. I ground these in various experiences across France and the UK, and in many stretched hours stitching these threads together. Here is a snapshot of the journey so far, to be continued!
+I have always wanted to do many things, and I've worked relentlessly to make them coexist. Too many passions to fit one single timeline! Today, I consider myself an entrepreneur, project manager, engineer & scientific researcher, mentor, and open-source advocate. I ground these in various experiences across France and the UK, and in many stretched hours stitching these threads together. Here is a snapshot of the journey so far, to be continued!
 
 <div class="home-chrono" aria-label="Parallel timeline of Arnault Caillet">
   <div class="home-chrono__years" aria-hidden="true">
