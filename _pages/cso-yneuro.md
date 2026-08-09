@@ -126,7 +126,7 @@ translation_key: cso-yneuro
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/marcandre.jpeg' | relative_url }}" alt="Marc-Andre Ploux">
-          <div class="cso-team-card__caption"><h3>Marc-André Ploux</h3><p>Freelance Full-Stack Developer</p></div>
+          <div class="cso-team-card__caption"><h3>Marc-André Ploux</h3><p>Full-Stack Developer</p></div>
           <div class="cso-team-card__overlay"><p>Full-stack development for internal scientific tools and product interfaces.</p><p>Ecole 42 background and CTO of EXA Market.</p></div>
         </div>
       </article>
