@@ -140,6 +140,10 @@ translation_key: cso-yneuro
       </article>
     </div>
 
+    <figure class="cso-team-photo">
+      <img src="{{ '/assets/images/yneuro-team/team-photo.jpg' | relative_url }}" alt="Équipe scientifique de Yneuro" loading="lazy">
+    </figure>
+
   </section>
 
   <section class="cso-yneuro__section">
