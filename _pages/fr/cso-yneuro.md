@@ -197,6 +197,7 @@ translation_key: cso-yneuro
           <a class="cso-media-logo cso-media-logo--lacroix" href="https://www.la-croix.com/societe/yneuro-la-start-up-francaise-qui-prepare-la-revolution-de-l-identification-neuronale-20251219">La Croix</a>
           <a class="cso-media-logo cso-media-logo--jdg" href="https://www.journaldugeek.com/2026/01/14/cerveau-remplacer-mots-passe-yneuro-francais-revolutionne-authentification/">Journal du Geek</a>
           <a class="cso-media-logo cso-media-logo--clubic" href="https://www.clubic.com/actualite-596020-votre-cerveau-comme-mot-de-passe-le-francais-yneuro-lance-la-premiere-authentification-neuronale.html">Clubic</a>
+          <a class="cso-media-logo cso-media-logo--jdd" href="https://www.lejdd.fr/economie/yneuro-et-si-votre-cerveau-devenait-votre-mot-de-passe-181554">Le JDD</a>
           <a class="cso-media-logo cso-media-logo--paperjam" href="https://paperjam.lu/article/yneuro-startup-de-lannee-a-nexus">Paperjam</a>
           <a class="cso-media-logo cso-media-logo--paperjam" href="https://www.linkedin.com/posts/tdsemah_from-startup-of-the-year-at-nexus-luxembourg-activity-7470817203353788416-qN_z?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">Paperjam</a>
           <a class="cso-media-logo cso-media-logo--bigmedia" href="https://www.linkedin.com/posts/tdsemah_proud-to-have-yneuro-backed-by-bpifrance-activity-7450089093688037377-mi_c?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">BIG Media</a>
