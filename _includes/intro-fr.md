@@ -8,15 +8,13 @@
 
 Je suis le **Chief Scientific Officer** et **Founding Scientist** de **<img src="/images/yneuro_logo.png" alt="Yneuro" style="height:17px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**. J’y ai la responsabilité de la direction scientifique et R&D autour de **[Neuro ID®](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, notre technologie brevetée d’authentification neuro-biométrique.<a class="home-inline-cta" href="/fr/cso-yneuro/" target="_self">En savoir plus</a>
 
-Je suis également **Honorary Research Officer** à <img src="/images/imperial_logo.png" alt="Imperial College London" style="height:16px; vertical-align:middle; margin-left:2px; margin-right:3px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)**, et je poursuis des collaborations avec <img src="/images/nantes_logo.png" alt="Université de Nantes" style="height:14px; vertical-align:middle; margin-left:-1px; margin-right:2px">l'Université de Nantes et <img src="/images/unsw_logo.png" alt="UNSW Sydney" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:0px;">UNSW Sydney, autour d'initiatives scientifiques publiques, de l’EMG haute densité, du contrôle moteur et de la modélisation neuromusculosquelettique.<a class="home-inline-cta" href="/fr/publications/" target="_self">En savoir plus</a>
+Je suis également **Honorary Research Officer** à <img src="/images/imperial_logo.png" alt="Imperial College London" style="height:16px; vertical-align:middle; margin-left:2px; margin-right:3px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)**, au sein du groupe [Neuromechanics and Rehabilitation Technology](https://www.imperial.ac.uk/neuromechanics-rehabilitation-technology/) du Pr Dario Farina. Mes travaux portent sur l’EMG, la modélisation neuromusculosquelettique et le contrôle moteur.
 
-## Ma philosophie
+Je porte aussi des [collaborations de science ouverte à grande échelle](/fr/open-source/), dont le [EEG/EMG Foundation Challenge 2026](/fr/open-source/#open-challenges), que je coordonne avec Yneuro.
 
-Qu'elle soit publique ou propriétaire, je défends une science solide, qui doit pouvoir être testée, vérifiée et utilisée. Chez Yneuro, cela se concrétise à travers une [équipe scientifique solide](/fr/cso-yneuro/#team){: .home-quiet-link target="\_self" } autour de Neuro ID®, avec la volonté de transformer le décodage neural en produit déployable. Nos **démos** ont déjà été [testées par le grand public](https://www.linkedin.com/posts/st%C3%A9phanie-obertin-7952677a_yneuro-nexus2025-yneuro-ugcPost-7341804939616108544-RK2X?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) en de nombreuses occasions et par des milliers de personnes, donnant lieu à plusieurs **prix** et **reconnaissances**.<a class="home-inline-cta" href="/fr/awards/" target="_self">En savoir plus</a> Lorsque possible, ma recherche est publique : données, code, infrastructure et compétitions. <a class="home-inline-cta" href="/fr/open-source/" target="_self">En savoir plus</a>
+## Échangeons
 
-## Échangeons!
-
-Je suis toujours partant pour échanger. Collaboration académique, partenariat industriel, prise de parole média ou simple discussion scientifique : vous pouvez me joindre par [**email**](mailto:arnault@yneuro.com) ou sur [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136). Pour une rencontre en personne, je suis le plus souvent à [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111), à Paris. Prochains rendez-vous physiques : VivaTech 2026 à Paris et EUSIPCO 2026 à Bruxelles.
+Je défends une science rigoureuse, que l’on peut éprouver et mettre en pratique. Je suis toujours heureux de discuter de science et de nouvelles collaborations, autour de [Yneuro](/fr/cso-yneuro/), de [travaux de recherche](/fr/publications/) ou d’[initiatives de science ouverte](/fr/open-source/). Vous pouvez me joindre par [**email**](mailto:arnault@yneuro.com), sur [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136) ou à **Station F, à Paris**.
 
 <div class="home-nav-cards" aria-label="Explorer le site">
   <a href="/fr/cso-yneuro/" target="_self">
@@ -45,7 +43,7 @@ Je suis toujours partant pour échanger. Collaboration académique, partenariat 
 
 ## Mon parcours, en bref
 
-Porté par la curiosité du progrès, j’ai toujours avancé sur plusieurs fronts à la fois. Entre la France et le Royaume-Uni, j’ai construit un parcours autour de cinq piliers souvent complémentaires : entrepreneuriat & gestion de projet, recherche, science publique, science & ingénierie, et mentorat. Voici un aperçu de ce parcours, toujours en mouvement !
+Je suis chercheur, entrepreneur et chef de projet, avec un parcours construit entre la France et le Royaume-Uni.
 
 <div class="home-chrono" aria-label="Parcours parallèle d’Arnault Caillet">
   <div class="home-chrono__years" aria-hidden="true">

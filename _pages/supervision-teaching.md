@@ -14,25 +14,6 @@ I have been supervising, teaching, and mentoring students since 2016, including 
 </p>
 
 <div class="supervision">
-  <div class="supervision__verticals" aria-label="Supervision verticals">
-    <div>
-      <strong>Research supervision</strong>
-      <span>PhD and MSc projects in neuromuscular modelling, motor control, and signal analysis.</span>
-    </div>
-    <div>
-      <strong>Technical mentoring</strong>
-      <span>From data curation and modelling choices to scientific writing and reproducible code.</span>
-    </div>
-    <div>
-      <strong>Institutional interface</strong>
-      <span>Work spanning Imperial College London, Université de Nantes, and international student mentoring.</span>
-    </div>
-    <div>
-      <strong>Teaching foundations</strong>
-      <span>Mechanics, structural analysis, mathematics, physics, chemistry, and computer science.</span>
-    </div>
-  </div>
-
   <section class="supervision__section">
     <div class="supervision__section-head">
       <span>01</span>
@@ -45,7 +26,8 @@ I have been supervising, teaching, and mentoring students since 2016, including 
       <article class="supervision-card">
         <span>2026-</span>
         <h3>PhD Supervisor</h3>
-        <p><img src="/images/cea-logo.png" alt="CEA" class="supervision__inline-logo supervision__inline-logo--cea">CEA x <img src="/images/yneuro_logo.png" alt="Yneuro" class="supervision__inline-logo supervision__inline-logo--yneuro">Yneuro, CIFRE PhD.</p>
+        <p><strong>Bruna Lopes</strong>, <em>Improving non-invasive decoding by aligning foundation models with simultaneously acquired EEG and fMRI</em>.</p>
+        <p><img src="/images/cea-logo.png" alt="CEA" class="supervision__inline-logo supervision__inline-logo--cea">CEA &amp; <img src="{{ '/assets/images/opensource/logos/inserm_logo.jpg' | relative_url }}" alt="Inserm" class="supervision__inline-logo supervision__inline-logo--inserm">Inserm x <img src="/images/yneuro_logo.png" alt="Yneuro" class="supervision__inline-logo supervision__inline-logo--yneuro">Yneuro, CIFRE PhD.</p>
       </article>
 
       <article class="supervision-card">

@@ -523,8 +523,70 @@
   }
 
   .opensource__section > .opensource__challenge,
+  .opensource__section > .foundation-challenge,
   .opensource__section > .opensource__items {
     margin-left: 0;
+  }
+
+  .foundation-challenge__overview {
+    gap: 0.75rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .foundation-challenge__posts {
+    gap: 0.55rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .foundation-challenge__post img {
+    height: 6rem;
+  }
+
+  .foundation-challenge__post--organizers img {
+    height: 7.5rem;
+  }
+
+  .foundation-challenge__post {
+    font-size: 0.65rem;
+  }
+
+  .foundation-challenge__tracks {
+    gap: 0.55rem;
+  }
+
+  .foundation-track {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .foundation-track__figure {
+    margin-bottom: 0.45rem;
+  }
+
+  .foundation-track__figure img {
+    height: 4.5rem;
+  }
+
+  .page__content .foundation-track h3 {
+    font-size: 0.8rem;
+  }
+
+  .page__content .foundation-track p {
+    font-size: 0.7rem;
+  }
+
+  .foundation-track small {
+    font-size: 0.62rem;
+  }
+
+  .foundation-track__links a {
+    font-size: 0.67rem;
+    min-height: 2.25rem;
+  }
+
+  .foundation-stack__tool {
+    flex-basis: 6.75rem;
+    min-height: 4.5rem;
   }
 
   .opensource__challenge-main,
@@ -921,7 +983,7 @@
   }
 
   .cso-role-card span {
-    font-size: 0.66rem;
+    font-size: 0.88rem;
     margin-bottom: 0.32rem;
   }
 

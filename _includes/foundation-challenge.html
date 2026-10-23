@@ -1,0 +1,53 @@
+{% assign challenge = site.data.foundation_challenge %}
+{% assign challenge_lang = page.lang | default: 'en' %}
+{% assign challenge_copy = challenge[challenge_lang] %}
+<section class="opensource__section anchor" id="open-challenges">
+  <div class="opensource__section-head">
+    <span class="opensource__section-index">01</span>
+    <div>
+      <h2><a href="{{ challenge.website }}">EEG/EMG Foundation Challenge 2026</a></h2>
+      <p>{{ challenge_copy.intro }}</p>
+      <p>{{ challenge_copy.scale }}</p>
+      <p>{{ challenge_copy.role }}</p>
+    </div>
+  </div>
+
+  <div class="foundation-challenge">
+    <div class="foundation-challenge__overview">
+      <div class="foundation-challenge__posts">
+        <a class="foundation-challenge__post" href="{{ challenge.announcement }}">
+          <img src="{{ '/assets/images/opensource/challenge-2026-announcement.jpg' | relative_url }}" alt="{{ challenge_copy.image_alt }}" width="800" height="417" loading="lazy">
+        </a>
+        <a class="foundation-challenge__post foundation-challenge__post--organizers" href="{{ challenge.organizers_post }}">
+          <img src="{{ '/assets/images/opensource/challenge-2026-organizers.jpg' | relative_url }}" alt="{{ challenge_copy.ecosystem_alt }}" width="1080" height="1350" loading="lazy">
+        </a>
+      </div>
+
+      <div class="foundation-challenge__tracks">
+        {% for track in challenge.tracks %}
+        <article class="foundation-track">
+          <a class="foundation-track__figure" href="{{ track.url }}" aria-label="{{ track.title }}: {{ challenge_copy.details }}">
+            <img src="{{ track.image | relative_url }}" alt="{{ track[challenge_lang] }}" loading="lazy">
+          </a>
+          <h3><a href="{{ track.url }}"><span>{{ track.number }}</span> {{ track.title }}</a></h3>
+          <p>{{ track[challenge_lang] }}</p>
+          <small>{{ track.team }}</small>
+          <div class="foundation-track__links">
+            <a href="{{ track.video }}">{{ challenge_copy.video }} <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <p class="foundation-challenge__stack-intro">{{ challenge_copy.stack_intro }}</p>
+  </div>
+  <div class="foundation-stack" role="region" tabindex="0" aria-label="{{ challenge_copy.stack_label }}">
+    {% for tool in challenge.tools %}
+    <a class="foundation-stack__tool" href="{{ tool.url }}">
+      <img src="{{ tool.image | relative_url }}" alt="" loading="lazy">
+      <strong>{{ tool.name }}</strong>
+    </a>
+    {% endfor %}
+  </div>
+</section>

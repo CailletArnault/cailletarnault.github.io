@@ -10,71 +10,22 @@ translation_key: open-source
 # Science ouverte
 
 <div class="opensource">
-  <p class="opensource__intro">Je suis attaché à une <strong>science ouverte</strong>, exigeante et réutilisable. Pendant mon parcours académique, j’ai contribué à cette synergie open-source en <strong>publiant des jeux de données et du code publics</strong> autour de l’électrophysiologie des motoneurones, de l’EMG haute densité multi-session/multi-tâche, de la physiologie des unités motrices et de la modélisation neuromusculaire.</p>
-  <p class="opensource__intro">Aujourd’hui, je prolonge cette trajectoire open-source à travers mon double rôle de CSO de Yneuro et d’Honorary Research Officer à Imperial College London : librairies de code, compétitions ouvertes et collaborations concrètes entre recherche académique et industrie.</p>
-  <p class="opensource__intro">Je suis convaincu que l'écosystème neurotech a aujourd'hui besoin d'outils partagés, de benchmarks ouverts et de ressources réutilisables à grande échelle, développés collectivement par les entreprises et les institutions académiques.</p>
+  <p class="opensource__intro">Je défends une <strong>science ouverte</strong>, convaincu que les grandes avancées naissent du travail collectif et du partage des données et des outils. Je m’y engage concrètement en publiant des <strong>données neurophysiologiques</strong>, en créant, développant et maintenant des <strong>bibliothèques open source</strong>, et en organisant des événements internationaux comme le <a href="#open-challenges">EEG/EMG Foundation Challenge 2026</a>.</p>
 
   <nav class="opensource__verticals" aria-label="Axes de science ouverte">
-    <a href="#open-challenges"><strong>Arènes publiques</strong><span>Compétitions scientifiques</span></a>
-    <a href="#open-infrastructure"><strong>Infrastructure</strong><span>Librairies et plateformes partagées</span></a>
+    <a href="#open-challenges"><strong>EEG/EMG Foundation Challenge 2026</strong><span>Compétition internationale</span></a>
+    <a href="#open-infrastructure"><strong>Bibliothèques open source</strong><span>Outils et plateformes partagés</span></a>
     <a href="#open-packages"><strong>Packages Python</strong><span>Code de recherche réutilisable</span></a>
     <a href="#open-data"><strong>Données ouvertes</strong><span>Jeux de données ouverts</span></a>
   </nav>
 
-  <section class="opensource__section anchor" id="open-challenges">
-    <div class="opensource__section-head">
-      <span class="opensource__section-index">01</span>
-      <div>
-        <h2>Arènes publiques</h2>
-        <p>Je co-dirige avec <a href="https://bruaristimunha.github.io/">Bruno Aristimunha</a> l’organisation du <a href="https://neural-interfaces26.github.io/">EEG/EMG Foundation Challenge 2026</a>. La compétition réunit laboratoires académiques, infrastructure open source et équipes de recherche industrielles autour des modèles de fondation EEG/EMG et de l'adaptation de domaine liée aux sujets, sessions, émotions, contextes et matériels. <strong>Yneuro</strong> en est l’organisateur principal, aux côtés d’<strong>Inria</strong>, <strong>UCSD</strong> et <strong>Meta</strong>, avec le soutien d’<strong>AWS</strong>. Cinq axes structurent la compétition :</p>
-      </div>
-    </div>
-
-    <div class="opensource__challenge">
-      <div class="opensource__challenge-main">
-        <div class="opensource__challenge-left">
-          <div class="opensource__tracks" aria-label="Axes de compétition">
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-1"><strong>Track 1 - EEG-to-Image</strong><small>Meta FAIR Brain &amp; AI + Alljoined</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-2"><strong>Track 2 - Décodage BCI</strong><small>Inria LaBRI</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-3"><strong>Track 3 - Détection d’endormissement EEG</strong><small>InteraXon Inc.</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-4"><strong>Track 4 - EMG-to-Text</strong><small>Meta Reality Labs + Imperial</small></a>
-            <a href="https://neural-interfaces26.github.io/leaderboard.html#track-5"><strong>Track 5 - Transfert de fondation</strong><small>Yneuro</small></a>
-          </div>
-
-          <div class="opensource__stakeholders" aria-label="Partenaires de la compétition">
-            <img class="opensource__logo opensource__logo--yneuro" src="{{ '/assets/images/opensource/logos/yneuro.png' | relative_url }}" alt="Yneuro">
-            <img class="opensource__logo opensource__logo--ucsd" src="{{ '/assets/images/opensource/logos/ucsd.svg' | relative_url }}" alt="UC San Diego">
-            <img class="opensource__logo opensource__logo--inria" src="{{ '/assets/images/opensource/logos/inria.png' | relative_url }}" alt="Inria">
-            <img class="opensource__logo opensource__logo--alljoined" src="{{ '/assets/images/opensource/logos/alljoined.png' | relative_url }}" alt="Alljoined">
-            <img class="opensource__logo opensource__logo--meta-brain" src="{{ '/assets/images/opensource/logos/meta-brainai.png' | relative_url }}" alt="Meta Brain & AI">
-            <img class="opensource__logo opensource__logo--interaxon" src="{{ '/assets/images/opensource/logos/interaxon.jpg' | relative_url }}" alt="InteraXon">
-            <img class="opensource__logo opensource__logo--meta-reality" src="{{ '/assets/images/opensource/logos/meta-reality.png' | relative_url }}" alt="Meta Reality Labs">
-            <img class="opensource__logo opensource__logo--aws" src="{{ '/assets/images/opensource/logos/aws.svg' | relative_url }}" alt="AWS">
-            <img class="opensource__logo opensource__logo--imperial" src="{{ '/assets/images/opensource/logos/imperial.png' | relative_url }}" alt="Imperial College London">
-            <img class="opensource__logo opensource__logo--donders" src="{{ '/assets/images/opensource/logos/donders.png' | relative_url }}" alt="Donders Institute">
-            <img class="opensource__logo opensource__logo--isae" src="{{ '/assets/images/opensource/logos/isae-supaero.svg' | relative_url }}" alt="ISAE-SUPAERO">
-            <img class="opensource__logo opensource__logo--paris-saclay" src="{{ '/assets/images/opensource/logos/paris-saclay.png' | relative_url }}" alt="Paris-Saclay University">
-            <img class="opensource__logo opensource__logo--bordeaux" src="{{ '/assets/images/opensource/logos/bordeaux.png' | relative_url }}" alt="Universite de Bordeaux">
-            <img class="opensource__logo opensource__logo--icm" src="{{ '/assets/images/opensource/logos/icm.png' | relative_url }}" alt="Institut du Cerveau">
-            <img class="opensource__logo opensource__logo--cnrs" src="{{ '/assets/images/opensource/logos/cnrs.png' | relative_url }}" alt="CNRS">
-            <img class="opensource__logo opensource__logo--salk" src="{{ '/assets/images/opensource/logos/salk.png' | relative_url }}" alt="Salk Institute">
-            <img class="opensource__logo opensource__logo--chalearn" src="{{ '/assets/images/opensource/logos/chalearn.png' | relative_url }}" alt="ChaLearn">
-          </div>
-        </div>
-
-        <a class="opensource__visual" href="https://neural-interfaces26.github.io/">
-          <img src="{{ '/assets/images/opensource/generated/neural-interface-competition-overview.png' | relative_url }}" alt="Neural Interface 2026 competition tracks overview">
-        </a>
-      </div>
-    </div>
-
-  </section>
+{% include foundation-challenge.html %}
 
   <section class="opensource__section anchor" id="open-infrastructure">
     <div class="opensource__section-head">
       <span class="opensource__section-index">02</span>
       <div>
-        <h2>Infrastructure</h2>
+        <h2>Bibliothèques open source</h2>
         <p>À travers mon rôle de CSO à Yneuro, je soutiens activement des librairies open source et des plateformes de benchmark qui rendent le travail scientifique plus reproductible, maintenable et partageable.</p>
       </div>
     </div>

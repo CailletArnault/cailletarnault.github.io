@@ -8,15 +8,13 @@
 
 I am the **Chief Scientific Officer** and **Founding Scientist** of **<img src="/images/yneuro_logo.png" alt="Yneuro" style="height:17px; vertical-align:middle; margin-left:2px; margin-right:4px;">[Yneuro](https://www.yneuro.com/)**, where I lead the scientific R&D roadmap behind **[Neuro ID®](https://www.linkedin.com/posts/tdsemah_neuro-id-live-on-stage-at-viva-technology-activity-7340992371196579843-w6q4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw)**, our patented neuro-biometric authentication technology.<a class="home-inline-cta" href="/cso-yneuro/" target="_self">Learn more</a>
 
-I am also an **Honorary Research Officer** at <img src="/images/imperial_logo.png" alt="Imperial College London" style="height:16px; vertical-align:middle; margin-left:2px; margin-right:3px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)**, and maintain collaborations with <img src="/images/nantes_logo.png" alt="Université de Nantes" style="height:14px; vertical-align:middle; margin-left:-1px; margin-right:2px">Université de Nantes and <img src="/images/unsw_logo.png" alt="UNSW Sydney" style="height:18px; vertical-align:middle; margin-left:2px; margin-right:0px;">UNSW Sydney, around large-scale open-source synergies, high-density EMG, motor control, and neuromusculoskeletal modelling.<a class="home-inline-cta" href="/publications/" target="_self">Learn more</a>
+I am also an **Honorary Research Officer** at <img src="/images/imperial_logo.png" alt="Imperial College London" style="height:16px; vertical-align:middle; margin-left:2px; margin-right:3px;">**[Imperial College London](https://profiles.imperial.ac.uk/arnault.caillet17)**, working on EMG, neuromusculoskeletal modelling, and motor control.
 
-## My Philosophy
-
-Whether public or proprietary, I care about rigorous science that can be validated, tested, and used. At Yneuro, this means working with a [strong scientific team](/cso-yneuro/#team){: .home-quiet-link target="\_self" } around Neuro ID®, where we turn neural decoding into an ambitious product, including **demos** that have been [publicly tested](https://www.linkedin.com/posts/st%C3%A9phanie-obertin-7952677a_yneuro-nexus2025-yneuro-ugcPost-7341804939616108544-RK2X?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw) by thousands and recognized with several **awards**.<a class="home-inline-cta" href="/awards/" target="_self">Learn more</a> Where possible, I keep the rest of my research contributions open through datasets, code, infrastructure, and community challenges. <a class="home-inline-cta" href="/open-source/" target="_self">Learn more</a>
+I also lead [large-scale open-science collaborations](/open-source/), including the [EEG/EMG Foundation Challenge 2026](/open-source/#open-challenges), which I coordinate with Yneuro.
 
 ## Let's Collaborate!
 
-I am always open to chat and happy to meet! For academic collaborations, industrial partnerships, media coverage, or simply a good scientific chat, reach me by [**email**](mailto:arnault@yneuro.com) or on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136). For in-person chats, I am usually at [Station F](https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e67222208823cf:0x541ecb63365de48?sa=X&ved=1t:8290&ictx=111) in Paris. In the coming months, I will be at VivaTech 2026 in Paris and EUSIPCO 2026 in Brussels.
+I care about rigorous science that can be tested and put to use, and I am always happy to discuss science and new collaborations, whether for [Yneuro](/cso-yneuro/), [research papers](/publications/), or [open-science initiatives](/open-source/). Get in touch by [**email**](mailto:arnault@yneuro.com), on [**LinkedIn**](https://www.linkedin.com/in/arnault-caillet-75a1a7136), or at **Station F, Paris**.
 
 <div class="home-nav-cards" aria-label="Explore the website">
   <a href="/cso-yneuro/" target="_self">
@@ -45,7 +43,7 @@ I am always open to chat and happy to meet! For academic collaborations, industr
 
 ## Snapshot of my Journey
 
-I have always wanted to do many things, and I've worked relentlessly to make them coexist. Too many passions to fit one single timeline! Today, I consider myself an entrepreneur, project manager, engineer & scientific researcher, mentor, and open-source advocate. I ground these in various experiences across France and the UK, and in many stretched hours stitching these threads together. Here is a snapshot of the journey so far, to be continued!
+I am a scientific researcher, entrepreneur, and project leader, with experience across France and the UK.
 
 <div class="home-chrono" aria-label="Parallel timeline of Arnault Caillet">
   <div class="home-chrono__years" aria-hidden="true">

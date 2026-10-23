@@ -1015,6 +1015,10 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
   margin: 0;
 }
 
+.page__content .supervision-card p + p {
+  margin-top: 0.4rem;
+}
+
 .supervision__inline-logo {
   height: 0.9rem;
   margin: 0 0.16rem 0 0;
@@ -1029,6 +1033,10 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 
 .supervision__inline-logo--cea {
   height: 0.82rem;
+}
+
+.supervision__inline-logo--inserm {
+  height: 1.1rem;
 }
 
 .supervision__inline-logo--yneuro {
@@ -1146,9 +1154,7 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 }
 
 .cso-yneuro__hero {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: minmax(0, 1.2fr) minmax(14rem, 0.8fr);
+  max-width: 66rem;
 }
 
 .page__content .cso-yneuro__lede {
@@ -1236,9 +1242,9 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 }
 
 .cso-role-card span {
-  color: #a2adb8;
+  color: #4f6c88;
   display: block;
-  font-size: 0.78rem;
+  font-size: 1.04rem;
   font-weight: 800;
   line-height: 1;
   margin-bottom: 0.45rem;
@@ -1884,7 +1890,7 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 .opensource__verticals strong {
   color: #263342;
   display: block;
-  font-size: 1.24rem;
+  font-size: 1.02rem;
   line-height: 1.1;
 }
 
@@ -1952,8 +1958,194 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 }
 
 .opensource__section > .opensource__challenge,
+.opensource__section > .foundation-challenge,
 .opensource__section > .opensource__items {
   margin-left: var(--opensource-section-indent);
+}
+
+.foundation-challenge__overview {
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(8rem, 0.65fr) minmax(0, 2fr);
+  margin-bottom: 0.75rem;
+}
+
+.foundation-challenge__posts {
+  display: grid;
+  gap: 0.75rem;
+}
+
+#open-challenges {
+  scroll-margin-top: 4.5rem;
+}
+
+.page__content #open-challenges h2 a,
+.page__content .foundation-track h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page__content #open-challenges h2 a:hover,
+.page__content .foundation-track h3 a:hover {
+  text-decoration: underline;
+}
+
+.page__content #open-challenges .opensource__section-head p + p {
+  margin-top: 0.65rem;
+}
+
+.foundation-challenge__post {
+  display: block;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  text-align: center;
+  text-decoration: none;
+}
+
+.foundation-challenge__post img {
+  border-radius: 6px;
+  display: block;
+  height: 8rem;
+  margin: 0;
+  object-fit: contain;
+  width: 100%;
+}
+
+.foundation-challenge__post--organizers img {
+  height: 10rem;
+}
+
+.foundation-challenge__tracks {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.foundation-track {
+  align-content: center;
+  background: #fbfcfd;
+  border: 1px solid #e6e9ed;
+  border-radius: 8px;
+  display: grid;
+  column-gap: 0.6rem;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  min-width: 0;
+  padding: 0.6rem;
+}
+
+.foundation-track__figure {
+  align-self: center;
+  display: block;
+  grid-row: 1 / 5;
+}
+
+.foundation-track__figure img {
+  display: block;
+  height: 5.6rem;
+  margin: 0;
+  object-fit: contain;
+  width: 100%;
+}
+
+.page__content .foundation-track h3 {
+  font-size: 0.84rem;
+  line-height: 1.3;
+  margin: 0 0 0.3rem;
+}
+
+.foundation-track h3 span {
+  color: #607b99;
+  margin-right: 0.3rem;
+}
+
+.page__content .foundation-track p {
+  font-size: 0.73rem;
+  line-height: 1.4;
+  margin: 0 0 0.25rem;
+}
+
+.foundation-track small {
+  color: #68727d;
+  display: block;
+  font-size: 0.64rem;
+  line-height: 1.3;
+}
+
+.foundation-track__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+  margin-top: 0.45rem;
+}
+
+.foundation-track__links a {
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.68rem;
+  font-weight: 700;
+  min-height: 2rem;
+}
+
+.page__content .foundation-challenge__stack-intro {
+  color: #525963;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.foundation-stack {
+  box-sizing: border-box;
+  display: flex;
+  gap: 0.55rem;
+  overflow-x: auto;
+  padding: 0.15rem 0.1rem 0.6rem;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.foundation-stack__tool {
+  align-content: center;
+  background: #fff;
+  border: 1px solid #e6e9ed;
+  border-radius: 6px;
+  color: #263342;
+  display: grid;
+  flex: 1 0 8.25rem;
+  gap: 0.35rem;
+  grid-template-rows: 2rem auto;
+  justify-items: center;
+  min-height: 4.75rem;
+  padding: 0.5rem;
+  scroll-snap-align: start;
+  text-decoration: none;
+}
+
+.foundation-stack__tool img {
+  display: block;
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+.foundation-stack__tool strong {
+  font-size: 0.78rem;
+}
+
+.foundation-stack__tool:hover,
+.foundation-stack__tool:focus-visible {
+  background: #f7fafc;
+  border-color: #a9bacb;
+  text-decoration: none;
+}
+
+.foundation-stack:focus-visible {
+  outline: 2px solid #607b99;
+  outline-offset: 2px;
 }
 
 .opensource__challenge {
@@ -2364,6 +2556,7 @@ $pub-demo: #c44b38;
 .pubtrack__venue-logo--slot-m { left: 42%; top: 86%; }
 .pubtrack__venue-logo--slot-n { left: 60%; top: 87%; }
 .pubtrack__venue-logo--slot-o { left: 79%; top: 86%; }
+.pubtrack__venue-logo--slot-p { left: 92%; top: 17%; }
 
 .pubtrack__col {
   align-items: center;
@@ -2400,13 +2593,13 @@ $pub-demo: #c44b38;
   width: 13px;
 }
 
-.pubtrack__cell--patent { background: $pub-patent; }
-.pubtrack__cell--journal { background: $pub-journal; }
-.pubtrack__cell--conference { background: $pub-conference; }
-.pubtrack__cell--thesis { background: $pub-thesis; }
-.pubtrack__cell--abstract { background: $pub-abstract; }
-.pubtrack__cell--workshop { background: $pub-workshop; }
-.pubtrack__cell--demo { background: $pub-demo; }
+.pubtrack__cell--journal { background: $pub-journal; order: 0; }
+.pubtrack__cell--conference { background: $pub-conference; order: 1; }
+.pubtrack__cell--patent { background: $pub-patent; order: 2; }
+.pubtrack__cell--thesis { background: $pub-thesis; order: 3; }
+.pubtrack__cell--abstract { background: $pub-abstract; order: 4; }
+.pubtrack__cell--workshop { background: $pub-workshop; order: 5; }
+.pubtrack__cell--demo { background: $pub-demo; order: 6; }
 
 .pubtrack__cell.is-dim {
   opacity: 0.18;

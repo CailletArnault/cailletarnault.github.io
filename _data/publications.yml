@@ -1,3 +1,46 @@
+- id: output-2026-neuron-architecture-growth
+  authors: Mounir A., Douka S., Caillet A.H., Aristimunha B., Chevallier S.
+  year: 2026
+  title: "Neuron-Level Architecture Growth: A Controlled Evaluation for EEG Time-Series Decoding"
+  venue: arXiv
+  type: conference
+  type_label: Conference paper
+  status: preprint
+  tags: [eeg, neural-decoding-bci, benchmarking-evaluation]
+  links:
+    pdf: /assets/pdfs/growth-arxiv.pdf
+    arxiv: https://arxiv.org/abs/2609.33880
+    doi: https://doi.org/10.48550/arXiv.2609.33880
+  figure: /assets/images/publications/neuron-architecture-growth-2026.png
+
+- id: output-2026-automated-artifact-removal
+  authors: Hajhassani D., Graignic P.-A., Aristimunha B., Mellot A., Mariani T., Nober C., Lopes B.J., Burgund L., Kusch L., Semah T., Caillet A.H.
+  year: 2026
+  title: "Automated Artifact Removal in EEG Age Prediction: A Systematic Comparison"
+  venue: arXiv
+  type: conference
+  type_label: Conference paper
+  status: preprint
+  tags: [eeg, preprocessing, neural-decoding-bci, benchmarking-evaluation]
+  links:
+    pdf: /assets/pdfs/AAR-arxiv.pdf
+    arxiv: https://arxiv.org/abs/2609.31195
+    doi: https://doi.org/10.48550/arXiv.2609.31195
+  figure: /assets/images/publications/automated-artifact-removal-2026.png
+
+- id: output-2026-hamstring-damage-hypertrophy
+  authors: Morin T., Doguet V., Mauget A., Panhelleux B., Brossard T., Nordez A., Caillet A.H., Lacourpaille L.
+  year: 2026
+  title: "Neuromechanical Determinants of Muscle-Specific Hamstring Damage and Hypertrophy across Exercises: An EMG-Informed Modeling Approach"
+  venue: Medicine & Science in Sports & Exercise
+  venue_key: msse
+  type: journal
+  type_label: Journal paper
+  tags: [emg, neuromuscular-modelling, msk-modelling, motor-control]
+  links:
+    doi: https://doi.org/10.1249/MSS.0000000000004142
+    site: https://pubmed.ncbi.nlm.nih.gov/42735209/
+
 - id: output-2026-multiscale-hill-type-actuator
   authors: Sgarzi A., Caillet A.H., Millard M., Weidner S., Haralabidis N., Bolsterlee B., Farina D., Lovell N.H., Modenese L.
   year: 2026

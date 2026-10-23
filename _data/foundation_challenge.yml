@@ -1,0 +1,103 @@
+website: https://neural-interfaces26.github.io/
+announcement: https://www.linkedin.com/feed/update/urn:li:activity:7508171678452183041/
+organizers_post: https://www.linkedin.com/feed/update/urn:li:activity:7513943267806347264/
+en:
+  intro: >-
+    I lead and coordinate this challenge with <strong>Yneuro</strong>, alongside <strong>Inria</strong> and <strong>UC San Diego</strong>.
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7508171678452183041/">Launched in September 2026</a>,
+    it concludes with the results presentation at the <a href="https://brainbodyfm-workshop.github.io/">Brain and Body Workshop</a> at NeurIPS in December 2026.
+  scale: >-
+    The largest neuroscience competition to date, it brings together
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7513943267806347264/">31 organizers</a> from 17 institutions across 5 countries.
+    At the midpoint, <strong>2,500+ participants from 67 countries</strong> are competing.
+  role: >-
+    I coordinate planning, provide compute infrastructure with Yneuro, lead communications, and contribute to the scientific validation of the four tracks.
+    Across (01) vision, (02) mental commands, (03) sleep, and (04) hand motion, we test whether models generalize across people, sessions, and devices: a fundamental step toward neurotechnology that works beyond the lab.
+  stack_intro: >-
+    The challenge builds on an <a href="https://neural-interfaces26.github.io/ecosystem.html">open-source ecosystem</a>
+    for neurophysiological data, models, reproducible benchmarks, and evaluation.
+  stack_label: Open-source tools
+  image_alt: "EEG/EMG Foundation Challenge 2026 launch: four decoding tracks"
+  ecosystem_alt: "Challenge organizers: 31 people, 17 institutions, 5 countries, coordinated by Yneuro"
+  details: Track details
+  video: Watch introduction
+  website: Competition website
+
+fr:
+  intro: >-
+    Je pilote et coordonne cette compétition avec <strong>Yneuro</strong>, aux côtés d’<strong>Inria</strong> et d’<strong>UC San Diego</strong>.
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7508171678452183041/">Lancée en septembre 2026</a>,
+    elle s’achève par la présentation des résultats au <a href="https://brainbodyfm-workshop.github.io/">Brain and Body Workshop</a> de NeurIPS en décembre 2026.
+  scale: >-
+    La plus grande compétition de neurosciences organisée à ce jour réunit
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7513943267806347264/">31 organisateurs</a> issus de 17 institutions dans 5 pays.
+    À mi-parcours, elle rassemble <strong>plus de 2 500 participants de 67 pays</strong>.
+  role: >-
+    J’assure la planification, la mise à disposition des moyens de calcul avec Yneuro et la communication, et je contribue à la validation scientifique des quatre épreuves.
+    À travers (01) la vision, (02) les commandes mentales, (03) le sommeil et (04) les mouvements de la main, nous évaluons la capacité des modèles à généraliser entre personnes, sessions et dispositifs, une condition essentielle pour déployer les neurotechnologies hors du laboratoire.
+  stack_intro: >-
+    La compétition s’appuie sur un <a href="https://neural-interfaces26.github.io/ecosystem.html">écosystème open source</a>
+    de données neurophysiologiques, de modèles, de benchmarks reproductibles et d’outils d’évaluation.
+  stack_label: Outils open source
+  image_alt: "Lancement du EEG/EMG Foundation Challenge 2026 : quatre épreuves de décodage"
+  ecosystem_alt: "Les organisateurs : 31 personnes, 17 institutions, 5 pays, sous la coordination de Yneuro"
+  details: Voir l’épreuve
+  video: Présentation vidéo
+  website: Site de la compétition
+
+tools:
+  - name: NeuralBench
+    image: /assets/images/opensource/logos/neuralbench.ico
+    url: https://facebookresearch.github.io/neuroai/neuralbench/
+  - name: Benchopt
+    image: /assets/images/opensource/logos/benchopt.png
+    url: https://benchopt.github.io/
+  - name: Codabench
+    image: /assets/images/opensource/logos/codabench.png
+    url: https://www.codabench.org/
+  - name: Braindecode
+    image: /assets/images/opensource/logos/braindecode.svg
+    url: https://braindecode.org/
+  - name: MOABB
+    image: /assets/images/opensource/logos/moabb.svg
+    url: https://moabb.neurotechx.com/
+  - name: EEGDash
+    image: /assets/images/opensource/logos/eegdash.svg
+    url: https://eegdash.org/
+  - name: NEMAR
+    image: /assets/images/opensource/logos/nemar.svg
+    url: https://nemar.org/
+
+tracks:
+  - number: "01"
+    title: EEG-to-Image
+    team: Meta FAIR Brain & AI + Alljoined
+    image: /assets/images/opensource/eeg-to-img.png
+    url: https://neural-interfaces26.github.io/tracks.html#track-1
+    video: https://www.linkedin.com/posts/hubertbanville_can-we-tell-what-someone-is-seeing-from-their-ugcPost-7508897415551266816-XT57/
+    en: Identify viewed images from EEG.
+    fr: Identifier une image à partir de l’EEG.
+  - number: "02"
+    title: BCI Decoding
+    team: Inria + LaBRI + ISAE-SUPAERO
+    image: /assets/images/opensource/bci-track.png
+    url: https://neural-interfaces26.github.io/tracks.html#track-2
+    video: https://www.linkedin.com/posts/simon-kojima-760948128_can-a-brain-computer-interface-trained-today-ugcPost-7508489161662951424-BfVA/
+    en: Decode mental commands across EEG sessions.
+    fr: Décoder des commandes mentales d’une session EEG à l’autre.
+  - number: "03"
+    title: Sleep Onset
+    team: Muse by Interaxon
+    image: /assets/images/opensource/sleep_prediction.png
+    url: https://neural-interfaces26.github.io/tracks.html#track-3
+    video: https://www.linkedin.com/posts/mauriceaj_eeg-neurofeedback-neuroscience-ugcPost-7509249894444961793-RnIz/
+    en: Predict sleep onset from wearable EEG.
+    fr: Prédire l’endormissement à partir d’un bandeau EEG.
+  - number: "04"
+    title: EMG-to-Pose
+    team: Meta Reality Labs + Imperial
+    image: /assets/images/opensource/emg-to-pose.png
+    url: https://neural-interfaces26.github.io/tracks.html#track-4
+    video: https://www.linkedin.com/posts/alexandregramfort_neurips2026-emg-neuralinterfaces-ugcPost-7507745588227088385-YOIV/
+    en: Reconstruct hand movements from wrist EMG.
+    fr: Reconstruire les mouvements de la main à partir de l’EMG du poignet.

@@ -14,25 +14,6 @@ Depuis 2016, j’enseigne, encadre, et accompagne des étudiants, y compris sur 
 </p>
 
 <div class="supervision">
-  <div class="supervision__verticals" aria-label="Axes d’encadrement">
-    <div>
-      <strong>Encadrement recherche</strong>
-      <span>Doctorats et Masters en modélisation neuromusculaire, contrôle moteur et analyse du signal EEG/EMG.</span>
-    </div>
-    <div>
-      <strong>Mentorat technique</strong>
-      <span>De la curation des données aux choix de modélisation, jusqu’à l’écriture scientifique et au code reproductible.</span>
-    </div>
-    <div>
-      <strong>Interface institutionnelle</strong>
-      <span>Encadrement entre Imperial College London, Université de Nantes et collaborations étudiantes internationales.</span>
-    </div>
-    <div>
-      <strong>Fondations enseignement</strong>
-      <span>Mécanique, analyse structurale, mathématiques, physique, chimie et informatique.</span>
-    </div>
-  </div>
-
   <section class="supervision__section">
     <div class="supervision__section-head">
       <span>01</span>
@@ -45,7 +26,8 @@ Depuis 2016, j’enseigne, encadre, et accompagne des étudiants, y compris sur 
       <article class="supervision-card">
         <span>2026-</span>
         <h3>Encadrant de thèse</h3>
-        <p><img src="/images/cea-logo.png" alt="CEA" class="supervision__inline-logo supervision__inline-logo--cea">CEA x <img src="/images/yneuro_logo.png" alt="Yneuro" class="supervision__inline-logo supervision__inline-logo--yneuro">Yneuro, doctorat CIFRE.</p>
+        <p><strong>Bruna Lopes</strong>, <em>Improving non-invasive decoding by aligning foundation models with simultaneously acquired EEG and fMRI</em>.</p>
+        <p><img src="/images/cea-logo.png" alt="CEA" class="supervision__inline-logo supervision__inline-logo--cea">CEA &amp; <img src="{{ '/assets/images/opensource/logos/inserm_logo.jpg' | relative_url }}" alt="Inserm" class="supervision__inline-logo supervision__inline-logo--inserm">Inserm x <img src="/images/yneuro_logo.png" alt="Yneuro" class="supervision__inline-logo supervision__inline-logo--yneuro">Yneuro, doctorat CIFRE.</p>
       </article>
 
       <article class="supervision-card">

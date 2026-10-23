@@ -14,14 +14,8 @@ translation_key: cso-yneuro
   <section class="cso-yneuro__section cso-yneuro__hero">
     <div class="cso-yneuro__hero-copy">
       <h2>About Yneuro</h2>
-      <p class="cso-yneuro__lede"><strong>Yneuro</strong> is a French deeptech startup based at <strong>Station F</strong>, building <strong>Neuro ID®</strong>, the first neural authentication solution for B2B and B2B2C sectors. Our patented technology is a new biometric standard that turns neural signals into a secure, privacy-preserving biometric layer for the next generation of head-wearables.</p>
-      <p>As <strong>Founding Scientist</strong> and <strong>CSO</strong>, I connect research, product, and executive decisions: setting the R&amp;D roadmap, protecting the IP, building and managing the scientific team, and turning the science into systems that can be tested, trusted, and deployed. Beyond the product, I also push with Yneuro selected <a href="/open-source/">open-science initiatives</a> where shared tools, datasets, and benchmarks can move the field forward.</p>
-    </div>
-    <div class="cso-yneuro__snapshot" aria-label="Yneuro snapshot">
-      <div><strong>Neurotech + AI</strong><span>Secure neural authentication</span></div>
-      <div><strong>Neuro ID®</strong><span>Patented core technology</span></div>
-      <div><strong>Scientific R&amp;D</strong><span>EEG, ML, data, validation</span></div>
-      <div><strong>Station F, Paris</strong><span>French deeptech startup</span></div>
+      <p class="cso-yneuro__lede"><strong><a href="https://www.yneuro.com/">Yneuro</a></strong> is a French deeptech startup based at <strong>Station F</strong>, developing <strong>Neuro ID®</strong>, a pioneer patented neural authentication solution for B2B and B2B2C applications. <strong>Neuro ID®</strong> is a new authentication standard that turns neural signals into secure, privacy-preserving biometrics, ideal for the next generation of connected headsets, glasses, and earbuds.</p>
+      <p>As <strong>Founding Scientist</strong> and <strong>CSO</strong>, I lead the R&amp;D team and connect its day-to-day progress with product development through the roles below. With Yneuro, I also lead international <a href="/open-source/">open-science initiatives</a>.</p>
     </div>
   </section>
 
@@ -150,7 +144,7 @@ translation_key: cso-yneuro
     <div class="cso-yneuro__section-head cso-yneuro__section-head--with-link">
       <div>
         <h2>Awards &amp; Recognition</h2>
-        <p>Yneuro has been recognized across major international tech venues, with <strong>Neuro ID®</strong> at the center of the momentum.</p>
+        <p>Our work has been recognized across major international tech venues, with <strong>Neuro ID®</strong> at the center of the momentum.</p>
       </div>
       <a class="cso-yneuro__text-link" href="/awards/">Full awards page</a>
     </div>
@@ -171,7 +165,7 @@ translation_key: cso-yneuro
   <section class="cso-yneuro__section">
     <div class="cso-yneuro__section-head">
       <h2>Media Coverage</h2>
-      <p>Neuro ID® has been covered across TV, business press, tech media, and founder interviews.</p>
+      <p>Our work on Neuro ID® has been covered across TV, business press, tech media, and founder interviews.</p>
     </div>
 
     <div class="cso-media">
@@ -195,6 +189,8 @@ translation_key: cso-yneuro
         <h3>Press &amp; Articles</h3>
         <div class="cso-media__logos">
           <a class="cso-media-logo cso-media-logo--figaro" href="https://www.lefigaro.fr/secteur/high-tech/yneuro-cette-start-up-francaise-qui-veut-remplacer-les-mots-de-passe-par-l-authentification-neuronale-20260117">Le Figaro</a>
+          <a class="cso-media-logo cso-media-logo--alliancy" href="https://alliancy.fr/un-challenge-mondial-pour-ameliorer-le-decodage-des-signaux-neuronaux-par-lia-b3d6f981-de97-472f-8404-83a497069623">Alliancy</a>
+          <a class="cso-media-logo cso-media-logo--itforbusiness" href="https://www.itforbusiness.fr/yneuro-signature-neuronale-identifiant-numerique-108068">IT for Business</a>
           <a class="cso-media-logo cso-media-logo--lesechos" href="https://www.linkedin.com/posts/tdsemah_trust-is-no-longer-a-default-setting-in-activity-7452607325309251584-1Tgj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">Les Echos</a>
           <a class="cso-media-logo cso-media-logo--tribune" href="https://www.latribune.fr/article/tech/1564713049673615/ces-2026-la-start-up-yneuro-va-commercialiser-son-authentification-par-ondes-cerebrales">La Tribune</a>
           <a class="cso-media-logo cso-media-logo--frenchweb" href="https://www.frenchweb.fr/comment-yneuro-redefinit-les-standards-de-la-securite-numerique-grace-a-la-signature-neuronale/454339">FrenchWeb</a>
@@ -213,6 +209,7 @@ translation_key: cso-yneuro
       <div class="cso-media__group">
         <h3>Tech, Interviews &amp; Creators</h3>
         <div class="cso-media__logos">
+          <a class="cso-media-logo cso-media-logo--neurofounders" href="https://www.neurofounders.co/articles/inside-yneuros-brain-based-authentication-platform">Neurofounders</a>
           <a class="cso-media-logo cso-media-logo--techco" href="https://www.bfmtv.com/tech/actualites/video-deverrouiller-son-smartphone-avec-son-cerveau_VN-202601090582.html">Tech &amp; Co</a>
           <a class="cso-media-logo cso-media-logo--radio-classique" href="https://smartlinks.audiomeans.fr/l/comment-j-ai-reussi--d9b5010caef0/thomas-semah-fondateur-de-yneuro-1a575646755b">Radio Classique</a>
           <a class="cso-media-logo cso-media-logo--monde-numerique" href="https://smartlinks.audiomeans.fr/l/monde-numerique-actu-des-technologies--a5b78a1f2972/acceder-a-ses-donnees-sans-geste-ni-code-grace-au-cerveau-thomas-semah-yneuro-1778762c">Monde Numérique</a>
