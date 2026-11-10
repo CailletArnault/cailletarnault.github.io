@@ -5,14 +5,15 @@ This repository contains the source for `arnaultcaillet.github.io`, a Jekyll-pow
 ## Debug Locally
 
 1. Install the Jekyll build environment: Ruby, RubyGems, GCC, and Make. See the official Jekyll installation guide: <https://jekyllrb.com/docs/installation/#requirements>.
-2. From the repository root, run:
+2. From the repository root, install the locked dependencies once, then start the server:
 
    ```bash
+   bundle install
    bash run_server.sh
    ```
 
 3. Open <http://127.0.0.1:4000> in your browser.
-4. While the server is running, Jekyll rebuilds the site when source files change. Refresh the browser if needed.
+4. While the server is running, Jekyll rebuilds the site and automatically refreshes the browser when source files change. Stop it with `Ctrl+C`.
 5. When changes are ready for production, commit them and push to GitHub.
 
 ## Repository Architecture

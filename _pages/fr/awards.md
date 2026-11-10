@@ -13,10 +13,10 @@ translation_key: awards
 
 <div class="awards">
   <div class="awards__stats" aria-label="Synthèse des prix">
-    <div class="awards__stat"><span class="awards__stat-number">8</span><span class="awards__stat-label">prix pour Yneuro</span></div>
+    <div class="awards__stat"><span class="awards__stat-number">10</span><span class="awards__stat-label">prix pour Yneuro</span></div>
     <div class="awards__stat"><span class="awards__stat-number">4</span><span class="awards__stat-label">reconnaissances startup</span></div>
     <div class="awards__stat"><span class="awards__stat-number">8</span><span class="awards__stat-label">prix académiques</span></div>
-    <div class="awards__stat"><span class="awards__stat-number">2018-2026</span><span class="awards__stat-label">trajectoire reconnue</span></div>
+    <div class="awards__stat"><span class="awards__stat-number">2018-2027</span><span class="awards__stat-label">trajectoire reconnue</span></div>
   </div>
 
   <section class="awards__section">
@@ -26,6 +26,14 @@ translation_key: awards
     </div>
 
     <div class="awards__grid">
+      <a class="award-card award-card--ces-innovation" href="https://lnkd.in/p/e5BT5Jqr">
+        <span class="award-card__logo ces-award-visual">{% include ces-honoree-visual.html %}</span>
+        <span class="award-card__body"><span class="award-card__meta">2027 · États-Unis <span class="award-card__flag">🇺🇸</span><span class="award-card__trophy">🏆</span></span><strong>CES Innovation Awards®</strong><em>Lauréat · Cybersécurité</em></span>
+      </a>
+      <a class="award-card award-card--ces-innovation" href="https://lnkd.in/p/e5BT5Jqr">
+        <span class="award-card__logo ces-award-visual">{% include ces-honoree-visual.html %}</span>
+        <span class="award-card__body"><span class="award-card__meta">2027 · États-Unis <span class="award-card__flag">🇺🇸</span><span class="award-card__trophy">🏆</span></span><strong>CES Innovation Awards®</strong><em>Lauréat · Technologies d’entreprise</em></span>
+      </a>
       <a class="award-card" href="https://www.linkedin.com/posts/tdsemah_140-billion-thats-the-size-of-the-digital-activity-7475076594173243392-YE20?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">
         <span class="award-card__logo award-card__logo--elysee"><img src="{{ '/assets/images/awards/elysee.svg' | relative_url }}" alt="Élysée"></span>
         <span class="award-card__body"><span class="award-card__meta">2026 · France <span class="award-card__flag">🇫🇷</span></span><strong>Élysée</strong><em>Invitation dédiée à l’Élysée autour de l’innovation numérique et de la souveraineté françaises.</em></span>

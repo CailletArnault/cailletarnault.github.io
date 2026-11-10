@@ -685,6 +685,11 @@
     max-width: 5rem;
   }
 
+  .ces-award-visual img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
   .awards__timeline li {
     grid-template-columns: 4rem minmax(0, 1fr);
   }

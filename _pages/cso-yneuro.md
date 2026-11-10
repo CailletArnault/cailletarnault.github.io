@@ -150,6 +150,8 @@ translation_key: cso-yneuro
     </div>
 
     <div class="cso-awards-strip" aria-label="Yneuro awards preview">
+      <a href="https://lnkd.in/p/e5BT5Jqr"><span class="ces-award-visual">{% include ces-honoree-visual.html %}</span><strong>CES 2027</strong><span>Cybersecurity</span></a>
+      <a href="https://lnkd.in/p/e5BT5Jqr"><span class="ces-award-visual">{% include ces-honoree-visual.html %}</span><strong>CES 2027</strong><span>Enterprise Tech</span></a>
       <a href="https://www.linkedin.com/posts/tdsemah_viva-technology-elections-de-la-tech-2024-activity-7204738051246338049-MNra?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/vivatech.png' | relative_url }}" alt="VivaTech"><strong>VivaTech</strong><span>Best Innovation</span></a>
       <a href="https://www.linkedin.com/posts/tdsemah_neuro-id-the-ultimate-secure-biometric-activity-7256566688672894976-RCKg?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/ceatec.jpg' | relative_url }}" alt="CEATEC"><strong>CEATEC</strong><span>Global Category</span></a>
       <a href="https://www.linkedin.com/posts/paulmidy_20-projets-aiforgood-ugcPost-7295817893538062337-Gbrj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw"><img src="{{ '/assets/images/awards/ai action summit.png' | relative_url }}" alt="AI Action Summit"><strong>AI Action Summit</strong><span>AI for Efficiency</span></a>
