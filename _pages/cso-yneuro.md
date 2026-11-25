@@ -79,6 +79,14 @@ translation_key: cso-yneuro
 
       <article class="cso-team-card">
         <div class="cso-team-card__photo" tabindex="0">
+          <img src="{{ '/assets/images/yneuro-team/matin.jpg' | relative_url }}" alt="Matin Fallahi" loading="lazy">
+          <div class="cso-team-card__caption"><h3>Matin Fallahi, PhD</h3><p>EEG Biometrics Expert</p></div>
+          <div class="cso-team-card__overlay"><p>EEG biometrics and brainwave-based authentication.</p></div>
+        </div>
+      </article>
+
+      <article class="cso-team-card">
+        <div class="cso-team-card__photo" tabindex="0">
           <img src="{{ '/assets/images/yneuro-team/tom.jpeg' | relative_url }}" alt="Tom Mariani">
           <div class="cso-team-card__caption"><h3>Tom Mariani</h3><p>Research Scientist</p></div>
           <div class="cso-team-card__overlay"><p>Deep learning architectures for neural decoding.</p><p>Master's from Mines Paris and ENS MVA.</p></div>
@@ -164,63 +172,13 @@ translation_key: cso-yneuro
 
   </section>
 
-  <section class="cso-yneuro__section">
+  <section class="cso-yneuro__section" id="media">
     <div class="cso-yneuro__section-head">
       <h2>Media Coverage</h2>
       <p>Our work on Neuro ID® has been covered across TV, business press, tech media, and founder interviews.</p>
     </div>
 
-    <div class="cso-media">
-      <div class="cso-media__group">
-        <h3>TV &amp; Broadcast</h3>
-        <div class="cso-media__logos">
-          <a class="cso-media-logo cso-media-logo--tf1" href="https://www.linkedin.com/posts/tdsemah_at-yneuro-our-dedicated-team-of-engineers-activity-7202200665694044160-jBkl?utm_source=share&amp;utm_medium=member_desktop">TF1</a>
-          <a class="cso-media-logo cso-media-logo--france2" href="https://www.linkedin.com/posts/tdsemah_neuro-id-goodbye-passwords-hello-freedom-activity-7267437767209496577-AXiV?utm_source=share&amp;utm_medium=member_desktop">France 2</a>
-          <a class="cso-media-logo cso-media-logo--rmc" href="https://rmc.bfmtv.com/actualites/tech/fini-face-id-et-si-votre-cerveau-devenait-votre-prochain-mot-de-passe_AV-202601190657.html">RMC</a>
-          <a class="cso-media-logo cso-media-logo--m6" href="https://www.linkedin.com/posts/tdsemah_neurotechnologies-ai-innovation-activity-7199296085423517696-6luF?utm_source=share&amp;utm_medium=member_desktop">M6</a>
-          <a class="cso-media-logo cso-media-logo--bfm" href="https://www.bfmtv.com/economie/replay-emissions/de-quoi-jme-mail/de-quoi-j-me-mail-neuro-id-le-cerveau-pour-s-authentifier-2-2-03-11_VN-202411030078.html">BFM Business</a>
-          <a class="cso-media-logo cso-media-logo--bfm" href="https://www.bfmtv.com/economie/replay-emissions/french-tech/video-french-tech-yneuro-un-capteur-neuronal-non-invasif-06-02_VN-202602060277.html">BFM Business</a>
-          <a class="cso-media-logo cso-media-logo--bfm" href="https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-thomas-semah-yneuro-yneuro-le-cerveau-pour-s-authentifier-10-11_VN-202511100921.html">BFMTV</a>
-          <a class="cso-media-logo cso-media-logo--vivatech" href="https://www.linkedin.com/posts/vivatechparis_vivastory-vivatech-neurotech-ugcPost-7414603581351309313-SNNu?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">VivaTech</a>
-          <a class="cso-media-logo cso-media-logo--figaro" href="https://video.lefigaro.fr/figaro/points-de-vue-etait-en-direct-du-salon-vivatech-20260617">Le Figaro</a>
-          <a class="cso-media-logo cso-media-logo--bpifrance" href="https://www.youtube.com/watch?v=-xIfEBa7uaA">Bpifrance</a>
-        </div>
-      </div>
-
-      <div class="cso-media__group">
-        <h3>Press &amp; Articles</h3>
-        <div class="cso-media__logos">
-          <a class="cso-media-logo cso-media-logo--figaro" href="https://www.lefigaro.fr/secteur/high-tech/yneuro-cette-start-up-francaise-qui-veut-remplacer-les-mots-de-passe-par-l-authentification-neuronale-20260117">Le Figaro</a>
-          <a class="cso-media-logo cso-media-logo--alliancy" href="https://alliancy.fr/un-challenge-mondial-pour-ameliorer-le-decodage-des-signaux-neuronaux-par-lia-b3d6f981-de97-472f-8404-83a497069623">Alliancy</a>
-          <a class="cso-media-logo cso-media-logo--itforbusiness" href="https://www.itforbusiness.fr/yneuro-signature-neuronale-identifiant-numerique-108068">IT for Business</a>
-          <a class="cso-media-logo cso-media-logo--lesechos" href="https://www.linkedin.com/posts/tdsemah_trust-is-no-longer-a-default-setting-in-activity-7452607325309251584-1Tgj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">Les Echos</a>
-          <a class="cso-media-logo cso-media-logo--tribune" href="https://www.latribune.fr/article/tech/1564713049673615/ces-2026-la-start-up-yneuro-va-commercialiser-son-authentification-par-ondes-cerebrales">La Tribune</a>
-          <a class="cso-media-logo cso-media-logo--frenchweb" href="https://www.frenchweb.fr/comment-yneuro-redefinit-les-standards-de-la-securite-numerique-grace-a-la-signature-neuronale/454339">FrenchWeb</a>
-          <a class="cso-media-logo cso-media-logo--lacroix" href="https://www.la-croix.com/societe/yneuro-la-start-up-francaise-qui-prepare-la-revolution-de-l-identification-neuronale-20251219">La Croix</a>
-          <a class="cso-media-logo cso-media-logo--jdg" href="https://www.journaldugeek.com/2026/01/14/cerveau-remplacer-mots-passe-yneuro-francais-revolutionne-authentification/">Journal du Geek</a>
-          <a class="cso-media-logo cso-media-logo--clubic" href="https://www.clubic.com/actualite-596020-votre-cerveau-comme-mot-de-passe-le-francais-yneuro-lance-la-premiere-authentification-neuronale.html">Clubic</a>
-          <a class="cso-media-logo cso-media-logo--jdd" href="https://www.lejdd.fr/economie/yneuro-et-si-votre-cerveau-devenait-votre-mot-de-passe-181554">Le JDD</a>
-          <a class="cso-media-logo cso-media-logo--paperjam" href="https://paperjam.lu/article/yneuro-startup-de-lannee-a-nexus">Paperjam</a>
-          <a class="cso-media-logo cso-media-logo--paperjam" href="https://www.linkedin.com/posts/tdsemah_from-startup-of-the-year-at-nexus-luxembourg-activity-7470817203353788416-qN_z?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">Paperjam</a>
-          <a class="cso-media-logo cso-media-logo--bigmedia" href="https://www.linkedin.com/posts/tdsemah_proud-to-have-yneuro-backed-by-bpifrance-activity-7450089093688037377-mi_c?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">BIG Media</a>
-          <a class="cso-media-logo cso-media-logo--maddyness" href="https://www.linkedin.com/posts/nexus-luxembourg-cest-un-rendez-vous-ugcPost-7443209397826273280-8uhG/?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw">Maddyness</a>
-          <a class="cso-media-logo cso-media-logo--infoentreprise" href="https://www.linkedin.com/posts/tdsemah_thrilled-to-be-featured-in-informations-entreprise-activity-7247137472692809728-Cj-A?utm_source=share&amp;utm_medium=member_desktop">Informations Entreprise</a>
-        </div>
-      </div>
-
-      <div class="cso-media__group">
-        <h3>Tech, Interviews &amp; Creators</h3>
-        <div class="cso-media__logos">
-          <a class="cso-media-logo cso-media-logo--neurofounders" href="https://www.neurofounders.co/articles/inside-yneuros-brain-based-authentication-platform">Neurofounders</a>
-          <a class="cso-media-logo cso-media-logo--techco" href="https://www.bfmtv.com/tech/actualites/video-deverrouiller-son-smartphone-avec-son-cerveau_VN-202601090582.html">Tech &amp; Co</a>
-          <a class="cso-media-logo cso-media-logo--radio-classique" href="https://smartlinks.audiomeans.fr/l/comment-j-ai-reussi--d9b5010caef0/thomas-semah-fondateur-de-yneuro-1a575646755b">Radio Classique</a>
-          <a class="cso-media-logo cso-media-logo--monde-numerique" href="https://smartlinks.audiomeans.fr/l/monde-numerique-actu-des-technologies--a5b78a1f2972/acceder-a-ses-donnees-sans-geste-ni-code-grace-au-cerveau-thomas-semah-yneuro-1778762c">Monde Numérique</a>
-          <a class="cso-media-logo cso-media-logo--next" href="https://www.youtube.com/playlist?list=PLsm5RXYHaflUD3VZsTPfIRfTsGVBHdwsF">40 Nuances de Next</a>
-          <a class="cso-media-logo cso-media-logo--youtube" href="https://youtu.be/HgAbcdUQJI0?si=N79-ejbBovvHZAFG">Tev</a>
-          <a class="cso-media-logo cso-media-logo--youtube" href="https://www.youtube.com/@ValenWerle/shorts">Valen Werle</a>
-        </div>
-      </div>
-    </div>
+    {% include cso-media.html %}
 
   </section>
 

@@ -1,0 +1,245 @@
+en:
+  all_reports: All media coverage
+  broadcast: TV & Broadcast
+  press: Press & Articles
+  interviews: Tech, Interviews & Creators
+
+fr:
+  all_reports: Tous les articles, reportages et entretiens
+  broadcast: TV & formats vidéo
+  press: Presse & articles
+  interviews: Tech, entretiens & créateurs
+
+outlets:
+  - id: tf1
+    name: TF1
+    logo: /assets/images/media/tf1.svg
+    cloud_width: 3.8
+    source: https://commons.wikimedia.org/wiki/File:Logo_TF1_2013.svg
+    reports:
+      - category: broadcast
+        url: https://www.linkedin.com/posts/tdsemah_at-yneuro-our-dedicated-team-of-engineers-activity-7202200665694044160-jBkl?utm_source=share&utm_medium=member_desktop
+
+  - id: france2
+    name: France 2
+    logo: /assets/images/media/france2.svg
+    cloud_width: 5.5
+    source: https://commons.wikimedia.org/wiki/File:France_2_-_logo_2018.svg
+    reports:
+      - category: broadcast
+        url: https://www.linkedin.com/posts/tdsemah_neuro-id-goodbye-passwords-hello-freedom-activity-7267437767209496577-AXiV?utm_source=share&utm_medium=member_desktop
+
+  - id: rmc
+    name: RMC
+    logo: /assets/images/media/rmc.svg
+    cloud_width: 3.1
+    source: https://rmc.bfmtv.com/
+    reports:
+      - category: broadcast
+        url: https://rmc.bfmtv.com/actualites/tech/fini-face-id-et-si-votre-cerveau-devenait-votre-prochain-mot-de-passe_AV-202601190657.html
+
+  - id: m6
+    name: M6
+    logo: /assets/images/media/m6.svg
+    cloud_width: 2.2
+    source: https://commons.wikimedia.org/wiki/File:Logo_M6_(2020,_fond_clair).svg
+    reports:
+      - category: broadcast
+        url: https://www.linkedin.com/posts/tdsemah_neurotechnologies-ai-innovation-activity-7199296085423517696-6luF?utm_source=share&utm_medium=member_desktop
+
+  - id: bfm-business
+    name: BFM Business
+    logo: /assets/images/media/bfm-business.svg
+    cloud_width: 2.7
+    source: https://www.bfmtv.com/economie/
+    reports:
+      - category: broadcast
+        label: French Tech
+        url: https://www.bfmtv.com/economie/replay-emissions/french-tech/video-french-tech-yneuro-un-capteur-neuronal-non-invasif-06-02_VN-202602060277.html
+      - category: broadcast
+        label: De quoi j’me mail
+        url: https://www.bfmtv.com/economie/replay-emissions/de-quoi-jme-mail/de-quoi-j-me-mail-neuro-id-le-cerveau-pour-s-authentifier-2-2-03-11_VN-202411030078.html
+
+  - id: bfmtv
+    name: BFMTV
+    logo: /assets/images/media/bfmtv.svg
+    cloud_width: 3.3
+    source: https://www.bfmtv.com/
+    reports:
+      - category: broadcast
+        label: Tech & Co
+        url: https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-thomas-semah-yneuro-yneuro-le-cerveau-pour-s-authentifier-10-11_VN-202511100921.html
+
+  - id: le-parisien
+    name: Le Parisien
+    logo: /assets/images/media/le-parisien.svg
+    cloud_width: 4.6
+    source: https://commons.wikimedia.org/wiki/File:Le_Parisien_logo.svg
+    reports:
+      - category: press
+        url: https://www.leparisien.fr/sciences/ce-signal-est-propre-a-chacun-les-neurones-du-cerveau-futur-mot-de-passe-de-nos-appareils-25-11-2026-I6O6MBM6GZBNJDEEV4KUQLSO6I.php
+
+  - id: le-figaro
+    name: Le Figaro
+    logo: /assets/images/media/le-figaro.svg
+    cloud_width: 5.6
+    source: https://www.lefigaro.fr/
+    reports:
+      - category: press
+        url: https://www.lefigaro.fr/secteur/high-tech/yneuro-cette-start-up-francaise-qui-veut-remplacer-les-mots-de-passe-par-l-authentification-neuronale-20260117
+      - category: broadcast
+        label: Points de vue
+        url: https://video.lefigaro.fr/figaro/points-de-vue-etait-en-direct-du-salon-vivatech-20260617
+
+  - id: les-echos
+    name: Les Echos
+    logo: /assets/images/media/les-echos.svg
+    cloud_width: 5.5
+    source: https://www.lesechos.fr/
+    reports:
+      - category: press
+        url: https://www.linkedin.com/posts/tdsemah_trust-is-no-longer-a-default-setting-in-activity-7452607325309251584-1Tgj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw
+
+  - id: la-tribune
+    name: La Tribune
+    logo: /assets/images/media/la-tribune.svg
+    cloud_width: 5.4
+    source: https://www.latribune.fr/
+    reports:
+      - category: press
+        url: https://www.latribune.fr/article/tech/1564713049673615/ces-2026-la-start-up-yneuro-va-commercialiser-son-authentification-par-ondes-cerebrales
+
+  - id: la-croix
+    name: La Croix
+    logo: /assets/images/media/la-croix.svg
+    cloud_width: 5.3
+    source: https://www.la-croix.com/
+    reports:
+      - category: press
+        url: https://www.la-croix.com/societe/yneuro-la-start-up-francaise-qui-prepare-la-revolution-de-l-identification-neuronale-20251219
+
+  - id: le-jdd
+    name: Le JDD
+    logo: /assets/images/media/le-jdd.svg
+    cloud_width: 5.1
+    source: https://fr.wikipedia.org/wiki/Le_Journal_du_dimanche
+    reports:
+      - category: press
+        url: https://www.lejdd.fr/economie/yneuro-et-si-votre-cerveau-devenait-votre-mot-de-passe-181554
+
+  - id: alliancy
+    name: Alliancy
+    logo: /assets/images/media/alliancy.png
+    cloud_width: 4.3
+    source: https://alliancy.fr/
+    reports:
+      - category: press
+        url: https://alliancy.fr/un-challenge-mondial-pour-ameliorer-le-decodage-des-signaux-neuronaux-par-lia-b3d6f981-de97-472f-8404-83a497069623
+
+  - id: it-for-business
+    name: IT for Business
+    logo: /assets/images/media/it-for-business.svg
+    cloud_width: 5.8
+    source: https://www.itforbusiness.fr/
+    reports:
+      - category: press
+        url: https://www.itforbusiness.fr/yneuro-signature-neuronale-identifiant-numerique-108068
+
+  - id: frenchweb
+    name: FrenchWeb
+    logo: /assets/images/media/frenchweb.png
+    cloud_width: 5.4
+    source: https://www.frenchweb.fr/
+    reports:
+      - category: press
+        url: https://www.frenchweb.fr/comment-yneuro-redefinit-les-standards-de-la-securite-numerique-grace-a-la-signature-neuronale/454339
+
+  - id: journal-du-geek
+    name: Journal du Geek
+    logo: /assets/images/media/journal-du-geek.svg
+    cloud_width: 3.9
+    source: https://www.journaldugeek.com/
+    reports:
+      - category: press
+        url: https://www.journaldugeek.com/2026/01/14/cerveau-remplacer-mots-passe-yneuro-francais-revolutionne-authentification/
+
+  - id: clubic
+    name: Clubic
+    logo: /assets/images/media/clubic.svg
+    cloud_width: 2.8
+    source: https://www.clubic.com/
+    reports:
+      - category: press
+        url: https://www.clubic.com/actualite-596020-votre-cerveau-comme-mot-de-passe-le-francais-yneuro-lance-la-premiere-authentification-neuronale.html
+
+  - id: paperjam
+    name: Paperjam
+    logo: /assets/images/media/paperjam.svg
+    cloud_width: 4.8
+    source: https://paperjam.lu/
+    reports:
+      - category: press
+        label: NEXUS
+        url: https://paperjam.lu/article/yneuro-startup-de-lannee-a-nexus
+      - category: press
+        label: LinkedIn
+        url: https://www.linkedin.com/posts/tdsemah_from-startup-of-the-year-at-nexus-luxembourg-activity-7470817203353788416-qN_z?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw
+
+  - id: maddyness
+    name: Maddyness
+    logo: /assets/images/media/maddyness.svg
+    cloud_width: 5.5
+    source: https://www.maddyness.com/
+    reports:
+      - category: press
+        url: https://www.linkedin.com/posts/nexus-luxembourg-cest-un-rendez-vous-ugcPost-7443209397826273280-8uhG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw
+
+  - id: informations-entreprise
+    name: Informations Entreprise
+    logo: /assets/images/media/informations-entreprise.jpg
+    cloud_width: 5.1
+    source: https://www.info-entreprise.com/
+    reports:
+      - category: press
+        url: https://www.linkedin.com/posts/tdsemah_thrilled-to-be-featured-in-informations-entreprise-activity-7247137472692809728-Cj-A?utm_source=share&utm_medium=member_desktop
+
+  - id: vivatech
+    name: VivaTech
+    logo: /assets/images/awards/vivatech.png
+    cloud_width: 4.1
+    reports:
+      - category: broadcast
+        url: https://www.linkedin.com/posts/vivatechparis_vivastory-vivatech-neurotech-ugcPost-7414603581351309313-SNNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw
+
+  - id: bpifrance
+    name: Bpifrance
+    logo: /assets/images/awards/bpi france.png
+    cloud_width: 5
+    reports:
+      - category: broadcast
+        url: https://www.youtube.com/watch?v=-xIfEBa7uaA
+
+  - id: big-media
+    name: BIG Media
+    logo: /assets/images/media/big-media.png
+    cloud_width: 3.2
+    source: https://evenements.bpifrance.fr/e/big-2026/fr/partner/9fb01dbf-cc97-f011-b485-6045bd941168/big-media
+    reports:
+      - category: press
+        url: https://www.linkedin.com/posts/tdsemah_proud-to-have-yneuro-backed-by-bpifrance-activity-7450089093688037377-mi_c?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEhyXYB-hpZDZ3p59wL-KyTViY6EwvFMaw
+
+interviews:
+  - name: Neurofounders
+    url: https://www.neurofounders.co/articles/inside-yneuros-brain-based-authentication-platform
+  - name: Tech & Co
+    url: https://www.bfmtv.com/tech/actualites/video-deverrouiller-son-smartphone-avec-son-cerveau_VN-202601090582.html
+  - name: Radio Classique
+    url: https://smartlinks.audiomeans.fr/l/comment-j-ai-reussi--d9b5010caef0/thomas-semah-fondateur-de-yneuro-1a575646755b
+  - name: Monde Numérique
+    url: https://smartlinks.audiomeans.fr/l/monde-numerique-actu-des-technologies--a5b78a1f2972/acceder-a-ses-donnees-sans-geste-ni-code-grace-au-cerveau-thomas-semah-yneuro-1778762c
+  - name: 40 Nuances de Next
+    url: https://www.youtube.com/playlist?list=PLsm5RXYHaflUD3VZsTPfIRfTsGVBHdwsF
+  - name: Tev
+    url: https://youtu.be/HgAbcdUQJI0?si=N79-ejbBovvHZAFG
+  - name: Valen Werle
+    url: https://www.youtube.com/@ValenWerle/shorts

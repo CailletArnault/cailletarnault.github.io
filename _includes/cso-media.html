@@ -1,0 +1,58 @@
+{% assign coverage = site.data.media_coverage %}
+{% assign coverage_lang = page.lang | default: 'en' %}
+{% assign coverage_copy = coverage[coverage_lang] %}
+{% assign coverage_categories = 'broadcast,press' | split: ',' %}
+<div class="cso-media-clouds">
+  {% for category in coverage_categories %}
+  <div class="cso-media-cloud-group">
+    <nav class="cso-media-cloud" aria-label="{{ coverage_copy[category] }}">
+      {% assign most_reports = 0 %}
+      {% for outlet in coverage.outlets %}
+      {% assign category_reports = outlet.reports | where: 'category', category %}
+      {% if category_reports.size > most_reports %}{% assign most_reports = category_reports.size %}{% endif %}
+      {% endfor %}
+      {% assign last_report = most_reports | minus: 1 %}
+      {% for report_index in (0..last_report) %}
+      {% for outlet in coverage.outlets %}
+      {% assign category_reports = outlet.reports | where: 'category', category %}
+      {% assign report = category_reports[report_index] %}
+      {% if report %}
+      <a class="cso-media-cloud__logo cso-media-cloud__logo--{{ outlet.id }}" style="--media-logo-width: {{ outlet.cloud_width | default: 5 }}rem" href="{{ report.url | escape }}" title="{{ outlet.name | escape }}{% if report.label %} · {{ report.label | escape }}{% endif %}">
+        <img src="{{ outlet.logo | relative_url }}" alt="{{ outlet.name | escape }}{% if report.label %} · {{ report.label | escape }}{% endif %}" loading="lazy" decoding="async">
+      </a>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </nav>
+  </div>
+  {% endfor %}
+</div>
+
+<details class="cso-media-index">
+  <summary>{{ coverage_copy.all_reports }}</summary>
+  <div class="cso-media">
+    {% for category in coverage_categories %}
+    <div class="cso-media__group">
+      <h3>{{ coverage_copy[category] }}</h3>
+      <div class="cso-media__links">
+        {% for outlet in coverage.outlets %}
+        {% for report in outlet.reports %}
+        {% if report.category == category %}
+        <a class="cso-media-link" href="{{ report.url | escape }}">{{ outlet.name }}{% if report.label %}<span> · {{ report.label }}</span>{% endif %}</a>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="cso-media__group">
+      <h3>{{ coverage_copy.interviews }}</h3>
+      <div class="cso-media__links">
+        {% for interview in coverage.interviews %}
+        <a class="cso-media-link" href="{{ interview.url | escape }}">{{ interview.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</details>

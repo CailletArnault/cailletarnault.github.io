@@ -1332,15 +1332,113 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
   margin-top: 0.18rem;
 }
 
+.cso-media-clouds {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1rem auto 1.2rem;
+}
+
+.cso-media-cloud-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cso-media-cloud {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 1rem 0.95rem;
+  justify-content: center;
+  min-height: 6.5rem;
+  padding: 0.5rem 0.3rem 0.7rem;
+}
+
+.page__content .cso-media-cloud__logo {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 calc(var(--media-logo-width, 5rem) * 1.55);
+  height: 2.9rem;
+  justify-content: center;
+  min-width: 0;
+  opacity: 0.75;
+  padding: 0.25rem 0.12rem;
+  text-decoration: none;
+  transition: opacity 160ms ease, background 160ms ease;
+  width: calc(var(--media-logo-width, 5rem) * 1.55);
+}
+
+.cso-media-cloud__logo img {
+  display: block;
+  height: 100%;
+  max-height: 2rem;
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.cso-media-cloud.is-packed {
+  display: block;
+  flex: 0 0 auto;
+  min-height: 0;
+  padding: 0;
+  position: relative;
+}
+
+.cso-media-cloud.is-packed > .cso-media-cloud__logo {
+  margin: 0;
+  position: absolute;
+}
+
+.cso-media-cloud__logo:nth-child(3n + 1) img {
+  max-height: 1.95rem;
+}
+
+.cso-media-cloud__logo.cso-media-cloud__logo--big-media img {
+  height: 2.75rem;
+  max-height: none;
+  object-fit: cover;
+  width: 4.5rem;
+}
+
+.cso-media-cloud__logo.cso-media-cloud__logo--frenchweb img {
+  max-height: 2.5rem;
+}
+
+.page__content .cso-media-cloud__logo:hover,
+.page__content .cso-media-cloud__logo:focus-visible {
+  background: #f5f8fa;
+  opacity: 1;
+}
+
+.page__content .cso-media-cloud__logo:focus-visible {
+  outline: 2px solid #58728a;
+  outline-offset: 3px;
+}
+
+.cso-media-index {
+  border-bottom: 1px solid #e6e9ed;
+  border-top: 1px solid #e6e9ed;
+  padding: 0.7rem 0;
+}
+
+.cso-media-index summary {
+  color: #526170;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
 .cso-media {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 1rem;
-}
-
-.cso-media__group--wide {
-  grid-column: 1 / -1;
+  margin: 1rem 0 0.3rem;
 }
 
 .cso-media__group {
@@ -1356,57 +1454,40 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
   margin: 0 0 0.65rem;
 }
 
-.cso-media__logos {
+.cso-media__links {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.page__content .cso-media-logo {
+.page__content .cso-media-link {
   align-items: center;
   background: #fff;
   border: 1px solid #e7eaee;
   border-radius: 999px;
-  color: #303842;
+  color: #40566e;
   display: inline-flex;
+  flex-wrap: wrap;
   font-size: 0.72rem;
-  font-weight: 800;
-  line-height: 1;
+  font-weight: 700;
+  line-height: 1.3;
+  max-width: 100%;
   min-height: 2rem;
-  padding: 0.55rem 0.72rem;
+  padding: 0.45rem 0.65rem;
   text-decoration: none;
-  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
-.page__content .cso-media-logo:hover,
-.page__content .cso-media-logo:focus {
-  border-color: rgba(43, 74, 111, 0.22);
-  box-shadow: 0 8px 18px rgba(32, 43, 57, 0.07);
-  transform: translateY(-1px);
+.page__content .cso-media-link:hover,
+.page__content .cso-media-link:focus-visible {
+  background: #f5f8fa;
+  border-color: #bfcbd7;
 }
 
-.cso-media-logo--tf1 { color: #17468f !important; }
-.cso-media-logo--france2 { color: #dd1d2d !important; }
-.cso-media-logo--rmc,
-.cso-media-logo--bfm,
-.cso-media-logo--techco { color: #d71920 !important; }
-.cso-media-logo--m6 { color: #111 !important; }
-.cso-media-logo--figaro { font-family: Georgia, serif; }
-.cso-media-logo--frenchweb { color: #245dcc !important; }
-.cso-media-logo--lacroix { color: #2f5f9f !important; }
-.cso-media-logo--jdd { color: #222 !important; }
-.cso-media-logo--paperjam { color: #111 !important; }
-.cso-media-logo--vivatech { color: #7b3fe4 !important; }
-.cso-media-logo--radio-classique { color: #3c405f !important; }
-.cso-media-logo--youtube { color: #d71920 !important; }
-.cso-media-logo--infoentreprise { color: #2a5f7c !important; }
-.cso-media-logo--lesechos { color: #c41230 !important; }
-.cso-media-logo--bigmedia { color: #1d4f8f !important; }
-.cso-media-logo--maddyness { color: #111 !important; }
-.cso-media-logo--monde-numerique { color: #286f9f !important; }
-.cso-media-logo--bpifrance { color: #273442 !important; }
-.cso-media-logo--next { color: #7c3f98 !important; }
+.cso-media-link span {
+  color: #737c87;
+  font-weight: 500;
+}
 
 .cso-team-gallery {
   display: flex;
@@ -1449,6 +1530,11 @@ html.mobile-interface .mobile-site-nav .site-lang-toggle span {
 
 .cso-team-card__photo img[alt="Tom Mariani"] {
   object-position: center 100%;
+}
+
+.cso-team-card__photo img[alt="Matin Fallahi"] {
+  object-fit: contain;
+  object-position: center top;
 }
 
 .cso-team-card__overlay {

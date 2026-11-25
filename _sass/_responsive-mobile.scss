@@ -636,12 +636,22 @@
 
   .cso-yneuro__hero,
   .cso-role-grid,
+  .cso-media-clouds,
   .cso-media {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .cso-media__group--wide {
-    grid-column: auto;
+  .cso-media-clouds {
+    gap: 1.1rem;
+  }
+
+  .cso-media-cloud {
+    gap: 0.95rem 0.75rem;
+    min-height: 0;
+  }
+
+  .page__content .cso-media-cloud .cso-media-cloud__logo {
+    max-width: 6.8rem;
   }
 
   .cso-yneuro__section-head--with-link {
